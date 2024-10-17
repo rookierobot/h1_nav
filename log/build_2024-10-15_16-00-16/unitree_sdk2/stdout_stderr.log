@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target h1_loco_client[0m
+[  3%] Built target test_jsonize
+[  6%] Built target state_machine_example
+[ 10%] Built target advanced_gamepad
+[ 13%] Built target go2_stand_example
+[ 18%] Built target test_subscriber
+[ 21%] Built target go2_sport_client
+[ 26%] Built target test_publisher
+[ 30%] Built target go2_video_client
+[ 33%] Built target h1_2_arm_sdk_dds_example
+[ 36%] Built target go2_low_level
+[ 40%] Built target h1_arm_sdk_dds_example
+[ 43%] Built target go2_trajectory_follow
+[ 46%] Built target go2_robot_state_client
+[ 50%] Built target b2_sport_client
+[ 60%] Built target h1_low_level_example
+[ 60%] Built target go2_vui_client
+[ 60%] Built target h1_2_ankle_track
+[ 66%] Built target h1_27dof_example
+[ 66%] Built target g1_29dof_example
+[ 70%] Built target g1_loco_client
+[ 76%] Built target go2w_sport_client
+[ 80%] Built target go2w_stand_example
+[ 80%] Built target g1_arm5_sdk_dds_example
+[ 83%] Built target g1_23dof_ankle_track
+[ 86%] Built target g1_dual_arm_example
+[ 90%] Built target g1_23dof_example
+[ 96%] Built target g1_arm7_sdk_dds_example
+[ 96%] Built target b2_stand_example
+[ 98%] [32mBuilding CXX object example/h1/CMakeFiles/h1_loco_client.dir/high_level/h1_loco_client_example.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ../../bin/h1_loco_client[0m
+[100%] Built target h1_loco_client

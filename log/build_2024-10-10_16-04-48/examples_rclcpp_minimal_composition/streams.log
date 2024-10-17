@@ -1,0 +1,30 @@
+[0.043s] Invoking command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/examples_rclcpp_minimal_composition -- -j32 -l32
+[0.867s] [ 33%] Built target composition_nodes
+[0.867s] [ 55%] Built target composition_subscriber
+[0.867s] [ 77%] Built target composition_composed
+[0.867s] [100%] Built target composition_publisher
+[0.872s] Invoked command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/examples_rclcpp_minimal_composition -- -j32 -l32
+[0.915s] Invoking command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/examples_rclcpp_minimal_composition
+[0.934s] -- Install configuration: ""
+[0.934s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[0.934s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[0.934s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[0.934s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[0.935s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[0.935s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[0.935s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[0.935s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[0.935s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[0.935s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[0.935s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[0.935s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[0.935s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[0.936s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[0.936s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[0.936s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[0.936s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[0.936s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[0.937s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[0.937s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[0.937s] -- Up-to-date: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[0.963s] Invoked command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/examples_rclcpp_minimal_composition

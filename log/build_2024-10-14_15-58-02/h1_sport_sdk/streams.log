@@ -1,0 +1,43 @@
+[0.010s] Invoking command in '/home/robot/nav2_ws/build/h1_sport_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport_sdk -- -j32 -l32
+[0.020s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.034s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.127s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.143s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.196s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.217s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.218s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.280s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.307s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.307s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.307s] -- Configured cppcheck include dirs: 
+[0.307s] -- Configured cppcheck exclude dirs and/or files: 
+[0.307s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.307s] -- Configured cpplint exclude dirs and/or files: 
+[0.307s] -- Added test 'lint_cmake' to check CMake code style
+[0.308s] -- Added test 'uncrustify' to check C / C++ code style
+[0.308s] -- Configured uncrustify additional arguments: 
+[0.308s] -- Added test 'xmllint' to check XML markup files
+[0.309s] -- Configuring done
+[0.311s] -- Generating done
+[0.312s] -- Build files have been written to: /home/robot/nav2_ws/build/h1_sport_sdk
+[0.323s] [35m[1mScanning dependencies of target sport_node[0m
+[0.334s] [ 50%] [32mBuilding CXX object CMakeFiles/sport_node.dir/src/sub_cmdvel.cpp.o[0m
+[0.385s] In file included from [01m[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp:12[m[K,
+[0.386s]                  from [01m[K/usr/local/include/unitree/robot/internal/internal_idl_decl/Request_.hpp:12[m[K,
+[0.386s]                  from [01m[K/usr/local/include/unitree/robot/internal/internal_request_response.hpp:4[m[K,
+[0.386s]                  from [01m[K/usr/local/include/unitree/robot/internal/internal.hpp:6[m[K,
+[0.386s]                  from [01m[K/usr/local/include/unitree/robot/future/request_future.hpp:5[m[K,
+[0.386s]                  from [01m[K/usr/local/include/unitree/robot/client/client_stub.hpp:4[m[K,
+[0.386s]                  from [01m[K/usr/local/include/unitree/robot/client/client_base.hpp:4[m[K,
+[0.386s]                  from [01m[K/usr/local/include/unitree/robot/client/client.hpp:4[m[K,
+[0.386s]                  from [01m[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:6[m[K,
+[0.386s]                  from [01m[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3[m[K:
+[0.386s] [01m[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp:62:10:[m[K [01;31m[Kfatal error: [m[Kdds/topic/TopicTraits.hpp: 没有那个文件或目录
+[0.386s]    62 | #include [01;31m[K"dds/topic/TopicTraits.hpp"[m[K
+[0.386s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.386s] compilation terminated.
+[0.386s] make[2]: *** [CMakeFiles/sport_node.dir/build.make:63：CMakeFiles/sport_node.dir/src/sub_cmdvel.cpp.o] 错误 1
+[0.387s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/sport_node.dir/all] 错误 2
+[0.387s] make: *** [Makefile:141：all] 错误 2
+[0.388s] Invoked command in '/home/robot/nav2_ws/build/h1_sport_sdk' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport_sdk -- -j32 -l32

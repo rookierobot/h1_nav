@@ -1,0 +1,48 @@
+[0.007s] Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32
+[0.023s] [35m[1mScanning dependencies of target demo[0m
+[0.029s] [ 50%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[0.528s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:[m[K In function ‘[01m[Kvoid MessageHandlerNode(const void*)[m[K’:
+[0.528s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:27:32:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist_[m[K’ in namespace ‘[01m[Kstd_msgs::msg::dds_[m[K’ does not name a type
+[0.528s]    27 |     const std_msgs::msg::dds_::[01;31m[KTwist_[m[K* pmsg = (const std_msgs::msg::dds_::Twist_*)message;
+[0.528s]       |                                [01;31m[K^~~~~~[m[K
+[0.529s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:29:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kpmsg[m[K’ was not declared in this scope
+[0.529s]    29 |     std::cout << [01;31m[Kpmsg[m[K->linear().x() << ' ' << pmsg->linear().y() << pmsg->linear().z() << std::endl;
+[0.529s]       |                  [01;31m[K^~~~[m[K
+[0.530s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.530s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:45:47:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist_[m[K’ is not a member of ‘[01m[Kstd_msgs::msg::dds_[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::dds_::Twist_[m[K’?
+[0.530s]    45 |     ChannelSubscriberPtr<std_msgs::msg::dds_::[01;31m[KTwist_[m[K> subscriber_node = ChannelSubscriberPtr<std_msgs::msg::dds_::Twist_>  \
+[0.530s]       |                                               [01;31m[K^~~~~~[m[K
+[0.530s] In file included from [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:12[m[K:
+[0.530s] [01m[K/usr/local/include/unitree/idl/ros2/Twist_.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::dds_::Twist_[m[K’ declared here
+[0.530s]    21 | class [01;36m[KTwist_[m[K
+[0.530s]       |       [01;36m[K^~~~~~[m[K
+[0.530s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:45:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.530s]    45 |     ChannelSubscriberPtr<std_msgs::msg::dds_::Twist_[01;31m[K>[m[K subscriber_node = ChannelSubscriberPtr<std_msgs::msg::dds_::Twist_>  \
+[0.530s]       |                                                     [01;31m[K^[m[K
+[0.530s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:45:115:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist_[m[K’ is not a member of ‘[01m[Kstd_msgs::msg::dds_[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::dds_::Twist_[m[K’?
+[0.530s]    45 |     ChannelSubscriberPtr<std_msgs::msg::dds_::Twist_> subscriber_node = ChannelSubscriberPtr<std_msgs::msg::dds_::[01;31m[KTwist_[m[K>  \
+[0.530s]       |                                                                                                                   [01;31m[K^~~~~~[m[K
+[0.530s] In file included from [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:12[m[K:
+[0.530s] [01m[K/usr/local/include/unitree/idl/ros2/Twist_.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::dds_::Twist_[m[K’ declared here
+[0.530s]    21 | class [01;36m[KTwist_[m[K
+[0.530s]       |       [01;36m[K^~~~~~[m[K
+[0.530s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:45:121:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.530s]    45 |     ChannelSubscriberPtr<std_msgs::msg::dds_::Twist_> subscriber_node = ChannelSubscriberPtr<std_msgs::msg::dds_::Twist_[01;31m[K>[m[K  \
+[0.530s]       |                                                                                                                         [01;31m[K^[m[K
+[0.530s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:46:113:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist_[m[K’ is not a member of ‘[01m[Kstd_msgs::msg::dds_[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::dds_::Twist_[m[K’?
+[0.530s]    46 |                                                                     (new ChannelSubscriber<std_msgs::msg::dds_::[01;31m[KTwist_[m[K>(SUBTOPIC));
+[0.530s]       |                                                                                                                 [01;31m[K^~~~~~[m[K
+[0.530s] In file included from [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:12[m[K:
+[0.530s] [01m[K/usr/local/include/unitree/idl/ros2/Twist_.hpp:21:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::dds_::Twist_[m[K’ declared here
+[0.530s]    21 | class [01;36m[KTwist_[m[K
+[0.530s]       |       [01;36m[K^~~~~~[m[K
+[0.530s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:46:119:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[0.531s]    46 |                                                                     (new ChannelSubscriber<std_msgs::msg::dds_::Twist_[01;31m[K>[m[K(SUBTOPIC));
+[0.531s]       |                                                                                                                       [01;31m[K^[m[K
+[0.531s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:48:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[0.531s]    48 |     subscriber_node[01;31m[K->[m[KInitChannel(std::bind(MessageHandlerNode, std::placeholders::_1), 10);
+[0.531s]       |                    [01;31m[K^~[m[K
+[0.630s] make[2]: *** [CMakeFiles/demo.dir/build.make:63：CMakeFiles/demo.dir/src/demo.cpp.o] 错误 1
+[0.630s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/demo.dir/all] 错误 2
+[0.630s] make: *** [Makefile:141：all] 错误 2
+[0.632s] Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32

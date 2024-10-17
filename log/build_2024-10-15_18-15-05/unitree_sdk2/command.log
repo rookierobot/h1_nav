@@ -1,0 +1,2 @@
+Invoking command in '/home/robot/nav2_ws/build/unitree_sdk2': /usr/bin/cmake --build /home/robot/nav2_ws/build/unitree_sdk2 -- -j32 -l32
+Invoked command in '/home/robot/nav2_ws/build/unitree_sdk2' returned '2': /usr/bin/cmake --build /home/robot/nav2_ws/build/unitree_sdk2 -- -j32 -l32

@@ -1,0 +1,21 @@
+[0.011s] Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/hello_world_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/hello_world_msgs
+[0.017s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.033s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.033s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.120s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.130s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.203s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.259s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.263s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.263s]   rosidl_generate_interfaces() the passed file 'msg/Novel.msg' doesn't exist
+[0.263s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.263s]   '/home/robot/nav2_ws/src/hello_world_msgs'
+[0.263s] Call Stack (most recent call first):
+[0.263s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.263s] 
+[0.263s] 
+[0.263s] -- Configuring incomplete, errors occurred!
+[0.263s] See also "/home/robot/nav2_ws/build/hello_world_msgs/CMakeFiles/CMakeOutput.log".
+[0.266s] Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/hello_world_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/hello_world_msgs

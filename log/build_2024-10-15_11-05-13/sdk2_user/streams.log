@@ -1,0 +1,34 @@
+[0.004s] Invoking command in '/home/robot/nav2_ws/build/sdk2_user': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake /home/robot/nav2_ws/src/sdk2_user_cmake_example -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/sdk2_user
+[0.027s] -- The C compiler identification is GNU 9.4.0
+[0.049s] -- The CXX compiler identification is GNU 9.4.0
+[0.050s] -- Check for working C compiler: /usr/bin/cc
+[0.077s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.078s] -- Detecting C compiler ABI info
+[0.105s] -- Detecting C compiler ABI info - done
+[0.110s] -- Detecting C compile features
+[0.110s] -- Detecting C compile features - done
+[0.111s] -- Check for working CXX compiler: /usr/bin/c++
+[0.142s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.143s] -- Detecting CXX compiler ABI info
+[0.174s] -- Detecting CXX compiler ABI info - done
+[0.179s] -- Detecting CXX compile features
+[0.179s] -- Detecting CXX compile features - done
+[0.180s] -- Looking for pthread.h
+[0.209s] -- Looking for pthread.h - found
+[0.209s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.238s] -- Looking for pthread_create in pthreads
+[0.266s] -- Looking for pthread_create in pthreads - not found
+[0.266s] -- Looking for pthread_create in pthread
+[0.298s] -- Looking for pthread_create in pthread - found
+[0.299s] -- Found Threads: TRUE  
+[0.299s] -- Configuring done
+[0.300s] -- Generating done
+[0.300s] -- Build files have been written to: /home/robot/nav2_ws/build/sdk2_user
+[0.302s] Invoked command in '/home/robot/nav2_ws/build/sdk2_user' returned '0': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake /home/robot/nav2_ws/src/sdk2_user_cmake_example -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/sdk2_user
+[0.303s] Invoking command in '/home/robot/nav2_ws/build/sdk2_user': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake --build /home/robot/nav2_ws/build/sdk2_user -- -j32 -l32
+[0.317s] [35m[1mScanning dependencies of target demo[0m
+[0.333s] [ 50%] [32mBuilding CXX object CMakeFiles/demo.dir/example.cpp.o[0m
+[0.881s] [100%] [32m[1mLinking CXX executable demo[0m
+[0.921s] [100%] Built target demo
+[0.926s] Invoked command in '/home/robot/nav2_ws/build/sdk2_user' returned '0': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake --build /home/robot/nav2_ws/build/sdk2_user -- -j32 -l32

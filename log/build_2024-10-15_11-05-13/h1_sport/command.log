@@ -1,0 +1,6 @@
+Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/h1_sport
+Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/h1_sport
+Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32
+Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32
+Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/h1_sport
+Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/h1_sport

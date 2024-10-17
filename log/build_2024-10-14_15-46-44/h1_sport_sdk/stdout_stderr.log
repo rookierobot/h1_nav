@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target sport_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sport_node.dir/src/sub_cmdvel.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sport_node[0m
+[100%] Built target sport_node
+-- Install configuration: ""
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/ament_index/resource_index/package_run_dependencies/h1_sport_sdk
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/ament_index/resource_index/parent_prefix_path/h1_sport_sdk
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/environment/path.sh
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/environment/path.dsv
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/local_setup.bash
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/local_setup.sh
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/local_setup.zsh
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/local_setup.dsv
+-- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/package.dsv
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/ament_index/resource_index/packages/h1_sport_sdk
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/cmake/h1_sport_sdkConfig.cmake
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/cmake/h1_sport_sdkConfig-version.cmake
+-- Up-to-date: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/package.xml
+-- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/lib/h1_sport_sdk/sport_node
+-- Set runtime path of "/home/robot/nav2_ws/install/h1_sport_sdk/lib/h1_sport_sdk/sport_node" to ""

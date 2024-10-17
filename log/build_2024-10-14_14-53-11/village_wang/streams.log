@@ -1,0 +1,31 @@
+[0.847s] Invoking command in '/home/robot/nav2_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32
+[0.858s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.868s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.954s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.968s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.970s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.029s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.052s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.052s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.117s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.148s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.149s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.149s] -- Configured cppcheck include dirs: 
+[1.149s] -- Configured cppcheck exclude dirs and/or files: 
+[1.150s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.151s] -- Configured cpplint exclude dirs and/or files: 
+[1.151s] -- Added test 'lint_cmake' to check CMake code style
+[1.151s] -- Added test 'uncrustify' to check C / C++ code style
+[1.151s] -- Configured uncrustify additional arguments: 
+[1.151s] -- Added test 'xmllint' to check XML markup files
+[1.152s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.152s]   ament_target_dependencies() the passed package name 'unitree_api' was not
+[1.153s]   found before
+[1.154s] Call Stack (most recent call first):
+[1.154s]   CMakeLists.txt:45 (ament_target_dependencies)
+[1.155s] 
+[1.155s] 
+[1.156s] -- Configuring incomplete, errors occurred!
+[1.156s] See also "/home/robot/nav2_ws/build/village_wang/CMakeFiles/CMakeOutput.log".
+[1.156s] See also "/home/robot/nav2_ws/build/village_wang/CMakeFiles/CMakeError.log".
+[1.157s] make: *** [Makefile:354：cmake_check_build_system] 错误 1

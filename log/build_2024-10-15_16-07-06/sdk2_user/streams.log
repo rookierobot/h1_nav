@@ -1,0 +1,21 @@
+[0.004s] Invoking command in '/home/robot/nav2_ws/build/sdk2_user': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake --build /home/robot/nav2_ws/build/sdk2_user -- -j32 -l32
+[0.019s] [35m[1mScanning dependencies of target client[0m
+[0.023s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.025s] [ 75%] Built target demo
+[0.104s] [01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.104s] [01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:20:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+[0.104s]    20 |     dds_entity_t topic = dds_create_topic(participant, &std_msg_string[01;31m[K,[m[K "/sport_cmd", NULL, NULL);
+[0.104s]       |                                                                       [01;31m[K^[m[K
+[0.104s] [01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:38:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msg_string*[m[K’ to ‘[01m[Kvoid**[m[K’
+[0.104s]    38 |         int result = dds_take(reader, [01;31m[K&msg[m[K, &info, 1, 1);
+[0.104s]       |                                       [01;31m[K^~~~[m[K
+[0.104s]       |                                       [01;31m[K|[m[K
+[0.104s]       |                                       [01;31m[Kstd_msg_string*[m[K
+[0.104s] In file included from [01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:2[m[K:
+[0.104s] [01m[K/home/robot/nav2_ws/install/unitree_sdk2/include/dds/dds.h:3529:10:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kdds_return_t dds_take(dds_entity_t, void**, dds_sample_info_t*, size_t, uint32_t)[m[K’
+[0.104s]  3529 |   [01;36m[Kvoid **buf[m[K,
+[0.104s]       |   [01;36m[K~~~~~~~^~~[m[K
+[0.116s] make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/client.cpp.o] 错误 1
+[0.116s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/client.dir/all] 错误 2
+[0.116s] make: *** [Makefile:84：all] 错误 2
+[0.117s] Invoked command in '/home/robot/nav2_ws/build/sdk2_user' returned '2': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake --build /home/robot/nav2_ws/build/sdk2_user -- -j32 -l32

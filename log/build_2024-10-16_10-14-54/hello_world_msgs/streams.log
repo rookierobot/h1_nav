@@ -1,0 +1,201 @@
+[0.011s] Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/hello_world_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/hello_world_msgs
+[0.017s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.032s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.032s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.126s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.137s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.208s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.258s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.273s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.348s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.545s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.546s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.560s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.560s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.560s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.560s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.571s] -- Found PythonExtra: .so  
+[0.690s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.695s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.696s] -- Added test 'lint_cmake' to check CMake code style
+[0.696s] -- Added test 'xmllint' to check XML markup files
+[0.697s] -- Configuring done
+[0.724s] -- Generating done
+[0.725s] -- Build files have been written to: /home/robot/nav2_ws/build/hello_world_msgs
+[0.728s] Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/hello_world_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/hello_world_msgs
+[0.729s] Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/hello_world_msgs -- -j32 -l32
+[0.745s] [35m[1mScanning dependencies of target hello_world_msgs__cpp[0m
+[0.745s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.749s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.841s] [35m[1mScanning dependencies of target hello_world_msgs__rosidl_generator_c[0m
+[0.843s] [  6%] Built target hello_world_msgs__cpp
+[0.848s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.848s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.848s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.848s] [ 19%] [32mBuilding C object CMakeFiles/hello_world_msgs__rosidl_generator_c.dir/rosidl_generator_c/hello_world_msgs/msg/detail/hello_world__functions.c.o[0m
+[0.869s] [ 22%] [32m[1mLinking C shared library libhello_world_msgs__rosidl_generator_c.so[0m
+[0.892s] [ 22%] Built target hello_world_msgs__rosidl_generator_c
+[0.897s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.897s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.930s] [35m[1mScanning dependencies of target hello_world_msgs__rosidl_typesupport_cpp[0m
+[0.935s] [35m[1mScanning dependencies of target hello_world_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.936s] [ 32%] [32mBuilding CXX object CMakeFiles/hello_world_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hello_world_msgs/msg/hello_world__type_support.cpp.o[0m
+[0.937s] [35m[1mScanning dependencies of target hello_world_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.941s] [ 35%] [32mBuilding CXX object CMakeFiles/hello_world_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hello_world_msgs/msg/detail/hello_world__type_support.cpp.o[0m
+[0.945s] [ 38%] [32mBuilding CXX object CMakeFiles/hello_world_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hello_world_msgs/msg/detail/dds_fastrtps/hello_world__type_support.cpp.o[0m
+[0.978s] [35m[1mScanning dependencies of target hello_world_msgs__rosidl_typesupport_c[0m
+[0.983s] [ 41%] [32mBuilding CXX object CMakeFiles/hello_world_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/hello_world_msgs/msg/hello_world__type_support.cpp.o[0m
+[0.985s] [35m[1mScanning dependencies of target hello_world_msgs__rosidl_typesupport_introspection_c[0m
+[0.992s] [ 45%] [32mBuilding C object CMakeFiles/hello_world_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hello_world_msgs/msg/detail/hello_world__type_support.c.o[0m
+[0.996s] [ 48%] [32m[1mLinking CXX shared library libhello_world_msgs__rosidl_typesupport_c.so[0m
+[1.005s] [ 51%] [32m[1mLinking C shared library libhello_world_msgs__rosidl_typesupport_introspection_c.so[0m
+[1.013s] [ 51%] Built target hello_world_msgs__rosidl_typesupport_c
+[1.018s] [ 51%] Built target hello_world_msgs__rosidl_typesupport_introspection_c
+[1.036s] [ 54%] [32m[1mLinking CXX shared library libhello_world_msgs__rosidl_typesupport_cpp.so[0m
+[1.047s] [ 58%] [32m[1mLinking CXX shared library libhello_world_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.054s] [ 58%] Built target hello_world_msgs__rosidl_typesupport_cpp
+[1.074s] [ 58%] Built target hello_world_msgs__rosidl_typesupport_introspection_cpp
+[1.089s] [ 61%] [32m[1mLinking CXX shared library libhello_world_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.126s] [ 61%] Built target hello_world_msgs__rosidl_typesupport_fastrtps_cpp
+[1.130s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.222s] [35m[1mScanning dependencies of target hello_world_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.229s] [ 67%] [32mBuilding CXX object CMakeFiles/hello_world_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hello_world_msgs/msg/detail/hello_world__type_support_c.cpp.o[0m
+[1.353s] [ 70%] [32m[1mLinking CXX shared library libhello_world_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[1.390s] [ 70%] Built target hello_world_msgs__rosidl_typesupport_fastrtps_c
+[1.395s] [35m[1mScanning dependencies of target hello_world_msgs[0m
+[1.402s] [ 70%] Built target hello_world_msgs
+[1.413s] [35m[1mScanning dependencies of target hello_world_msgs__py[0m
+[1.424s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.575s] [ 74%] Built target hello_world_msgs__py
+[1.579s] [35m[1mScanning dependencies of target hello_world_msgs__python[0m
+[1.597s] [ 77%] [32mBuilding C object CMakeFiles/hello_world_msgs__python.dir/rosidl_generator_py/hello_world_msgs/msg/_hello_world_s.c.o[0m
+[1.636s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/hello_world_msgs/libhello_world_msgs__python.so[0m
+[1.656s] [ 80%] Built target hello_world_msgs__python
+[1.664s] [35m[1mScanning dependencies of target hello_world_msgs__rosidl_typesupport_c__pyext[0m
+[1.664s] [35m[1mScanning dependencies of target hello_world_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.665s] [35m[1mScanning dependencies of target hello_world_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.673s] [ 83%] [32mBuilding C object CMakeFiles/hello_world_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hello_world_msgs/_hello_world_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[1.674s] [ 87%] [32mBuilding C object CMakeFiles/hello_world_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hello_world_msgs/_hello_world_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.675s] [ 90%] [32mBuilding C object CMakeFiles/hello_world_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hello_world_msgs/_hello_world_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.705s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/hello_world_msgs/hello_world_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[1.706s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/hello_world_msgs/hello_world_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[1.706s] [100%] [32m[1mLinking C shared library rosidl_generator_py/hello_world_msgs/hello_world_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[1.722s] [100%] Built target hello_world_msgs__rosidl_typesupport_c__pyext
+[1.722s] [100%] Built target hello_world_msgs__rosidl_typesupport_introspection_c__pyext
+[1.735s] [100%] Built target hello_world_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.740s] Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/hello_world_msgs -- -j32 -l32
+[1.759s] Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/hello_world_msgs
+[1.763s] -- Install configuration: ""
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/ament_index/resource_index/rosidl_interfaces/hello_world_msgs
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/hello_world.h
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__functions.c
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__struct.h
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__type_support.h
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__functions.h
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/environment/library_path.sh
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/environment/library_path.dsv
+[1.763s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_generator_c.so
+[1.764s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_generator_c.so" to ""
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__rosidl_typesupport_fastrtps_c.h
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_fastrtps_c.so
+[1.764s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__rosidl_typesupport_fastrtps_cpp.hpp
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/dds_fastrtps
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.764s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__type_support.c
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__rosidl_typesupport_introspection_c.h
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_introspection_c.so
+[1.764s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_introspection_c.so" to ""
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_c.so
+[1.764s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_c.so" to ""
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__traits.hpp
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__type_support.hpp
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__builder.hpp
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__struct.hpp
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/hello_world.hpp
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg
+[1.764s] -- Up-to-date: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail
+[1.764s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__rosidl_typesupport_introspection_cpp.hpp
+[1.765s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/include/hello_world_msgs/msg/detail/hello_world__type_support.cpp
+[1.765s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_introspection_cpp.so
+[1.765s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[1.765s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_cpp.so
+[1.765s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__rosidl_typesupport_cpp.so" to ""
+[1.765s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/environment/pythonpath.sh
+[1.765s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/environment/pythonpath.dsv
+[1.765s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/__init__.py
+[1.778s] Compiling '/home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/__init__.py'...
+[1.779s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/msg
+[1.779s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/msg/_hello_world.py
+[1.779s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/msg/_hello_world_s.c
+[1.779s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/msg/__init__.py
+[1.779s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/hello_world_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.780s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/hello_world_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[1.780s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/hello_world_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.780s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/hello_world_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[1.780s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/hello_world_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.780s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages/hello_world_msgs/hello_world_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[1.780s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__python.so
+[1.780s] -- Set runtime path of "/home/robot/nav2_ws/install/hello_world_msgs/lib/libhello_world_msgs__python.so" to ""
+[1.780s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/msg/HelloWorld.idl
+[1.780s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/msg/HelloWorld.msg
+[1.780s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/ament_index/resource_index/package_run_dependencies/hello_world_msgs
+[1.780s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/ament_index/resource_index/parent_prefix_path/hello_world_msgs
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/environment/ament_prefix_path.sh
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/environment/ament_prefix_path.dsv
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/environment/path.sh
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/environment/path.dsv
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/local_setup.bash
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/local_setup.sh
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/local_setup.zsh
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/local_setup.dsv
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.dsv
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/ament_index/resource_index/packages/hello_world_msgs
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_generator_cExport.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_typesupport_cExport.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_generator_cppExport.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_typesupport_cppExport.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/rosidl_cmake-extras.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.781s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.782s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.782s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.782s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.782s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgsConfig.cmake
+[1.782s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/cmake/hello_world_msgsConfig-version.cmake
+[1.782s] -- Installing: /home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.xml
+[1.783s] Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/hello_world_msgs

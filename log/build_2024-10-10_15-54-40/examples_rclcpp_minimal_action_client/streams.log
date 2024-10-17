@@ -1,0 +1,96 @@
+[0.038s] Invoking command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client
+[0.882s] -- The C compiler identification is GNU 9.4.0
+[0.883s] -- The CXX compiler identification is GNU 9.4.0
+[0.883s] -- Check for working C compiler: /usr/bin/cc
+[0.884s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.884s] -- Detecting C compiler ABI info
+[0.884s] -- Detecting C compiler ABI info - done
+[0.884s] -- Detecting C compile features
+[0.884s] -- Detecting C compile features - done
+[0.884s] -- Check for working CXX compiler: /usr/bin/c++
+[0.884s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.884s] -- Detecting CXX compiler ABI info
+[0.884s] -- Detecting CXX compiler ABI info - done
+[0.884s] -- Detecting CXX compile features
+[0.884s] -- Detecting CXX compile features - done
+[0.884s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.884s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.884s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.884s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.885s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.886s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.886s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.886s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.886s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.886s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.886s] -- Looking for pthread.h
+[0.886s] -- Looking for pthread.h - found
+[0.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.887s] -- Looking for pthread_create in pthreads
+[0.887s] -- Looking for pthread_create in pthreads - not found
+[0.887s] -- Looking for pthread_create in pthread
+[0.887s] -- Looking for pthread_create in pthread - found
+[0.887s] -- Found Threads: TRUE  
+[0.887s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.887s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.887s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.887s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.887s] -- Configured cppcheck include dirs: 
+[0.887s] -- Configured cppcheck exclude dirs and/or files: 
+[0.887s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.887s] -- Configured cpplint exclude dirs and/or files: 
+[0.887s] -- Added test 'lint_cmake' to check CMake code style
+[0.887s] -- Added test 'uncrustify' to check C / C++ code style
+[0.887s] -- Configured uncrustify additional arguments: 
+[0.887s] -- Added test 'xmllint' to check XML markup files
+[0.887s] -- Configuring done
+[0.887s] -- Generating done
+[0.887s] -- Build files have been written to: /home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client
+[0.910s] Invoked command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client
+[0.911s] Invoking command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client -- -j32 -l32
+[0.932s] [35m[1mScanning dependencies of target action_client_not_composable_with_cancel[0m
+[0.932s] [35m[1mScanning dependencies of target action_client_not_composable[0m
+[0.933s] [35m[1mScanning dependencies of target action_client_not_composable_with_feedback[0m
+[0.933s] [35m[1mScanning dependencies of target action_client_member_functions[0m
+[0.958s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[0.959s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[0.964s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[0.968s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[2.505s] [ 62%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[2.589s] [ 62%] Built target action_client_not_composable_with_cancel
+[2.977s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[3.046s] [ 75%] Built target action_client_not_composable_with_feedback
+[3.060s] [ 87%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[3.128s] [ 87%] Built target action_client_not_composable
+[3.311s] [100%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[3.382s] [100%] Built target action_client_member_functions
+[3.387s] Invoked command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client -- -j32 -l32
+[3.402s] Invoking command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client
+[3.406s] -- Install configuration: ""
+[3.406s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[3.406s] -- Set runtime path of "/home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions" to ""
+[3.406s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[3.406s] -- Set runtime path of "/home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable" to ""
+[3.407s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[3.407s] -- Set runtime path of "/home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel" to ""
+[3.407s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[3.407s] -- Set runtime path of "/home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback" to ""
+[3.407s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[3.407s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[3.408s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[3.409s] Invoked command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/examples_rclcpp_minimal_action_client

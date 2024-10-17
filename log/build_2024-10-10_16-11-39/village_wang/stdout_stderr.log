@@ -1,0 +1,79 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/nav2_ws/build/village_wang
+[35m[1mScanning dependencies of target wang3_node[0m
+[ 50%] Built target wang2_node
+[ 75%] [32mBuilding CXX object CMakeFiles/wang3_node.dir/src/wang3.cpp.o[0m
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:10:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   10 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:1[m[K:
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:[m[K In constructor ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’:
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:6:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SingleDogNode[m[K’ has no member named ‘[01m[Kget_looger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+    6 |         RCLCPP_INFO(this->[01;31m[Kget_looger[m[K(), "hi.");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:6:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SingleDogNode[m[K’ has no member named ‘[01m[Kget_looger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:6:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 |         [01;31m[KRCLCPP_INFO[m[K(this->get_looger(), "hi.");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:6:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 |         [01;31m[KRCLCPP_INFO[m[K(this->get_looger(), "hi.");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:6:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 |         [01;31m[KRCLCPP_INFO[m[K(this->get_looger(), "hi.");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:1[m[K:
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:6:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SingleDogNode[m[K’ has no member named ‘[01m[Kget_looger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+    6 |         RCLCPP_INFO(this->[01;31m[Kget_looger[m[K(), "hi.");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:6:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SingleDogNode[m[K’ has no member named ‘[01m[Kget_looger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+    6 |         RCLCPP_INFO(this->[01;31m[Kget_looger[m[K(), "hi.");
+      |                           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:15:18:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+   15 |     rclcpp::spin([01;31m[Knode[m[K);
+      |                  [01;31m[K^~~~[m[K
+      |                  [32m[KNode[m[K
+make[2]: *** [CMakeFiles/wang3_node.dir/build.make:63：CMakeFiles/wang3_node.dir/src/wang3.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/wang3_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/demo.dir/example.cpp.o  -o demo   -L/home/robot/nav2_ws/install/unitree_sdk2/lib  -Wl,-rpath,/home/robot/nav2_ws/install/unitree_sdk2/lib /home/robot/nav2_ws/install/unitree_sdk2/lib/libunitree_sdk2.a -lddsc -lddscxx -lpthread 

@@ -1,0 +1,7 @@
+[01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:10:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   10 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+make[2]: *** [CMakeFiles/wang3_node.dir/build.make:63：CMakeFiles/wang3_node.dir/src/wang3.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/wang3_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

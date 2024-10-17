@@ -1,0 +1,67 @@
+[0.871s] Invoking command in '/home/robot/nav2_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32
+[0.889s] [35m[1mScanning dependencies of target wang3_node[0m
+[0.898s] [ 25%] [32mBuilding CXX object CMakeFiles/wang3_node.dir/src/wang3.cpp.o[0m
+[0.898s] [ 75%] Built target wang2_node
+[1.369s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:14:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[1.369s]    14 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr sub_novel;
+[1.369s]       |                          [01;31m[K^~~~~~~~[m[K
+[1.369s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:14:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.369s]    14 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr sub_novel;
+[1.369s]       |                                               [01;31m[K^[m[K
+[1.369s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:14:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.369s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:14:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.369s]    14 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K sub_novel;
+[1.369s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[1.369s]       |                                                           [32m[K;[m[K
+[1.369s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:14:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_novel[m[K’ does not name a type
+[1.369s]    14 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Ksub_novel[m[K;
+[1.369s]       |                                                            [01;31m[K^~~~~~~~~[m[K
+[1.370s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:16:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+[1.370s]    16 |     void topic_callback(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg)
+[1.370s]       |                               [01;31m[K^~~~~~~~[m[K
+[1.370s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:16:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[1.370s]    16 |     void topic_callback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg)
+[1.370s]       |                                            [01;31m[K^~[m[K
+[1.370s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:16:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[1.370s]    16 |     void topic_callback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg)
+[1.370s]       |                        [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[1.370s]       |                                            [32m[K)[m[K
+[1.370s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:16:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.370s]    16 |     void topic_callback(const std_msgs::[01;31m[Kmsg[m[K::String::SharedPtr msg)
+[1.370s]       |                                         [01;31m[K^~~[m[K
+[1.370s]       |                                            [32m[K;[m[K
+[1.370s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:16:46:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[1.370s]    16 |     void topic_callback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg)
+[1.370s]       |                                              [01;31m[K^~~~~~[m[K
+[1.370s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:19:6:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[1.370s]    19 |     }[01;35m[K;[m[K
+[1.371s]       |      [01;35m[K^[m[K
+[1.371s]       |      [31m[K-[m[K
+[1.372s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:[m[K In constructor ‘[01m[KSingleDogNode::SingleDogNode(std::string)[m[K’:
+[1.372s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:11:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_novel[m[K’ was not declared in this scope
+[1.372s]    11 |         [01;31m[Ksub_novel[m[K = this->create_subscription<std_msgs::msg::String>("sexy_girl", 10, std::bind(&SingleDogNode::topic_callback, this, _1));
+[1.372s]       |         [01;31m[K^~~~~~~~~[m[K
+[1.372s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:11:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[1.372s]    11 |         sub_novel = this->create_subscription<[01;31m[Kstd_msgs[m[K::msg::String>("sexy_girl", 10, std::bind(&SingleDogNode::topic_callback, this, _1));
+[1.372s]       |                                               [01;31m[K^~~~~~~~[m[K
+[1.372s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:11:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[1.372s]    11 |         sub_novel = this->[01;31m[Kcreate_subscription<std_msgs::msg::String>[m[K("sexy_girl", 10, std::bind(&SingleDogNode::topic_callback, this, _1));
+[1.372s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.375s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:11:138:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSingleDogNode::create_subscription<<expression error> >(const char [10], int, std::_Bind_helper<false, void (SingleDogNode::*)(...), SingleDogNode*, const std::_Placeholder<1>&>::type)[m[K’
+[1.375s]    11 |         sub_novel = this->create_subscription<std_msgs::msg::String>("sexy_girl", 10, std::bind(&SingleDogNode::topic_callback, this, _1)[01;31m[K)[m[K;
+[1.375s]       |                                                                                                                                          [01;31m[K^[m[K
+[1.375s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.375s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.375s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.375s]                  from [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:1[m[K:
+[1.375s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[1.375s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[1.375s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.375s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.375s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:11:138:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.375s]    11 |         sub_novel = this->create_subscription<std_msgs::msg::String>("sexy_girl", 10, std::bind(&SingleDogNode::topic_callback, this, _1)[01;31m[K)[m[K;
+[1.375s]       |                                                                                                                                          [01;31m[K^[m[K
+[1.508s] make[2]: *** [CMakeFiles/wang3_node.dir/build.make:63：CMakeFiles/wang3_node.dir/src/wang3.cpp.o] 错误 1
+[1.508s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/wang3_node.dir/all] 错误 2
+[1.509s] make: *** [Makefile:141：all] 错误 2
+[1.510s] Invoked command in '/home/robot/nav2_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32

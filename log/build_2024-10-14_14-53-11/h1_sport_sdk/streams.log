@@ -1,0 +1,30 @@
+[0.849s] Invoking command in '/home/robot/nav2_ws/build/h1_sport_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport_sdk -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/h1_sport_sdk
+[0.854s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.866s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.952s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.977s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.979s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.080s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.080s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.147s] CMake Error at CMakeLists.txt:25 (find_package):
+[1.147s]   By not providing "Findunitree_api.cmake" in CMAKE_MODULE_PATH this project
+[1.147s]   has asked CMake to find a package configuration file provided by
+[1.147s]   "unitree_api", but CMake did not find one.
+[1.147s] 
+[1.147s]   Could not find a package configuration file provided by "unitree_api" with
+[1.147s]   any of the following names:
+[1.147s] 
+[1.147s]     unitree_apiConfig.cmake
+[1.147s]     unitree_api-config.cmake
+[1.147s] 
+[1.147s]   Add the installation prefix of "unitree_api" to CMAKE_PREFIX_PATH or set
+[1.147s]   "unitree_api_DIR" to a directory containing one of the above files.  If
+[1.148s]   "unitree_api" provides a separate development package or SDK, be sure it
+[1.148s]   has been installed.
+[1.148s] 
+[1.148s] 
+[1.148s] -- Configuring incomplete, errors occurred!
+[1.148s] See also "/home/robot/nav2_ws/build/h1_sport_sdk/CMakeFiles/CMakeOutput.log".
+[1.148s] See also "/home/robot/nav2_ws/build/h1_sport_sdk/CMakeFiles/CMakeError.log".
+[1.151s] Invoked command in '/home/robot/nav2_ws/build/h1_sport_sdk' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport_sdk -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/h1_sport_sdk

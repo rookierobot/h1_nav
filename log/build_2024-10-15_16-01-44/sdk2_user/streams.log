@@ -1,0 +1,12 @@
+[0.009s] Invoking command in '/home/robot/nav2_ws/build/sdk2_user': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake --build /home/robot/nav2_ws/build/sdk2_user -- -j32 -l32
+[0.023s] [35m[1mScanning dependencies of target client[0m
+[0.027s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.030s] [ 75%] Built target demo
+[0.044s] [01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/dds_opendds/std_msgs__msg__String.h: 没有那个文件或目录
+[0.045s]     3 | #include [01;31m[K<std_msgs/msg/dds_opendds/std_msgs__msg__String.h>[m[K // 包含字符串消息类型头文件
+[0.045s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.045s] compilation terminated.
+[0.045s] make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/client.cpp.o] 错误 1
+[0.045s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/client.dir/all] 错误 2
+[0.045s] make: *** [Makefile:84：all] 错误 2
+[0.046s] Invoked command in '/home/robot/nav2_ws/build/sdk2_user' returned '2': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake --build /home/robot/nav2_ws/build/sdk2_user -- -j32 -l32

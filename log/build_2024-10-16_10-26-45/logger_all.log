@@ -1,0 +1,218 @@
+[0.093s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'hello_world_msgs']
+[0.093s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4522b11730>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['hello_world_msgs'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=32, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4522b11730>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4522b11e80>)
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.170s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robot/nav2_ws'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/car2) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/car2) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/car2) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/car2) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/car2) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/car2) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/car2) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/car2) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/car2) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car2' with type 'ros.ament_cmake' and name 'car2'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_sport) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_sport) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_sport) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_sport) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_sport) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_sport) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_sport) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_sport) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/h1_sport) by extension 'ros'
+[0.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/h1_sport' with type 'ros.ament_cmake' and name 'h1_sport'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_msgs) by extension 'ros'
+[0.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hello_world_msgs' with type 'ros.ament_cmake' and name 'hello_world_msgs'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extension 'ros'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extensions ['cmake', 'python']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extension 'cmake'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/sdk2_user_cmake_example) by extension 'python'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sdk2_user_cmake_example' with type 'cmake' and name 'sdk2_user'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extension 'ros'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extensions ['cmake', 'python']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/unitree_sdk2) by extension 'python'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unitree_sdk2' with type 'cmake' and name 'unitree_sdk2'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ros'
+[0.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_wang' with type 'ros.ament_cmake' and name 'village_wang'
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.185s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.194s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'car2' in 'src/car2'
+[0.194s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'h1_sport' in 'src/h1_sport'
+[0.194s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'unitree_sdk2' in 'src/unitree_sdk2'
+[0.194s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'village_wang' in 'src/village_wang'
+[0.194s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sdk2_user' in 'src/sdk2_user_cmake_example'
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.194s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.195s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 23 installed packages in /home/robot/nav2_ws/install
+[0.196s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 380 installed packages in /opt/ros/foxy
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_target' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.223s] Level 5:colcon.colcon_core.verb:set package 'hello_world_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.223s] DEBUG:colcon.colcon_core.verb:Building package 'hello_world_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/nav2_ws/build/hello_world_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/nav2_ws/install/hello_world_msgs', 'merge_install': False, 'path': '/home/robot/nav2_ws/src/hello_world_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.223s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.224s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.224s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/nav2_ws/src/hello_world_msgs' with build type 'ament_cmake'
+[0.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/nav2_ws/src/hello_world_msgs'
+[0.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.225s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.225s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/hello_world_msgs -- -j32 -l32
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/hello_world_msgs -- -j32 -l32
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/hello_world_msgs
+[0.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_world_msgs)
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/hello_world_msgs
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs' for CMake module files
+[0.476s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs' for CMake config files
+[0.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_msgs', 'cmake_prefix_path')
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/cmake_prefix_path.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/cmake_prefix_path.dsv'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/cmake_prefix_path.sh'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs/lib'
+[0.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_msgs', 'ld_library_path_lib')
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/ld_library_path_lib.ps1'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/ld_library_path_lib.dsv'
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/ld_library_path_lib.sh'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs/bin'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs/lib/pkgconfig/hello_world_msgs.pc'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages'
+[0.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_msgs', 'pythonpath')
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/pythonpath.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/pythonpath.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/pythonpath.sh'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs/bin'
+[0.478s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.dsv'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.sh'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.bash'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.zsh'
+[0.479s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/nav2_ws/install/hello_world_msgs/share/colcon-core/packages/hello_world_msgs)
+[0.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hello_world_msgs)
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs' for CMake module files
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs' for CMake config files
+[0.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_msgs', 'cmake_prefix_path')
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/cmake_prefix_path.ps1'
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/cmake_prefix_path.dsv'
+[0.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/cmake_prefix_path.sh'
+[0.547s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs/lib'
+[0.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_msgs', 'ld_library_path_lib')
+[0.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/ld_library_path_lib.ps1'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/ld_library_path_lib.dsv'
+[0.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/ld_library_path_lib.sh'
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs/bin'
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs/lib/pkgconfig/hello_world_msgs.pc'
+[0.549s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs/lib/python3.8/site-packages'
+[0.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('hello_world_msgs', 'pythonpath')
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/pythonpath.ps1'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/pythonpath.dsv'
+[0.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/hook/pythonpath.sh'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/robot/nav2_ws/install/hello_world_msgs/bin'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.dsv'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.sh'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.bash'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/nav2_ws/install/hello_world_msgs/share/hello_world_msgs/package.zsh'
+[0.554s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/nav2_ws/install/hello_world_msgs/share/colcon-core/packages/hello_world_msgs)
+[0.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.554s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.555s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.560s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.560s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.560s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.575s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.575s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/nav2_ws/install/local_setup.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/nav2_ws/install/_local_setup_util_ps1.py'
+[0.579s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/nav2_ws/install/setup.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/nav2_ws/install/local_setup.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/nav2_ws/install/_local_setup_util_sh.py'
+[0.582s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/nav2_ws/install/setup.sh'
+[0.584s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/nav2_ws/install/local_setup.bash'
+[0.584s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/nav2_ws/install/setup.bash'
+[0.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/nav2_ws/install/local_setup.zsh'
+[0.587s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/nav2_ws/install/setup.zsh'

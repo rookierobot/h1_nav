@@ -1,0 +1,11 @@
+[01m[K/home/robot/nav2_ws/src/dds_test/src/dds_test.cpp:59:117:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+   59 |     ChannelPublisherPtr<std_msgs::msg::dds_::String_> pub_heart = ChannelPublisherPtr<std_msgs::msg::dds_::String_> \
+      |                                                                                                                      
+[01m[K/home/robot/nav2_ws/src/dds_test/src/dds_test.cpp:[m[K In function ‘[01m[Kvoid MySigintHandler(int)[m[K’:
+[01m[K/home/robot/nav2_ws/src/dds_test/src/dds_test.cpp:34:26:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksig[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   34 | void MySigintHandler([01;35m[Kint sig[m[K)
+      |                      [01;35m[K~~~~^~~[m[K
+[01m[K/home/robot/nav2_ws/src/dds_test/src/dds_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/nav2_ws/src/dds_test/src/dds_test.cpp:46:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   46 | int main([01;35m[Kint argc[m[K, char * argv[])
+      |          [01;35m[K~~~~^~~~[m[K

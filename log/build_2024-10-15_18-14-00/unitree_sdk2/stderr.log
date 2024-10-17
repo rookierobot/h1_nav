@@ -1,0 +1,655 @@
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:31:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::this_thread[m[K’ has not been declared
+   31 |         std::[01;31m[Kthis_thread[m[K::sleep_for(std::chrono::seconds(10)); // 每10秒检查一次
+      |              [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/BuiltinTopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/ddstopic.hpp:25[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:35[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp: In instantiation of ‘[01m[Kdds::topic::detail::Topic<T>::Topic(const DomainParticipant&, const string&, const string&, const TopicQos&, dds::topic::TopicListener<T>*, const dds::core::status::StatusMask&) [with T = const std_msgs::msg::dds_::String_; dds::domain::DomainParticipant = dds::domain::TDomainParticipant<org::eclipse::cyclonedds::domain::DomainParticipantDelegate>; std::string = std::__cxx11::basic_string<char>; dds::topic::qos::TopicQos = dds::core::TEntityQos<org::eclipse::cyclonedds::topic::qos::TopicQosDelegate>][m[K’:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:84:45:[m[K   required from ‘[01m[Kdds::topic::Topic<T, DELEGATE>::Topic(const DomainParticipant&, const string&, const TopicQos&, dds::topic::TopicListener<T>*, const dds::core::status::StatusMask&) [with T = const std_msgs::msg::dds_::String_; DELEGATE = dds::topic::detail::Topic; dds::domain::DomainParticipant = dds::domain::TDomainParticipant<org::eclipse::cyclonedds::domain::DomainParticipantDelegate>; std::string = std::__cxx11::basic_string<char>; dds::topic::qos::TopicQos = dds::core::TEntityQos<org::eclipse::cyclonedds::topic::qos::TopicQosDelegate>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:116:19:[m[K   required from ‘[01m[Kunitree::common::DdsTopic<MSG>::DdsTopic(const DdsParticipantPtr&, const string&, const unitree::common::DdsTopicQos&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsParticipantPtr = std::shared_ptr<unitree::common::DdsParticipant>; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:39:35:[m[K   required from ‘[01m[Kvoid unitree::common::DdsTopicChannel<MSG>::SetTopic(const DdsParticipantPtr&, const string&, const unitree::common::DdsTopicQos&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsParticipantPtr = std::shared_ptr<unitree::common::DdsParticipant>; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:25:9:[m[K   required from ‘[01m[Kunitree::common::DdsTopicChannelPtr<MSG> unitree::common::DdsFactoryModel::CreateTopicChannel(const string&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsTopicChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:42:25:[m[K   required from ‘[01m[Kunitree::robot::ChannelPtr<MSG> unitree::robot::ChannelFactory::CreateRecvChannel(const string&, std::function<void(const void*)>, int32_t) [with MSG = const std_msgs::msg::dds_::String_; unitree::robot::ChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>; int32_t = int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:34:25:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel() [with MSG = const std_msgs::msg::dds_::String_][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:27:9:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel(const std::function<void(const void*)>&, int64_t) [with MSG = const std_msgs::msg::dds_::String_; int64_t = long int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:26:35:[m[K   required from here
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:192:47:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst void*[m[K’ to ‘[01m[Kvoid*[m[K’ [[01;31m[K-fpermissive[m[K]
+  192 |     this->AnyTopicDelegate::set_sample(&[01;31m[Kthis->sample_[m[K);
+      |                                         [01;31m[K~~~~~~^~~~~~~[m[K
+      |                                               [01;31m[K|[m[K
+      |                                               [01;31m[Kconst void*[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/AnyTopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/AnyTopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/Topic.hpp:27[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/Topic.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/ddstopic.hpp:23[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:35[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicDelegate.hpp:93:27:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid org::eclipse::cyclonedds::topic::AnyTopicDelegate::set_sample(void*)[m[K’
+   93 |     void set_sample([01;36m[Kvoid* sample[m[K);
+      |                     [01;36m[K~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/ddssub.hpp:15[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:125[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp: In instantiation of ‘[01m[Kvoid dds::sub::detail::DataReader<T>::common_constructor(dds::sub::DataReaderListener<T>*, const dds::core::status::StatusMask&) [with T = const std_msgs::msg::dds_::String_][m[K’:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp:458:5:[m[K   required from ‘[01m[Kdds::sub::detail::DataReader<T>::DataReader(const Subscriber&, const dds::topic::Topic<T, dds::topic::detail::Topic>&, const DataReaderQos&, dds::sub::DataReaderListener<T>*, const dds::core::status::StatusMask&) [with T = const std_msgs::msg::dds_::String_; dds::sub::Subscriber = dds::sub::TSubscriber<org::eclipse::cyclonedds::sub::SubscriberDelegate>; dds::sub::qos::DataReaderQos = dds::core::TEntityQos<org::eclipse::cyclonedds::sub::qos::DataReaderQosDelegate>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp:242:47:[m[K   required from ‘[01m[Kdds::sub::DataReader<T, DELEGATE>::DataReader(const Subscriber&, const dds::topic::Topic<T, dds::topic::detail::Topic>&, const DataReaderQos&, dds::sub::DataReaderListener<T>*, const dds::core::status::StatusMask&) [with T = const std_msgs::msg::dds_::String_; DELEGATE = dds::sub::detail::DataReader; dds::sub::Subscriber = dds::sub::TSubscriber<org::eclipse::cyclonedds::sub::SubscriberDelegate>; dds::sub::qos::DataReaderQos = dds::core::TEntityQos<org::eclipse::cyclonedds::sub::qos::DataReaderQosDelegate>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:368:19:[m[K   required from ‘[01m[Kunitree::common::DdsReader<MSG>::DdsReader(const DdsSubscriberPtr&, unitree::common::DdsTopicPtr<MSG>&, const unitree::common::DdsReaderQos&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsSubscriberPtr = std::shared_ptr<unitree::common::DdsSubscriber>; unitree::common::DdsTopicPtr<MSG> = std::shared_ptr<unitree::common::DdsTopic<const std_msgs::msg::dds_::String_> >][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:50:37:[m[K   required from ‘[01m[Kvoid unitree::common::DdsTopicChannel<MSG>::SetReader(const DdsSubscriberPtr&, const unitree::common::DdsReaderQos&, const unitree::common::DdsReaderCallback&, int32_t) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsSubscriberPtr = std::shared_ptr<unitree::common::DdsSubscriber>; int32_t = int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:39:9:[m[K   required from ‘[01m[Kvoid unitree::common::DdsFactoryModel::SetReader(unitree::common::DdsTopicChannelPtr<MSG>&, const std::function<void(const void*)>&, int32_t) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsTopicChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; int32_t = int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:43:9:[m[K   required from ‘[01m[Kunitree::robot::ChannelPtr<MSG> unitree::robot::ChannelFactory::CreateRecvChannel(const string&, std::function<void(const void*)>, int32_t) [with MSG = const std_msgs::msg::dds_::String_; unitree::robot::ChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>; int32_t = int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:34:25:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel() [with MSG = const std_msgs::msg::dds_::String_][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:27:9:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel(const std::function<void(const void*)>&, int64_t) [with MSG = const std_msgs::msg::dds_::String_; int64_t = long int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:26:35:[m[K   required from here
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp:508:51:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst void*[m[K’ to ‘[01m[Kvoid*[m[K’ [[01;31m[K-fpermissive[m[K]
+  508 |     this->AnyDataReaderDelegate::setSample(&[01;31m[Kthis->typed_sample_[m[K);
+      |                                             [01;31m[K~~~~~~^~~~~~~~~~~~~[m[K
+      |                                                   [01;31m[K|[m[K
+      |                                                   [01;31m[Kconst void*[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/ddstopic.hpp:25[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:35[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:167:26:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid org::eclipse::cyclonedds::sub::AnyDataReaderDelegate::setSample(void*)[m[K’
+  167 |     void setSample([01;36m[Kvoid* sample[m[K);
+      |                    [01;36m[K~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp: In instantiation of ‘[01m[Kvoid sertype_realloc_samples(void**, const ddsi_sertype*, void*, size_t, size_t) [with T = const std_msgs::msg::dds_::String_; size_t = long unsigned int][m[K’:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:976:5:[m[K   required from ‘[01m[Kddscxx_sertype_ops<T, S>::ddscxx_sertype_ops() [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:989:31:[m[K   required from ‘[01m[Kconst ddscxx_sertype_ops<const std_msgs::msg::dds_::String_, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream> ddscxx_sertype<const std_msgs::msg::dds_::String_, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream>::sertype_ops[m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:1007:8:[m[K   required from ‘[01m[Kddscxx_sertype<T, S>::ddscxx_sertype() [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:98:47:[m[K   required from ‘[01m[Kstatic ddsi_sertype* org::eclipse::cyclonedds::topic::TopicTraits<TOPIC>::getSerType(org::eclipse::cyclonedds::core::cdr::allowable_encodings_t) [with TOPIC = const std_msgs::msg::dds_::String_; org::eclipse::cyclonedds::core::cdr::allowable_encodings_t = unsigned int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:176:76:[m[K   required from ‘[01m[Kdds::topic::detail::Topic<T>::Topic(const DomainParticipant&, const string&, const string&, const TopicQos&, dds::topic::TopicListener<T>*, const dds::core::status::StatusMask&) [with T = const std_msgs::msg::dds_::String_; dds::domain::DomainParticipant = dds::domain::TDomainParticipant<org::eclipse::cyclonedds::domain::DomainParticipantDelegate>; std::string = std::__cxx11::basic_string<char>; dds::topic::qos::TopicQos = dds::core::TEntityQos<org::eclipse::cyclonedds::topic::qos::TopicQosDelegate>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:84:45:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:39:35:[m[K   required from ‘[01m[Kvoid unitree::common::DdsTopicChannel<MSG>::SetTopic(const DdsParticipantPtr&, const string&, const unitree::common::DdsTopicQos&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsParticipantPtr = std::shared_ptr<unitree::common::DdsParticipant>; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:25:9:[m[K   required from ‘[01m[Kunitree::common::DdsTopicChannelPtr<MSG> unitree::common::DdsFactoryModel::CreateTopicChannel(const string&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsTopicChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:42:25:[m[K   required from ‘[01m[Kunitree::robot::ChannelPtr<MSG> unitree::robot::ChannelFactory::CreateRecvChannel(const string&, std::function<void(const void*)>, int32_t) [with MSG = const std_msgs::msg::dds_::String_; unitree::robot::ChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>; int32_t = int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:34:25:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel() [with MSG = const std_msgs::msg::dds_::String_][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:27:9:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel(const std::function<void(const void*)>&, int64_t) [with MSG = const std_msgs::msg::dds_::String_; int64_t = long int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:26:35:[m[K   required from here
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:879:11:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst void*[m[K’ to ‘[01m[Kvoid*[m[K’ [[01;31m[K-fpermissive[m[K]
+  879 |   ptrs[0] = new T();
+/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp: In instantiation of ‘[01m[Kvoid sertype_free_samples(const ddsi_sertype*, void**, size_t, dds_free_op_t) [with T = const std_msgs::msg::dds_::String_; size_t = long unsigned int][m[K’:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:976:5:[m[K   required from ‘[01m[Kddscxx_sertype_ops<T, S>::ddscxx_sertype_ops() [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:989:31:[m[K   required from ‘[01m[Kconst ddscxx_sertype_ops<const std_msgs::msg::dds_::String_, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream> ddscxx_sertype<const std_msgs::msg::dds_::String_, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream>::sertype_ops[m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:1007:8:[m[K   required from ‘[01m[Kddscxx_sertype<T, S>::ddscxx_sertype() [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:98:47:[m[K   required from ‘[01m[Kstatic ddsi_sertype* org::eclipse::cyclonedds::topic::TopicTraits<TOPIC>::getSerType(org::eclipse::cyclonedds::core::cdr::allowable_encodings_t) [with TOPIC = const std_msgs::msg::dds_::String_; org::eclipse::cyclonedds::core::cdr::allowable_encodings_t = unsigned int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:176:76:[m[K   required from ‘[01m[Kdds::topic::detail::Topic<T>::Topic(const DomainParticipant&, const string&, const string&, const TopicQos&, dds::topic::TopicListener<T>*, const dds::core::status::StatusMask&) [with T = const std_msgs::msg::dds_::String_; dds::domain::DomainParticipant = dds::domain::TDomainParticipant<org::eclipse::cyclonedds::domain::DomainParticipantDelegate>; std::string = std::__cxx11::basic_string<char>; dds::topic::qos::TopicQos = dds::core::TEntityQos<org::eclipse::cyclonedds::topic::qos::TopicQosDelegate>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:84:45:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:39:35:[m[K   required from ‘[01m[Kvoid unitree::common::DdsTopicChannel<MSG>::SetTopic(const DdsParticipantPtr&, const string&, const unitree::common::DdsTopicQos&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsParticipantPtr = std::shared_ptr<unitree::common::DdsParticipant>; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:25:9:[m[K   required from ‘[01m[Kunitree::common::DdsTopicChannelPtr<MSG> unitree::common::DdsFactoryModel::CreateTopicChannel(const string&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsTopicChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:42:25:[m[K   required from ‘[01m[Kunitree::robot::ChannelPtr<MSG> unitree::robot::ChannelFactory::CreateRecvChannel(const string&, std::function<void(const void*)>, int32_t) [with MSG = const std_msgs::msg::dds_::String_; unitree::robot::ChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>; int32_t = int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:34:25:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel() [with MSG = const std_msgs::msg::dds_::String_][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:27:9:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel(const std::function<void(const void*)>&, int64_t) [with MSG = const std_msgs::msg::dds_::String_; int64_t = long int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:26:35:[m[K   required from here
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:903:10:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst std_msgs::msg::dds_::String_[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  903 |     [01;31m[K*ptr = T()[m[K;
+      |     [01;31m[K~~~~~^~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:4[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:20:7:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd_msgs::msg::dds_::String_& std_msgs::msg::dds_::String_::operator=(const std_msgs::msg::dds_::String_&)[m[K’
+   20 | class [01;36m[KString_[m[K
+      |       [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp: In instantiation of ‘[01m[Kbool serdata_to_sample(const ddsi_serdata*, void*, void**, void*) [with T = const std_msgs::msg::dds_::String_][m[K’:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:686:3:[m[K   required from ‘[01m[Kddscxx_serdata_ops<T, S>::ddscxx_serdata_ops() [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:992:31:[m[K   required from ‘[01m[Kconst ddscxx_serdata_ops<const std_msgs::msg::dds_::String_, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream> ddscxx_sertype<const std_msgs::msg::dds_::String_, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream>::serdata_ops[m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:1008:8:[m[K   required from ‘[01m[Kddscxx_sertype<T, S>::ddscxx_sertype() [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:98:47:[m[K   required from ‘[01m[Kstatic ddsi_sertype* org::eclipse::cyclonedds::topic::TopicTraits<TOPIC>::getSerType(org::eclipse::cyclonedds::core::cdr::allowable_encodings_t) [with TOPIC = const std_msgs::msg::dds_::String_; org::eclipse::cyclonedds::core::cdr::allowable_encodings_t = unsigned int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:176:76:[m[K   required from ‘[01m[Kdds::topic::detail::Topic<T>::Topic(const DomainParticipant&, const string&, const string&, const TopicQos&, dds::topic::TopicListener<T>*, const dds::core::status::StatusMask&) [with T = const std_msgs::msg::dds_::String_; dds::domain::DomainParticipant = dds::domain::TDomainParticipant<org::eclipse::cyclonedds::domain::DomainParticipantDelegate>; std::string = std::__cxx11::basic_string<char>; dds::topic::qos::TopicQos = dds::core::TEntityQos<org::eclipse::cyclonedds::topic::qos::TopicQosDelegate>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:84:45:[m[K   [ skipping 2 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:39:35:[m[K   required from ‘[01m[Kvoid unitree::common::DdsTopicChannel<MSG>::SetTopic(const DdsParticipantPtr&, const string&, const unitree::common::DdsTopicQos&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsParticipantPtr = std::shared_ptr<unitree::common::DdsParticipant>; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:25:9:[m[K   required from ‘[01m[Kunitree::common::DdsTopicChannelPtr<MSG> unitree::common::DdsFactoryModel::CreateTopicChannel(const string&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsTopicChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:42:25:[m[K   required from ‘[01m[Kunitree::robot::ChannelPtr<MSG> unitree::robot::ChannelFactory::CreateRecvChannel(const string&, std::function<void(const void*)>, int32_t) [with MSG = const std_msgs::msg::dds_::String_; unitree::robot::ChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>; int32_t = int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:34:25:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel() [with MSG = const std_msgs::msg::dds_::String_][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:27:9:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel(const std::function<void(const void*)>&, int64_t) [with MSG = const std_msgs::msg::dds_::String_; int64_t = long int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:26:35:[m[K   required from here
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:523:21:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst std_msgs::msg::dds_::String_[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  523 |   [01;31m[K*typed_sample_ptr = *t_ptr[m[K;
+      |   [01;31m[K~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:4[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:20:7:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd_msgs::msg::dds_::String_& std_msgs::msg::dds_::String_::operator=(const std_msgs::msg::dds_::String_&)[m[K’
+   20 | class [01;36m[KString_[m[K
+      |       [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp: In instantiation of ‘[01m[KT* ddscxx_serdata<T>::setT(const T*) [with T = const std_msgs::msg::dds_::String_][m[K’:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:471:3:[m[K   required from ‘[01m[Kddsi_serdata* serdata_from_sample(const ddsi_sertype*, ddsi_serdata_kind, const void*) [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:686:3:[m[K   required from ‘[01m[Kddscxx_serdata_ops<T, S>::ddscxx_serdata_ops() [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:992:31:[m[K   required from ‘[01m[Kconst ddscxx_serdata_ops<const std_msgs::msg::dds_::String_, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream> ddscxx_sertype<const std_msgs::msg::dds_::String_, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream>::serdata_ops[m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:1008:8:[m[K   required from ‘[01m[Kddscxx_sertype<T, S>::ddscxx_sertype() [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:98:47:[m[K   required from ‘[01m[Kstatic ddsi_sertype* org::eclipse::cyclonedds::topic::TopicTraits<TOPIC>::getSerType(org::eclipse::cyclonedds::core::cdr::allowable_encodings_t) [with TOPIC = const std_msgs::msg::dds_::String_; org::eclipse::cyclonedds::core::cdr::allowable_encodings_t = unsigned int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:176:76:[m[K   [ skipping 3 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:39:35:[m[K   required from ‘[01m[Kvoid unitree::common::DdsTopicChannel<MSG>::SetTopic(const DdsParticipantPtr&, const string&, const unitree::common::DdsTopicQos&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsParticipantPtr = std::shared_ptr<unitree::common::DdsParticipant>; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:25:9:[m[K   required from ‘[01m[Kunitree::common::DdsTopicChannelPtr<MSG> unitree::common::DdsFactoryModel::CreateTopicChannel(const string&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsTopicChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:42:25:[m[K   required from ‘[01m[Kunitree::robot::ChannelPtr<MSG> unitree::robot::ChannelFactory::CreateRecvChannel(const string&, std::function<void(const void*)>, int32_t) [with MSG = const std_msgs::msg::dds_::String_; unitree::robot::ChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>; int32_t = int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:34:25:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel() [with MSG = const std_msgs::msg::dds_::String_][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:27:9:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel(const std::function<void(const void*)>&, int64_t) [with MSG = const std_msgs::msg::dds_::String_; int64_t = long int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:26:35:[m[K   required from here
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:783:8:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst std_msgs::msg::dds_::String_[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  783 |     [01;31m[K*t = *toset[m[K;
+      |     [01;31m[K~~~^~~~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:4[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:20:7:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kstd_msgs::msg::dds_::String_& std_msgs::msg::dds_::String_::operator=(const std_msgs::msg::dds_::String_&)[m[K’
+   20 | class [01;36m[KString_[m[K
+      |       [01;36m[K^~~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp: In instantiation of ‘[01m[Kbool deserialize_sample_from_buffer(void*, size_t, T&, ddsi_serdata_kind) [with T = const std_msgs::msg::dds_::String_; size_t = long unsigned int][m[K’:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:572:40:[m[K   required from ‘[01m[Kbool serdata_untyped_to_sample(const ddsi_sertype*, const ddsi_serdata*, void*, void**, void*) [with T = const std_msgs::msg::dds_::String_][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:686:3:[m[K   required from ‘[01m[Kddscxx_serdata_ops<T, S>::ddscxx_serdata_ops() [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:992:31:[m[K   required from ‘[01m[Kconst ddscxx_serdata_ops<const std_msgs::msg::dds_::String_, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream> ddscxx_sertype<const std_msgs::msg::dds_::String_, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream>::serdata_ops[m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:1008:8:[m[K   required from ‘[01m[Kddscxx_sertype<T, S>::ddscxx_sertype() [with T = const std_msgs::msg::dds_::String_; S = org::eclipse::cyclonedds::core::cdr::basic_cdr_stream][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:98:47:[m[K   required from ‘[01m[Kstatic ddsi_sertype* org::eclipse::cyclonedds::topic::TopicTraits<TOPIC>::getSerType(org::eclipse::cyclonedds::core::cdr::allowable_encodings_t) [with TOPIC = const std_msgs::msg::dds_::String_; org::eclipse::cyclonedds::core::cdr::allowable_encodings_t = unsigned int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:176:76:[m[K   [ skipping 3 instantiation contexts, use -ftemplate-backtrace-limit=0 to disable ]
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:39:35:[m[K   required from ‘[01m[Kvoid unitree::common::DdsTopicChannel<MSG>::SetTopic(const DdsParticipantPtr&, const string&, const unitree::common::DdsTopicQos&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsParticipantPtr = std::shared_ptr<unitree::common::DdsParticipant>; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:25:9:[m[K   required from ‘[01m[Kunitree::common::DdsTopicChannelPtr<MSG> unitree::common::DdsFactoryModel::CreateTopicChannel(const string&) [with MSG = const std_msgs::msg::dds_::String_; unitree::common::DdsTopicChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:42:25:[m[K   required from ‘[01m[Kunitree::robot::ChannelPtr<MSG> unitree::robot::ChannelFactory::CreateRecvChannel(const string&, std::function<void(const void*)>, int32_t) [with MSG = const std_msgs::msg::dds_::String_; unitree::robot::ChannelPtr<MSG> = std::shared_ptr<unitree::common::DdsTopicChannel<const std_msgs::msg::dds_::String_> >; std::string = std::__cxx11::basic_string<char>; int32_t = int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:34:25:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel() [with MSG = const std_msgs::msg::dds_::String_][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:27:9:[m[K   required from ‘[01m[Kvoid unitree::robot::ChannelSubscriber<MSG>::InitChannel(const std::function<void(const void*)>&, int64_t) [with MSG = const std_msgs::msg::dds_::String_; int64_t = long int][m[K’
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:26:35:[m[K   required from here
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:339:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kread(org::eclipse::cyclonedds::core::cdr::basic_cdr_stream&, const std_msgs::msg::dds_::String_&, bool)[m[K’
+  339 |         return [01;31m[Kread(str, sample, data_kind == SDK_KEY)[m[K;
+      |                [01;31m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/unistd.h:1166[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/decl.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_parameter.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/unistd.h:34:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kssize_t read(int, void*, size_t)[m[K’
+   34 | [01;36m[Kread[m[K (int __fd, void *__buf, size_t __nbytes)
+      | [01;36m[K^~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/unistd.h:34:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korg::eclipse::cyclonedds::core::cdr::basic_cdr_stream[m[K’ to ‘[01m[Kint[m[K’
+   34 | read ([01;36m[Kint __fd[m[K, void *__buf, size_t __nbytes)
+      |       [01;36m[K~~~~^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:15[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp:573:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S, class T, typename std::enable_if<((std::is_arithmetic<T>::value && (! std::is_enum<_Tp2>::value)) && std::is_base_of<org::eclipse::cyclonedds::core::cdr::cdr_stream, S>::value), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(S&, T&, size_t)[m[K’
+  573 | bool [01;36m[Kread[m[K(S &str, T& toread, size_t N = 1)
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp:573:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp:572:98:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  572 |                                                && std::is_base_of<cdr_stream, S>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                  [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:76:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<(std::is_enum<_Tp>::value && (! std::is_arithmetic<_Tp>::value)), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(org::eclipse::cyclonedds::core::cdr::basic_cdr_stream&, T&, size_t)[m[K’
+   76 | bool [01;36m[Kread[m[K(basic_cdr_stream& str, T& toread, size_t N = 1) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:76:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:75:104:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+   75 | template<typename T, std::enable_if_t<std::is_enum<T>::value && !std::is_arithmetic<T>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:23[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp:245:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<(std::is_enum<_Tp>::value && (! std::is_arithmetic<_Tp>::value)), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(org::eclipse::cyclonedds::core::cdr::xcdr_v1_stream&, T&, size_t)[m[K’
+  245 | bool [01;36m[Kread[m[K(xcdr_v1_stream& str, T& toread, size_t N = 1)
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp:245:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp:244:104:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  244 | template<typename T, std::enable_if_t<std::is_enum<T>::value && !std::is_arithmetic<T>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:24[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp:314:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<(std::is_enum<_Tp>::value && (! std::is_arithmetic<_Tp>::value)), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(org::eclipse::cyclonedds::core::cdr::xcdr_v2_stream&, T&, size_t)[m[K’
+  314 | bool [01;36m[Kread[m[K(xcdr_v2_stream& str, T& toread, size_t N = 1) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp:314:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp:313:104:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  313 | template<typename T, std::enable_if_t<std::is_enum<T>::value && !std::is_arithmetic<T>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:4[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:174:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<std::is_base_of<org::eclipse::cyclonedds::core::cdr::cdr_stream, S>::value, bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(T&, std_msgs::msg::dds_::String_&, org::eclipse::cyclonedds::core::cdr::entity_properties_t*)[m[K’
+  174 | bool [01;36m[Kread[m[K(T& streamer, ::std_msgs::msg::dds_::String_& instance, entity_properties_t *props) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:174:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:339:20:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ksample[m[K’ (type ‘[01m[Kconst std_msgs::msg::dds_::String_[m[K’) to type ‘[01m[Kstd_msgs::msg::dds_::String_&[m[K’
+  339 |         return [01;36m[Kread(str, sample, data_kind == SDK_KEY)[m[K;
+      |                [01;36m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:4[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:196:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S, typename std::enable_if<std::is_base_of<org::eclipse::cyclonedds::core::cdr::cdr_stream, S>::value, bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(S&, std_msgs::msg::dds_::String_&, bool)[m[K’
+  196 | bool [01;36m[Kread[m[K(S& str, ::std_msgs::msg::dds_::String_& instance, bool as_key) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:196:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:339:20:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ksample[m[K’ (type ‘[01m[Kconst std_msgs::msg::dds_::String_[m[K’) to type ‘[01m[Kstd_msgs::msg::dds_::String_&[m[K’
+  339 |         return [01;36m[Kread(str, sample, data_kind == SDK_KEY)[m[K;
+      |                [01;36m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:346:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kread(org::eclipse::cyclonedds::core::cdr::xcdr_v1_stream&, const std_msgs::msg::dds_::String_&, bool)[m[K’
+  346 |         return [01;31m[Kread(str, sample, data_kind == SDK_KEY)[m[K;
+      |                [01;31m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/unistd.h:1166[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/decl.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_parameter.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/unistd.h:34:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kssize_t read(int, void*, size_t)[m[K’
+   34 | [01;36m[Kread[m[K (int __fd, void *__buf, size_t __nbytes)
+      | [01;36m[K^~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/unistd.h:34:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korg::eclipse::cyclonedds::core::cdr::xcdr_v1_stream[m[K’ to ‘[01m[Kint[m[K’
+   34 | read ([01;36m[Kint __fd[m[K, void *__buf, size_t __nbytes)
+      |       [01;36m[K~~~~^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:15[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp:573:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S, class T, typename std::enable_if<((std::is_arithmetic<T>::value && (! std::is_enum<_Tp2>::value)) && std::is_base_of<org::eclipse::cyclonedds::core::cdr::cdr_stream, S>::value), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(S&, T&, size_t)[m[K’
+  573 | bool [01;36m[Kread[m[K(S &str, T& toread, size_t N = 1)
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp:573:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp:572:98:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  572 |                                                && std::is_base_of<cdr_stream, S>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                  [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:76:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<(std::is_enum<_Tp>::value && (! std::is_arithmetic<_Tp>::value)), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(org::eclipse::cyclonedds::core::cdr::basic_cdr_stream&, T&, size_t)[m[K’
+   76 | bool [01;36m[Kread[m[K(basic_cdr_stream& str, T& toread, size_t N = 1) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:76:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:75:104:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+   75 | template<typename T, std::enable_if_t<std::is_enum<T>::value && !std::is_arithmetic<T>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:23[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp:245:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<(std::is_enum<_Tp>::value && (! std::is_arithmetic<_Tp>::value)), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(org::eclipse::cyclonedds::core::cdr::xcdr_v1_stream&, T&, size_t)[m[K’
+  245 | bool [01;36m[Kread[m[K(xcdr_v1_stream& str, T& toread, size_t N = 1)
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp:245:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp:244:104:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  244 | template<typename T, std::enable_if_t<std::is_enum<T>::value && !std::is_arithmetic<T>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:24[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp:314:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<(std::is_enum<_Tp>::value && (! std::is_arithmetic<_Tp>::value)), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(org::eclipse::cyclonedds::core::cdr::xcdr_v2_stream&, T&, size_t)[m[K’
+  314 | bool [01;36m[Kread[m[K(xcdr_v2_stream& str, T& toread, size_t N = 1) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp:314:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp:313:104:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  313 | template<typename T, std::enable_if_t<std::is_enum<T>::value && !std::is_arithmetic<T>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:4[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:174:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<std::is_base_of<org::eclipse::cyclonedds::core::cdr::cdr_stream, S>::value, bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(T&, std_msgs::msg::dds_::String_&, org::eclipse::cyclonedds::core::cdr::entity_properties_t*)[m[K’
+  174 | bool [01;36m[Kread[m[K(T& streamer, ::std_msgs::msg::dds_::String_& instance, entity_properties_t *props) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:174:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:346:20:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ksample[m[K’ (type ‘[01m[Kconst std_msgs::msg::dds_::String_[m[K’) to type ‘[01m[Kstd_msgs::msg::dds_::String_&[m[K’
+  346 |         return [01;36m[Kread(str, sample, data_kind == SDK_KEY)[m[K;
+      |                [01;36m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:4[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:196:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S, typename std::enable_if<std::is_base_of<org::eclipse::cyclonedds::core::cdr::cdr_stream, S>::value, bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(S&, std_msgs::msg::dds_::String_&, bool)[m[K’
+  196 | bool [01;36m[Kread[m[K(S& str, ::std_msgs::msg::dds_::String_& instance, bool as_key) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:196:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:346:20:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ksample[m[K’ (type ‘[01m[Kconst std_msgs::msg::dds_::String_[m[K’) to type ‘[01m[Kstd_msgs::msg::dds_::String_&[m[K’
+  346 |         return [01;36m[Kread(str, sample, data_kind == SDK_KEY)[m[K;
+      |                [01;36m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:353:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kread(org::eclipse::cyclonedds::core::cdr::xcdr_v2_stream&, const std_msgs::msg::dds_::String_&, bool)[m[K’
+  353 |         return [01;31m[Kread(str, sample, data_kind == SDK_KEY)[m[K;
+      |                [01;31m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/unistd.h:1166[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/decl.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_parameter.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/unistd.h:34:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kssize_t read(int, void*, size_t)[m[K’
+   34 | [01;36m[Kread[m[K (int __fd, void *__buf, size_t __nbytes)
+      | [01;36m[K^~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/bits/unistd.h:34:11:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Korg::eclipse::cyclonedds::core::cdr::xcdr_v2_stream[m[K’ to ‘[01m[Kint[m[K’
+   34 | read ([01;36m[Kint __fd[m[K, void *__buf, size_t __nbytes)
+      |       [01;36m[K~~~~^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:15[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp:573:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S, class T, typename std::enable_if<((std::is_arithmetic<T>::value && (! std::is_enum<_Tp2>::value)) && std::is_base_of<org::eclipse::cyclonedds::core::cdr::cdr_stream, S>::value), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(S&, T&, size_t)[m[K’
+  573 | bool [01;36m[Kread[m[K(S &str, T& toread, size_t N = 1)
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp:573:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp:572:98:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  572 |                                                && std::is_base_of<cdr_stream, S>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                  [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:76:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<(std::is_enum<_Tp>::value && (! std::is_arithmetic<_Tp>::value)), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(org::eclipse::cyclonedds::core::cdr::basic_cdr_stream&, T&, size_t)[m[K’
+   76 | bool [01;36m[Kread[m[K(basic_cdr_stream& str, T& toread, size_t N = 1) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:76:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp:75:104:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+   75 | template<typename T, std::enable_if_t<std::is_enum<T>::value && !std::is_arithmetic<T>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:23[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp:245:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<(std::is_enum<_Tp>::value && (! std::is_arithmetic<_Tp>::value)), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(org::eclipse::cyclonedds::core::cdr::xcdr_v1_stream&, T&, size_t)[m[K’
+  245 | bool [01;36m[Kread[m[K(xcdr_v1_stream& str, T& toread, size_t N = 1)
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp:245:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp:244:104:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  244 | template<typename T, std::enable_if_t<std::is_enum<T>::value && !std::is_arithmetic<T>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:24[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp:314:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<(std::is_enum<_Tp>::value && (! std::is_arithmetic<_Tp>::value)), bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(org::eclipse::cyclonedds::core::cdr::xcdr_v2_stream&, T&, size_t)[m[K’
+  314 | bool [01;36m[Kread[m[K(xcdr_v2_stream& str, T& toread, size_t N = 1) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp:314:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp:313:104:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, bool>[m[K’
+  313 | template<typename T, std::enable_if_t<std::is_enum<T>::value && !std::is_arithmetic<T>::value, bool> = [01;31m[Ktrue[m[K >
+      |                                                                                                        [01;31m[K^~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:4[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:174:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T, typename std::enable_if<std::is_base_of<org::eclipse::cyclonedds::core::cdr::cdr_stream, S>::value, bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(T&, std_msgs::msg::dds_::String_&, org::eclipse::cyclonedds::core::cdr::entity_properties_t*)[m[K’
+  174 | bool [01;36m[Kread[m[K(T& streamer, ::std_msgs::msg::dds_::String_& instance, entity_properties_t *props) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:174:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:353:20:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ksample[m[K’ (type ‘[01m[Kconst std_msgs::msg::dds_::String_[m[K’) to type ‘[01m[Kstd_msgs::msg::dds_::String_&[m[K’
+  353 |         return [01;36m[Kread(str, sample, data_kind == SDK_KEY)[m[K;
+      |                [01;36m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:4[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:196:6:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class S, typename std::enable_if<std::is_base_of<org::eclipse::cyclonedds::core::cdr::cdr_stream, S>::value, bool>::type <anonymous> > bool org::eclipse::cyclonedds::core::cdr::read(S&, std_msgs::msg::dds_::String_&, bool)[m[K’
+  196 | bool [01;36m[Kread[m[K(S& str, ::std_msgs::msg::dds_::String_& instance, bool as_key) {
+      |      [01;36m[K^~~~[m[K
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/idl/ros2/String_.hpp:196:6:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/SampleRef.hpp:34[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/SampleRef.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/LoanedSamples.hpp:22[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/detail/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/DataReader.hpp:21[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/sub/ddssub.hpp:30[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/dds/dds.hpp:37[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp:5[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp:4[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/unitree_sdk2/example/helloworld/test_subscriber.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:353:20:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ksample[m[K’ (type ‘[01m[Kconst std_msgs::msg::dds_::String_[m[K’) to type ‘[01m[Kstd_msgs::msg::dds_::String_&[m[K’
+  353 |         return [01;36m[Kread(str, sample, data_kind == SDK_KEY)[m[K;
+      |                [01;36m[K~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [example/helloworld/CMakeFiles/chen_test_subscriber.dir/build.make:63：example/helloworld/CMakeFiles/chen_test_subscriber.dir/test_subscriber.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:343：example/helloworld/CMakeFiles/chen_test_subscriber.dir/all] 错误 2
+make: *** [Makefile:130：all] 错误 2

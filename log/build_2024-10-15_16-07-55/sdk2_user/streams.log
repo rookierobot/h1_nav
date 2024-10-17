@@ -1,0 +1,16 @@
+[0.008s] Invoking command in '/home/robot/nav2_ws/build/sdk2_user': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake --build /home/robot/nav2_ws/build/sdk2_user -- -j32 -l32
+[0.023s] [35m[1mScanning dependencies of target client[0m
+[0.027s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.030s] [ 75%] Built target demo
+[0.109s] [01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:12:5:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;31m[K-fpermissive[m[K]
+[0.109s]    12 |     [01;31m[K"std_msgs::msg::String"[m[K,      // 完整的消息类型名称
+[0.109s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.109s]       |     [01;31m[K|[m[K
+[0.109s]       |     [01;31m[Kconst char*[m[K
+[0.109s] [01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:15:1:[m[K [01;35m[Kwarning: [m[Kconverting to non-pointer type ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} from NULL [[01;35m[K-Wconversion-null[m[K]
+[0.109s]    15 | [01;35m[K}[m[K;
+[0.109s]       | [01;35m[K^[m[K
+[0.121s] make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/client.cpp.o] 错误 1
+[0.121s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/client.dir/all] 错误 2
+[0.121s] make: *** [Makefile:84：all] 错误 2
+[0.122s] Invoked command in '/home/robot/nav2_ws/build/sdk2_user' returned '2': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake --build /home/robot/nav2_ws/build/sdk2_user -- -j32 -l32

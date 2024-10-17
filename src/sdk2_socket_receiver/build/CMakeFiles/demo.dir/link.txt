@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/demo.dir/example.cpp.o  -o demo   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib /usr/local/lib/libunitree_sdk2.a -lddsc -lddscxx -lpthread 

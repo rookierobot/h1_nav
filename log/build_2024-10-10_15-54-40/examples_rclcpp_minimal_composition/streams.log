@@ -1,0 +1,98 @@
+[0.035s] Invoking command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition
+[0.884s] -- The C compiler identification is GNU 9.4.0
+[0.884s] -- The CXX compiler identification is GNU 9.4.0
+[0.884s] -- Check for working C compiler: /usr/bin/cc
+[0.884s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.884s] -- Detecting C compiler ABI info
+[0.884s] -- Detecting C compiler ABI info - done
+[0.884s] -- Detecting C compile features
+[0.885s] -- Detecting C compile features - done
+[0.885s] -- Check for working CXX compiler: /usr/bin/c++
+[0.885s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.885s] -- Detecting CXX compiler ABI info
+[0.885s] -- Detecting CXX compiler ABI info - done
+[0.885s] -- Detecting CXX compile features
+[0.885s] -- Detecting CXX compile features - done
+[0.885s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.885s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.885s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.885s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.885s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.885s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.885s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.885s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.885s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.886s] -- Looking for pthread.h
+[0.886s] -- Looking for pthread.h - found
+[0.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.886s] -- Looking for pthread_create in pthreads
+[0.886s] -- Looking for pthread_create in pthreads - not found
+[0.886s] -- Looking for pthread_create in pthread
+[0.886s] -- Looking for pthread_create in pthread - found
+[0.886s] -- Found Threads: TRUE  
+[0.886s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.886s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.886s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.886s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.887s] -- Configured cppcheck include dirs: /home/robot/nav2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[0.887s] -- Configured cppcheck exclude dirs and/or files: 
+[0.887s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.887s] -- Configured cpplint exclude dirs and/or files: 
+[0.887s] -- Added test 'lint_cmake' to check CMake code style
+[0.887s] -- Added test 'uncrustify' to check C / C++ code style
+[0.887s] -- Configured uncrustify additional arguments: 
+[0.887s] -- Added test 'xmllint' to check XML markup files
+[0.887s] -- Configuring done
+[0.889s] -- Generating done
+[0.894s] -- Build files have been written to: /home/robot/nav2_ws/build/examples_rclcpp_minimal_composition
+[0.926s] Invoked command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition
+[0.927s] Invoking command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/examples_rclcpp_minimal_composition -- -j32 -l32
+[0.943s] [35m[1mScanning dependencies of target composition_nodes[0m
+[0.970s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[0.971s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[3.660s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[3.766s] [ 33%] Built target composition_nodes
+[3.770s] [35m[1mScanning dependencies of target composition_composed[0m
+[3.770s] [35m[1mScanning dependencies of target composition_publisher[0m
+[3.770s] [35m[1mScanning dependencies of target composition_subscriber[0m
+[3.784s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[3.784s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[3.784s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[4.417s] [ 77%] [32m[1mLinking CXX executable composition_publisher[0m
+[4.420s] [ 88%] [32m[1mLinking CXX executable composition_subscriber[0m
+[4.438s] [100%] [32m[1mLinking CXX executable composition_composed[0m
+[4.479s] [100%] Built target composition_publisher
+[4.479s] [100%] Built target composition_subscriber
+[4.499s] [100%] Built target composition_composed
+[4.504s] Invoked command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/examples_rclcpp_minimal_composition -- -j32 -l32
+[4.518s] Invoking command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/examples_rclcpp_minimal_composition
+[4.521s] -- Install configuration: ""
+[4.521s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[4.521s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[4.521s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[4.522s] -- Set runtime path of "/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""
+[4.522s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[4.523s] -- Set runtime path of "/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[4.523s] -- Set runtime path of "/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[4.523s] -- Set runtime path of "/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[4.523s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[4.524s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[4.524s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[4.524s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[4.524s] -- Installing: /home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[4.525s] Invoked command in '/home/robot/nav2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/examples_rclcpp_minimal_composition

@@ -1,0 +1,5 @@
+[0.010s] Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32
+[0.031s] [35m[1mScanning dependencies of target demo[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[1.210s] [100%] [32m[1mLinking CXX executable demo[0m
+[1.274s] [100%] Built target demo

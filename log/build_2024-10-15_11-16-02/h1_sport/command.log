@@ -1,0 +1,2 @@
+Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32
+Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32

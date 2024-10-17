@@ -1,0 +1,6 @@
+Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/hello_world_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/hello_world_msgs
+Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/hello_world_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/hello_world_msgs
+Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/hello_world_msgs -- -j32 -l32
+Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/hello_world_msgs -- -j32 -l32
+Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/hello_world_msgs
+Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/hello_world_msgs

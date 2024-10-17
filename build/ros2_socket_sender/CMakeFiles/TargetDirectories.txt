@@ -1,0 +1,10 @@
+/home/robot/nav2_ws/build/ros2_socket_sender/CMakeFiles/install/strip.dir
+/home/robot/nav2_ws/build/ros2_socket_sender/CMakeFiles/install/local.dir
+/home/robot/nav2_ws/build/ros2_socket_sender/CMakeFiles/edit_cache.dir
+/home/robot/nav2_ws/build/ros2_socket_sender/CMakeFiles/test.dir
+/home/robot/nav2_ws/build/ros2_socket_sender/CMakeFiles/install.dir
+/home/robot/nav2_ws/build/ros2_socket_sender/CMakeFiles/list_install_components.dir
+/home/robot/nav2_ws/build/ros2_socket_sender/CMakeFiles/rebuild_cache.dir
+/home/robot/nav2_ws/build/ros2_socket_sender/CMakeFiles/ros2_socket_sender_uninstall.dir
+/home/robot/nav2_ws/build/ros2_socket_sender/CMakeFiles/socket_sender.dir
+/home/robot/nav2_ws/build/ros2_socket_sender/CMakeFiles/uninstall.dir

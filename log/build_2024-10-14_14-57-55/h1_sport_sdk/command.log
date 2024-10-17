@@ -1,0 +1,1 @@
+Invoking command in '/home/robot/nav2_ws/build/h1_sport_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport_sdk -- -j32 -l32

@@ -1,0 +1,16 @@
+[1.125s] Invoking command in '/home/robot/nav2_ws/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/robot/nav2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/robot/nav2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/robot/nav2_ws/build/examples_rclpy_minimal_publisher/install.log --install-scripts $base/lib/examples_rclpy_minimal_publisher --single-version-externally-managed install_data
+[1.218s] /home/robot/.local/lib/python3.8/site-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.218s]   warnings.warn(
+[1.231s] running egg_info
+[1.232s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.232s] running build
+[1.232s] running build_py
+[1.232s] running install
+[1.233s] running install_lib
+[1.233s] running install_data
+[1.233s] running install_egg_info
+[1.234s] removing '/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info' (and everything under it)
+[1.234s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/robot/nav2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+[1.234s] running install_scripts
+[1.243s] writing list of installed files to '/home/robot/nav2_ws/build/examples_rclpy_minimal_publisher/install.log'
+[1.255s] Invoked command in '/home/robot/nav2_ws/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/robot/nav2_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/robot/nav2_ws/build/examples_rclpy_minimal_publisher/build install --record /home/robot/nav2_ws/build/examples_rclpy_minimal_publisher/install.log --install-scripts $base/lib/examples_rclpy_minimal_publisher --single-version-externally-managed install_data

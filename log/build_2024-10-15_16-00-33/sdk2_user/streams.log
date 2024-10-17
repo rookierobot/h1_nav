@@ -1,0 +1,15 @@
+[0.006s] Invoking command in '/home/robot/nav2_ws/build/sdk2_user': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake --build /home/robot/nav2_ws/build/sdk2_user -- -j32 -l32
+[0.017s] -- Configuring done
+[0.018s] -- Generating done
+[0.018s] -- Build files have been written to: /home/robot/nav2_ws/build/sdk2_user
+[0.027s] [35m[1mScanning dependencies of target client[0m
+[0.032s] [ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.035s] [ 75%] Built target demo
+[0.049s] [01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.h: 没有那个文件或目录
+[0.049s]     3 | #include [01;31m[K"geometry_msgs/msg/twist.h"[m[K  // 如果没有该头文件，需要根据 CycloneDDS 的类型定义创建自定义消息
+[0.049s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.049s] compilation terminated.
+[0.049s] make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/client.cpp.o] 错误 1
+[0.049s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/client.dir/all] 错误 2
+[0.050s] make: *** [Makefile:84：all] 错误 2
+[0.050s] Invoked command in '/home/robot/nav2_ws/build/sdk2_user' returned '2': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/unitree_sdk2 LD_LIBRARY_PATH=/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 /usr/bin/cmake --build /home/robot/nav2_ws/build/sdk2_user -- -j32 -l32

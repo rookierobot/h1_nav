@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/client.dir/src/client.cpp.o  -o client   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib /usr/local/lib/libunitree_sdk2.a -lddsc -lddscxx -lpthread 

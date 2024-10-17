@@ -1,0 +1,658 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (-) JobUnselected: {'identifier': 'rmw_cyclonedds_cpp'}
+[0.000134] (cyclonedds) JobQueued: {'identifier': 'cyclonedds', 'dependencies': OrderedDict()}
+[0.000144] (cyclonedds) JobStarted: {'identifier': 'cyclonedds'}
+[0.002641] (cyclonedds) JobProgress: {'identifier': 'cyclonedds', 'progress': 'cmake'}
+[0.002891] (cyclonedds) Command: {'cmd': ['/usr/bin/cmake', '/home/robot/nav2_ws/cyclonedds_ws/src/cyclonedds', '-DBUILD_IDLC=AUTO', '-DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds'], 'cwd': '/home/robot/nav2_ws/cyclonedds_ws/build/cyclonedds', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1902'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', ':/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/cyclonedds_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2754'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:65806'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2006,unix/robot:/tmp/.ICE-unix/2006'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '4ad70c02f09949e08aaf17bb01417b30'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/cyclonedds_ws/build/cyclonedds'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.025386] (cyclonedds) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.027442] (cyclonedds) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.054822] (cyclonedds) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.055192] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.081461] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.086323] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.086391] (cyclonedds) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.086560] (cyclonedds) StdoutLine: {'line': b"-- Setting build type to 'RelWithDebInfo' as none was specified.\n"}
+[0.088592] (cyclonedds) StdoutLine: {'line': b'-- Looking for getopt.h\n'}
+[0.099632] (-) TimerEvent: {}
+[0.115536] (cyclonedds) StdoutLine: {'line': b'-- Looking for getopt.h - found\n'}
+[0.149075] (cyclonedds) StdoutLine: {'line': b'-- Building with OpenSSL support\n'}
+[0.152190] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[0.181507] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[0.181607] (cyclonedds) StdoutLine: {'line': b'-- Looking for inttypes.h\n'}
+[0.199715] (-) TimerEvent: {}
+[0.209381] (cyclonedds) StdoutLine: {'line': b'-- Looking for inttypes.h - found\n'}
+[0.209545] (cyclonedds) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[0.237382] (cyclonedds) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[0.237495] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[0.265028] (cyclonedds) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[0.265124] (cyclonedds) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[0.292142] (cyclonedds) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[0.292240] (cyclonedds) StdoutLine: {'line': b'-- Check size of intmax_t\n'}
+[0.299780] (-) TimerEvent: {}
+[0.320589] (cyclonedds) StdoutLine: {'line': b'-- Check size of intmax_t - done\n'}
+[0.320982] (cyclonedds) StdoutLine: {'line': b'-- Looking for stpcpy\n'}
+[0.349089] (cyclonedds) StdoutLine: {'line': b'-- Looking for stpcpy - found\n'}
+[0.349251] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcpy\n'}
+[0.359831] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcpy - not found\n'}
+[0.359968] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcat\n'}
+[0.370412] (cyclonedds) StdoutLine: {'line': b'-- Looking for strlcat - not found\n'}
+[0.371016] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[0.398022] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[0.398261] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[0.399832] (-) TimerEvent: {}
+[0.425184] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed\n'}
+[0.425288] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[0.452210] (cyclonedds) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[0.454724] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostname\n'}
+[0.482550] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostname - found\n'}
+[0.482696] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_ntop\n'}
+[0.499916] (-) TimerEvent: {}
+[0.511889] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_ntop - found\n'}
+[0.512032] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_pton\n'}
+[0.541253] (cyclonedds) StdoutLine: {'line': b'-- Looking for inet_pton - found\n'}
+[0.541383] (cyclonedds) StdoutLine: {'line': b'-- Looking for getaddrinfo\n'}
+[0.570313] (cyclonedds) StdoutLine: {'line': b'-- Looking for getaddrinfo - found\n'}
+[0.570495] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostbyname_r\n'}
+[0.599461] (cyclonedds) StdoutLine: {'line': b'-- Looking for gethostbyname_r - found\n'}
+[0.599639] (cyclonedds) StdoutLine: {'line': b'-- Check size of struct sockaddr_in6\n'}
+[0.599964] (-) TimerEvent: {}
+[0.629165] (cyclonedds) StdoutLine: {'line': b'-- Check size of struct sockaddr_in6 - done\n'}
+[0.629563] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.657783] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.657928] (cyclonedds) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.687563] (cyclonedds) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.687692] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.700046] (-) TimerEvent: {}
+[0.710555] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.710660] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.739383] (cyclonedds) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.739890] (cyclonedds) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.739976] (cyclonedds) StdoutLine: {'line': b'-- Looking for clock_gettime in c\n'}
+[0.768392] (cyclonedds) StdoutLine: {'line': b'-- Looking for clock_gettime in c - found\n'}
+[0.800132] (-) TimerEvent: {}
+[0.892639] (cyclonedds) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.900183] (-) TimerEvent: {}
+[0.919418] (cyclonedds) StdoutLine: {'line': b'-- Generating done\n'}
+[0.920456] (cyclonedds) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/nav2_ws/cyclonedds_ws/build/cyclonedds\n'}
+[0.922780] (cyclonedds) CommandEnded: {'returncode': 0}
+[0.924024] (cyclonedds) JobProgress: {'identifier': 'cyclonedds', 'progress': 'build'}
+[0.924041] (cyclonedds) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/nav2_ws/cyclonedds_ws/build/cyclonedds', '--', '-j32', '-l32'], 'cwd': '/home/robot/nav2_ws/cyclonedds_ws/build/cyclonedds', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1902'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', ':/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/cyclonedds_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2754'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:65806'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2006,unix/robot:/tmp/.ICE-unix/2006'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '4ad70c02f09949e08aaf17bb01417b30'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/cyclonedds_ws/build/cyclonedds'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.941491] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target _confgen\x1b[0m\n'}
+[0.941721] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target idlpp\x1b[0m\n'}
+[0.941776] (cyclonedds) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating src/md5.c\x1b[0m\n'}
+[0.941832] (cyclonedds) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating include/idl/misc.h\x1b[0m\n'}
+[0.941962] (cyclonedds) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating include/idl/endian.h\x1b[0m\n'}
+[0.942033] (cyclonedds) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating include/idl/attributes.h\x1b[0m\n'}
+[0.942086] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ddsrt-internal\x1b[0m\n'}
+[0.942990] (cyclonedds) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating include/idl/md5.h\x1b[0m\n'}
+[0.945159] (cyclonedds) StdoutLine: {'line': b'[  2%] Built target _confgen\n'}
+[0.947296] (cyclonedds) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/eval.c.o\x1b[0m\n'}
+[0.949436] (cyclonedds) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/support.c.o\x1b[0m\n'}
+[0.949664] (cyclonedds) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/directive.c.o\x1b[0m\n'}
+[0.949723] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/expand.c.o\x1b[0m\n'}
+[0.949887] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/main.c.o\x1b[0m\n'}
+[0.950030] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/mbchar.c.o\x1b[0m\n'}
+[0.950115] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/system.c.o\x1b[0m\n'}
+[0.951218] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ddsc\x1b[0m\n'}
+[0.951930] (cyclonedds) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/avl.c.o\x1b[0m\n'}
+[0.952051] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target idl\x1b[0m\n'}
+[0.952143] (cyclonedds) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/atomics.c.o\x1b[0m\n'}
+[0.952283] (cyclonedds) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/bswap.c.o\x1b[0m\n'}
+[0.953048] (cyclonedds) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/log.c.o\x1b[0m\n'}
+[0.954515] (cyclonedds) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/fibheap.c.o\x1b[0m\n'}
+[0.954694] (cyclonedds) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/io.c.o\x1b[0m\n'}
+[0.954792] (cyclonedds) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/retcode.c.o\x1b[0m\n'}
+[0.954991] (cyclonedds) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtod.c.o\x1b[0m\n'}
+[0.955223] (cyclonedds) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtol.c.o\x1b[0m\n'}
+[0.955297] (cyclonedds) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/mh3.c.o\x1b[0m\n'}
+[0.955374] (cyclonedds) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/circlist.c.o\x1b[0m\n'}
+[0.955469] (cyclonedds) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ.c.o\x1b[0m\n'}
+[0.955717] (cyclonedds) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/md5.c.o\x1b[0m\n'}
+[0.955820] (cyclonedds) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/expand_vars.c.o\x1b[0m\n'}
+[0.955894] (cyclonedds) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/string.c.o\x1b[0m\n'}
+[0.955983] (cyclonedds) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/xmlparser.c.o\x1b[0m\n'}
+[0.956124] (cyclonedds) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/hopscotch.c.o\x1b[0m\n'}
+[0.956433] (cyclonedds) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads.c.o\x1b[0m\n'}
+[0.956772] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets.c.o\x1b[0m\n'}
+[0.957142] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/cdtors.c.o\x1b[0m\n'}
+[0.961410] (cyclonedds) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/symbol.c.o\x1b[0m\n'}
+[0.961590] (cyclonedds) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random.c.o\x1b[0m\n'}
+[0.961654] (cyclonedds) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs.c.o\x1b[0m\n'}
+[0.962590] (cyclonedds) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/directive.c.o\x1b[0m\n'}
+[0.980328] (cyclonedds) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time.c.o\x1b[0m\n'}
+[0.982838] (cyclonedds) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs/posix/ifaddrs.c.o\x1b[0m\n'}
+[1.000334] (-) TimerEvent: {}
+[1.005258] (cyclonedds) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scanner.c.o\x1b[0m\n'}
+[1.005414] (cyclonedds) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/gethostname.c.o\x1b[0m\n'}
+[1.005471] (cyclonedds) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/processor.c.o\x1b[0m\n'}
+[1.010579] (cyclonedds) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/socket.c.o\x1b[0m\n'}
+[1.018311] (cyclonedds) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/string.c.o\x1b[0m\n'}
+[1.020742] (cyclonedds) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/file.c.o\x1b[0m\n'}
+[1.020865] (cyclonedds) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/annotation.c.o\x1b[0m\n'}
+[1.020926] (cyclonedds) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scope.c.o\x1b[0m\n'}
+[1.020995] (cyclonedds) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/dynlib/posix/dynlib.c.o\x1b[0m\n'}
+[1.021568] (cyclonedds) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/heap/posix/heap.c.o\x1b[0m\n'}
+[1.024399] (cyclonedds) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/expression.c.o\x1b[0m\n'}
+[1.030137] (cyclonedds) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/process/posix/process.c.o\x1b[0m\n'}
+[1.030339] (cyclonedds) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/filesystem/posix/filesystem.c.o\x1b[0m\n'}
+[1.036043] (cyclonedds) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random/posix/random.c.o\x1b[0m\n'}
+[1.036788] (cyclonedds) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/tree.c.o\x1b[0m\n'}
+[1.036933] (cyclonedds) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ/posix/environ.c.o\x1b[0m\n'}
+[1.039298] (cyclonedds) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sync/posix/sync.c.o\x1b[0m\n'}
+[1.044814] (cyclonedds) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads/posix/threads.c.o\x1b[0m\n'}
+[1.056197] (cyclonedds) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/visit.c.o\x1b[0m\n'}
+[1.065290] (cyclonedds) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/keylist.c.o\x1b[0m\n'}
+[1.065508] (cyclonedds) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/parser.c.o\x1b[0m\n'}
+[1.065556] (cyclonedds) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/rusage/posix/rusage.c.o\x1b[0m\n'}
+[1.067591] (cyclonedds) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/print.c.o\x1b[0m\n'}
+[1.068906] (cyclonedds) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/hashid.c.o\x1b[0m\n'}
+[1.069350] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/netstat/linux/netstat.c.o\x1b[0m\n'}
+[1.078216] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/idl/CMakeFiles/idl.dir/src/md5.c.o\x1b[0m\n'}
+[1.092348] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time/posix/time.c.o\x1b[0m\n'}
+[1.100420] (-) TimerEvent: {}
+[1.118449] (cyclonedds) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_eth.c.o\x1b[0m\n'}
+[1.118977] (cyclonedds) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_udp.c.o\x1b[0m\n'}
+[1.119068] (cyclonedds) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tran.c.o\x1b[0m\n'}
+[1.119125] (cyclonedds) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vnet.c.o\x1b[0m\n'}
+[1.119220] (cyclonedds) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_mcgroup.c.o\x1b[0m\n'}
+[1.119449] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ssl.c.o\x1b[0m\n'}
+[1.119580] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_raweth.c.o\x1b[0m\n'}
+[1.119643] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ipaddr.c.o\x1b[0m\n'}
+[1.119670] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tcp.c.o\x1b[0m\n'}
+[1.122526] (cyclonedds) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_omg.c.o\x1b[0m\n'}
+[1.122808] (cyclonedds) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_util.c.o\x1b[0m\n'}
+[1.131306] (cyclonedds) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_portmapping.c.o\x1b[0m\n'}
+[1.131779] (cyclonedds) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_handshake.c.o\x1b[0m\n'}
+[1.136851] (cyclonedds) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata.c.o\x1b[0m\n'}
+[1.159219] (cyclonedds) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_default.c.o\x1b[0m\n'}
+[1.177284] (cyclonedds) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_pserop.c.o\x1b[0m\n'}
+[1.177424] (cyclonedds) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_plist.c.o\x1b[0m\n'}
+[1.177469] (cyclonedds) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype.c.o\x1b[0m\n'}
+[1.177508] (cyclonedds) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic.c.o\x1b[0m\n'}
+[1.177819] (cyclonedds) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_plist.c.o\x1b[0m\n'}
+[1.177931] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_pserop.c.o\x1b[0m\n'}
+[1.178200] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_default.c.o\x1b[0m\n'}
+[1.193081] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_iid.c.o\x1b[0m\n'}
+[1.193535] (cyclonedds) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tkmap.c.o\x1b[0m\n'}
+[1.193688] (cyclonedds) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_statistics.c.o\x1b[0m\n'}
+[1.198617] (cyclonedds) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_threadmon.c.o\x1b[0m\n'}
+[1.199116] (cyclonedds) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_rhc.c.o\x1b[0m\n'}
+[1.200025] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vendor.c.o\x1b[0m\n'}
+[1.200530] (-) TimerEvent: {}
+[1.226199] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking C static library ../../lib/libddsrt-internal.a\x1b[0m\n'}
+[1.231980] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_index.c.o\x1b[0m\n'}
+[1.233390] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deliver_locally.c.o\x1b[0m\n'}
+[1.253057] (cyclonedds) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pmd.c.o\x1b[0m\n'}
+[1.253181] (cyclonedds) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deadline.c.o\x1b[0m\n'}
+[1.253223] (cyclonedds) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_cdrstream.c.o\x1b[0m\n'}
+[1.253256] (cyclonedds) StdoutLine: {'line': b'[ 38%] Built target ddsrt-internal\n'}
+[1.253288] (cyclonedds) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_plist.c.o\x1b[0m\n'}
+[1.256534] (cyclonedds) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_config.c.o\x1b[0m\n'}
+[1.256657] (cyclonedds) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_acknack.c.o\x1b[0m\n'}
+[1.256724] (cyclonedds) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_time.c.o\x1b[0m\n'}
+[1.258278] (cyclonedds) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ownip.c.o\x1b[0m\n'}
+[1.261490] (cyclonedds) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_list_genptr.c.o\x1b[0m\n'}
+[1.286138] (cyclonedds) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_wraddrset.c.o\x1b[0m\n'}
+[1.290178] (cyclonedds) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity.c.o\x1b[0m\n'}
+[1.291877] (cyclonedds) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelib.c.o\x1b[0m\n'}
+[1.296026] (cyclonedds) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_match.c.o\x1b[0m\n'}
+[1.300628] (-) TimerEvent: {}
+[1.305193] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_participant.c.o\x1b[0m\n'}
+[1.321816] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_participant.c.o\x1b[0m\n'}
+[1.326125] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_endpoint.c.o\x1b[0m\n'}
+[1.333915] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bitset_inlines.c.o\x1b[0m\n'}
+[1.334074] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_endpoint.c.o\x1b[0m\n'}
+[1.334411] (cyclonedds) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bswap.c.o\x1b[0m\n'}
+[1.334571] (cyclonedds) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_addrset.c.o\x1b[0m\n'}
+[1.338749] (cyclonedds) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_topic.c.o\x1b[0m\n'}
+[1.341953] (cyclonedds) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_debmon.c.o\x1b[0m\n'}
+[1.344536] (cyclonedds) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_init.c.o\x1b[0m\n'}
+[1.344835] (cyclonedds) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_gc.c.o\x1b[0m\n'}
+[1.350322] (cyclonedds) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_ddsi_discovery.c.o\x1b[0m\n'}
+[1.361673] (cyclonedds) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lat_estim.c.o\x1b[0m\n'}
+[1.361919] (cyclonedds) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lease.c.o\x1b[0m\n'}
+[1.362467] (cyclonedds) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_misc.c.o\x1b[0m\n'}
+[1.372086] (cyclonedds) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_receive.c.o\x1b[0m\n'}
+[1.381819] (cyclonedds) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_qosmatch.c.o\x1b[0m\n'}
+[1.382349] (cyclonedds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_pcap.c.o\x1b[0m\n'}
+[1.383501] (cyclonedds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_radmin.c.o\x1b[0m\n'}
+[1.400723] (-) TimerEvent: {}
+[1.411026] (cyclonedds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_sockwaitset.c.o\x1b[0m\n'}
+[1.411314] (cyclonedds) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_thread.c.o\x1b[0m\n'}
+[1.429265] (cyclonedds) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_inverse_uint32_set.c.o\x1b[0m\n'}
+[1.429431] (cyclonedds) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_transmit.c.o\x1b[0m\n'}
+[1.433657] (cyclonedds) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_whc.c.o\x1b[0m\n'}
+[1.437647] (cyclonedds) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xmsg.c.o\x1b[0m\n'}
+[1.450929] (cyclonedds) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xevent.c.o\x1b[0m\n'}
+[1.452990] (cyclonedds) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_freelist.c.o\x1b[0m\n'}
+[1.460038] (cyclonedds) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/sysdeps.c.o\x1b[0m\n'}
+[1.467495] (cyclonedds) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lifespan.c.o\x1b[0m\n'}
+[1.478687] (cyclonedds) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typeinfo.c.o\x1b[0m\n'}
+[1.485383] (cyclonedds) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typelookup.c.o\x1b[0m\n'}
+[1.491097] (cyclonedds) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typemap.c.o\x1b[0m\n'}
+[1.500818] (-) TimerEvent: {}
+[1.504728] (cyclonedds) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelookup.c.o\x1b[0m\n'}
+[1.504852] (cyclonedds) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C static library ../../../lib/libidlpp.a\x1b[0m\n'}
+[1.507206] (cyclonedds) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_exchange.c.o\x1b[0m\n'}
+[1.507328] (cyclonedds) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typewrap.c.o\x1b[0m\n'}
+[1.507499] (cyclonedds) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_msg.c.o\x1b[0m\n'}
+[1.510104] (cyclonedds) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typebuilder.c.o\x1b[0m\n'}
+[1.515860] (cyclonedds) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_alloc.c.o\x1b[0m\n'}
+[1.521395] (cyclonedds) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/defconfig.c.o\x1b[0m\n'}
+[1.523220] (cyclonedds) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_builtin.c.o\x1b[0m\n'}
+[1.527479] (cyclonedds) StdoutLine: {'line': b'[ 59%] Built target idlpp\n'}
+[1.528177] (cyclonedds) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_coherent.c.o\x1b[0m\n'}
+[1.534283] (cyclonedds) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_participant.c.o\x1b[0m\n'}
+[1.534925] (cyclonedds) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_writer.c.o\x1b[0m\n'}
+[1.537504] (cyclonedds) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_init.c.o\x1b[0m\n'}
+[1.550255] (cyclonedds) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_reader.c.o\x1b[0m\n'}
+[1.561784] (cyclonedds) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_publisher.c.o\x1b[0m\n'}
+[1.573892] (cyclonedds) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc.c.o\x1b[0m\n'}
+[1.593682] (cyclonedds) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc_default.c.o\x1b[0m\n'}
+[1.600905] (-) TimerEvent: {}
+[1.605206] (cyclonedds) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos.c.o\x1b[0m\n'}
+[1.605803] (cyclonedds) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_instance.c.o\x1b[0m\n'}
+[1.606466] (cyclonedds) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_domain.c.o\x1b[0m\n'}
+[1.608144] (cyclonedds) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_handles.c.o\x1b[0m\n'}
+[1.619427] (cyclonedds) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_querycond.c.o\x1b[0m\n'}
+[1.620915] (cyclonedds) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_entity.c.o\x1b[0m\n'}
+[1.629461] (cyclonedds) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_topic.c.o\x1b[0m\n'}
+[1.639195] (cyclonedds) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library ../../lib/libcycloneddsidl.so\x1b[0m\n'}
+[1.642453] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_listener.c.o\x1b[0m\n'}
+[1.642574] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_read.c.o\x1b[0m\n'}
+[1.645834] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_matched.c.o\x1b[0m\n'}
+[1.649046] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_waitset.c.o\x1b[0m\n'}
+[1.658652] (cyclonedds) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_readcond.c.o\x1b[0m\n'}
+[1.669618] (cyclonedds) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_guardcond.c.o\x1b[0m\n'}
+[1.684682] (cyclonedds) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_statistics.c.o\x1b[0m\n'}
+[1.689861] (cyclonedds) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_subscriber.c.o\x1b[0m\n'}
+[1.701003] (-) TimerEvent: {}
+[1.702024] (cyclonedds) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_write.c.o\x1b[0m\n'}
+[1.710865] (cyclonedds) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc.c.o\x1b[0m\n'}
+[1.727386] (cyclonedds) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc_builtintopic.c.o\x1b[0m\n'}
+[1.739497] (cyclonedds) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_builtintopic.c.o\x1b[0m\n'}
+[1.741508] (cyclonedds) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertype_builtintopic.c.o\x1b[0m\n'}
+[1.742301] (cyclonedds) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_data_allocator.c.o\x1b[0m\n'}
+[1.747585] (cyclonedds) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_loan.c.o\x1b[0m\n'}
+[1.747742] (cyclonedds) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_serialize.c.o\x1b[0m\n'}
+[1.748155] (cyclonedds) StdoutLine: {'line': b'[ 71%] Built target idl\n'}
+[1.755099] (cyclonedds) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_utils.c.o\x1b[0m\n'}
+[1.772936] (cyclonedds) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_plugins.c.o\x1b[0m\n'}
+[1.786137] (cyclonedds) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/shared_secret.c.o\x1b[0m\n'}
+[1.793481] (cyclonedds) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/atomics.c.o\x1b[0m\n'}
+[1.793752] (cyclonedds) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_timed_cb.c.o\x1b[0m\n'}
+[1.794779] (cyclonedds) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o\x1b[0m\n'}
+[1.795585] (cyclonedds) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/io.c.o\x1b[0m\n'}
+[1.796998] (cyclonedds) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_fsm.c.o\x1b[0m\n'}
+[1.801099] (-) TimerEvent: {}
+[1.801299] (cyclonedds) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bswap.c.o\x1b[0m\n'}
+[1.801771] (cyclonedds) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/log.c.o\x1b[0m\n'}
+[1.811889] (cyclonedds) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtod.c.o\x1b[0m\n'}
+[1.812602] (cyclonedds) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtol.c.o\x1b[0m\n'}
+[1.816427] (cyclonedds) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/mh3.c.o\x1b[0m\n'}
+[1.818308] (cyclonedds) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/retcode.c.o\x1b[0m\n'}
+[1.821187] (cyclonedds) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ.c.o\x1b[0m\n'}
+[1.821308] (cyclonedds) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/expand_vars.c.o\x1b[0m\n'}
+[1.833437] (cyclonedds) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/fibheap.c.o\x1b[0m\n'}
+[1.840597] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/hopscotch.c.o\x1b[0m\n'}
+[1.846893] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/circlist.c.o\x1b[0m\n'}
+[1.854758] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads.c.o\x1b[0m\n'}
+[1.856546] (cyclonedds) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets.c.o\x1b[0m\n'}
+[1.857777] (cyclonedds) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/md5.c.o\x1b[0m\n'}
+[1.863865] (cyclonedds) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/xmlparser.c.o\x1b[0m\n'}
+[1.865734] (cyclonedds) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs.c.o\x1b[0m\n'}
+[1.868986] (cyclonedds) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string.c.o\x1b[0m\n'}
+[1.869144] (cyclonedds) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/cdtors.c.o\x1b[0m\n'}
+[1.875132] (cyclonedds) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/socket.c.o\x1b[0m\n'}
+[1.875295] (cyclonedds) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs/posix/ifaddrs.c.o\x1b[0m\n'}
+[1.875385] (cyclonedds) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random.c.o\x1b[0m\n'}
+[1.877833] (cyclonedds) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/gethostname.c.o\x1b[0m\n'}
+[1.877982] (cyclonedds) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib/posix/dynlib.c.o\x1b[0m\n'}
+[1.878072] (cyclonedds) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/heap/posix/heap.c.o\x1b[0m\n'}
+[1.879606] (cyclonedds) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time.c.o\x1b[0m\n'}
+[1.881726] (cyclonedds) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ/posix/environ.c.o\x1b[0m\n'}
+[1.891912] (cyclonedds) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/filesystem/posix/filesystem.c.o\x1b[0m\n'}
+[1.897866] (cyclonedds) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/process/posix/process.c.o\x1b[0m\n'}
+[1.899269] (cyclonedds) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads/posix/threads.c.o\x1b[0m\n'}
+[1.899439] (cyclonedds) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sync/posix/sync.c.o\x1b[0m\n'}
+[1.900710] (cyclonedds) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/netstat/linux/netstat.c.o\x1b[0m\n'}
+[1.901162] (-) TimerEvent: {}
+[1.904102] (cyclonedds) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random/posix/random.c.o\x1b[0m\n'}
+[1.917558] (cyclonedds) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time/posix/time.c.o\x1b[0m\n'}
+[1.918725] (cyclonedds) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/rusage/posix/rusage.c.o\x1b[0m\n'}
+[2.001255] (-) TimerEvent: {}
+[2.101458] (-) TimerEvent: {}
+[2.201677] (-) TimerEvent: {}
+[2.301933] (-) TimerEvent: {}
+[2.402121] (-) TimerEvent: {}
+[2.430469] (cyclonedds) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library ../../lib/libddsc.so\x1b[0m\n'}
+[2.502222] (-) TimerEvent: {}
+[2.514215] (cyclonedds) StdoutLine: {'line': b'[ 87%] Built target ddsc\n'}
+[2.518469] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target idlc\x1b[0m\n'}
+[2.518884] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dds_security_auth\x1b[0m\n'}
+[2.518947] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dds_security_ac\x1b[0m\n'}
+[2.518996] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target dds_security_crypto\x1b[0m\n'}
+[2.529204] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/idlc.c.o\x1b[0m\n'}
+[2.529439] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/plugin.c.o\x1b[0m\n'}
+[2.529630] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor.c.o\x1b[0m\n'}
+[2.529998] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o\x1b[0m\n'}
+[2.530089] (cyclonedds) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/generator.c.o\x1b[0m\n'}
+[2.530856] (cyclonedds) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/options.c.o\x1b[0m\n'}
+[2.531054] (cyclonedds) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o\x1b[0m\n'}
+[2.531508] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o\x1b[0m\n'}
+[2.531632] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o\x1b[0m\n'}
+[2.531711] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o\x1b[0m\n'}
+[2.531785] (cyclonedds) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o\x1b[0m\n'}
+[2.531838] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/types.c.o\x1b[0m\n'}
+[2.532294] (cyclonedds) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor_type_meta.c.o\x1b[0m\n'}
+[2.533129] (cyclonedds) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o\x1b[0m\n'}
+[2.533236] (cyclonedds) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o\x1b[0m\n'}
+[2.538880] (cyclonedds) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o\x1b[0m\n'}
+[2.539078] (cyclonedds) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o\x1b[0m\n'}
+[2.539165] (cyclonedds) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o\x1b[0m\n'}
+[2.539221] (cyclonedds) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o\x1b[0m\n'}
+[2.539296] (cyclonedds) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o\x1b[0m\n'}
+[2.539350] (cyclonedds) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o\x1b[0m\n'}
+[2.539524] (cyclonedds) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o\x1b[0m\n'}
+[2.539994] (cyclonedds) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o\x1b[0m\n'}
+[2.602319] (-) TimerEvent: {}
+[2.702554] (-) TimerEvent: {}
+[2.768257] (cyclonedds) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library ../../../../lib/libdds_security_ac.so\x1b[0m\n'}
+[2.795081] (cyclonedds) StdoutLine: {'line': b'[ 96%] Built target dds_security_ac\n'}
+[2.800307] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library ../../../../lib/libdds_security_crypto.so\x1b[0m\n'}
+[2.802697] (-) TimerEvent: {}
+[2.827879] (cyclonedds) StdoutLine: {'line': b'[ 97%] Built target dds_security_crypto\n'}
+[2.874562] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C executable ../../../bin/idlc\x1b[0m\n'}
+[2.876018] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library ../../../../lib/libdds_security_auth.so\x1b[0m\n'}
+[2.901640] (cyclonedds) StdoutLine: {'line': b'[ 97%] Built target dds_security_auth\n'}
+[2.901785] (cyclonedds) StdoutLine: {'line': b'[ 97%] Built target idlc\n'}
+[2.902771] (-) TimerEvent: {}
+[2.905614] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ddsperf_types_generate\x1b[0m\n'}
+[2.909537] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[34m\x1b[1mGenerating ddsperf_types.c, ddsperf_types.h\x1b[0m\n'}
+[2.919749] (cyclonedds) StdoutLine: {'line': b'[ 97%] Built target ddsperf_types_generate\n'}
+[2.923949] (cyclonedds) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ddsperf\x1b[0m\n'}
+[2.931949] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf.c.o\x1b[0m\n'}
+[2.932101] (cyclonedds) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/cputime.c.o\x1b[0m\n'}
+[2.932154] (cyclonedds) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/netload.c.o\x1b[0m\n'}
+[2.932459] (cyclonedds) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf_types.c.o\x1b[0m\n'}
+[2.932590] (cyclonedds) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/async_listener.c.o\x1b[0m\n'}
+[3.002927] (-) TimerEvent: {}
+[3.103204] (-) TimerEvent: {}
+[3.203486] (-) TimerEvent: {}
+[3.271863] (cyclonedds) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C executable ../../../bin/ddsperf\x1b[0m\n'}
+[3.294871] (cyclonedds) StdoutLine: {'line': b'[100%] Built target ddsperf\n'}
+[3.300473] (cyclonedds) CommandEnded: {'returncode': 0}
+[3.303637] (-) TimerEvent: {}
+[3.310137] (cyclonedds) JobProgress: {'identifier': 'cyclonedds', 'progress': 'install'}
+[3.314113] (cyclonedds) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/nav2_ws/cyclonedds_ws/build/cyclonedds'], 'cwd': '/home/robot/nav2_ws/cyclonedds_ws/build/cyclonedds', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1902'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', ':/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/cyclonedds_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2754'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:65806'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2006,unix/robot:/tmp/.ICE-unix/2006'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '4ad70c02f09949e08aaf17bb01417b30'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/cyclonedds_ws/build/cyclonedds'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[3.317218] (cyclonedds) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[3.317300] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfig.cmake\n'}
+[3.317362] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfigVersion.cmake\n'}
+[3.317420] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake\n'}
+[3.317478] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets-relwithdebinfo.cmake\n'}
+[3.317535] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/pkgconfig/CycloneDDS.pc\n'}
+[3.317781] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idlc\n'}
+[3.317843] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idlc/generator.h\n'}
+[3.317901] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idlc/options.h\n'}
+[3.317947] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/bin/idlc\n'}
+[3.318393] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/bin/idlc" to "$ORIGIN/../lib"\n'}
+[3.318451] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/cmake/CycloneDDS/idlc/Generate.cmake\n'}
+[3.318533] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/bin/ddsperf\n'}
+[3.318717] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/bin/ddsperf" to "$ORIGIN/../lib"\n'}
+[3.318783] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include\n'}
+[3.318851] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[3.318919] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt\n'}
+[3.318985] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem.h\n'}
+[3.319050] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sched.h\n'}
+[3.319115] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/arch.h\n'}
+[3.319182] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/time.h\n'}
+[3.319249] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/rusage.h\n'}
+[3.319318] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem\n'}
+[3.319384] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem/windows.h\n'}
+[3.319450] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/filesystem/posix.h\n'}
+[3.319522] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/random.h\n'}
+[3.319579] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/fibheap.h\n'}
+[3.319638] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets.h\n'}
+[3.319697] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads\n'}
+[3.319746] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads/freertos.h\n'}
+[3.319809] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads/windows.h\n'}
+[3.319870] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads/posix.h\n'}
+[3.319929] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/xmlparser.h\n'}
+[3.319977] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets\n'}
+[3.320035] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets/windows.h\n'}
+[3.320094] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sockets/posix.h\n'}
+[3.320168] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/ifaddrs.h\n'}
+[3.320240] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/endian.h\n'}
+[3.320301] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/environ.h\n'}
+[3.320371] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/bswap.h\n'}
+[3.320426] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types\n'}
+[3.320472] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types/vxworks.h\n'}
+[3.320534] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types/windows.h\n'}
+[3.320601] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types/posix.h\n'}
+[3.320668] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/types.h\n'}
+[3.320730] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/cdtors.h\n'}
+[3.320803] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics\n'}
+[3.320872] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/sun.h\n'}
+[3.320934] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/msvc.h\n'}
+[3.320988] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/gcc.h\n'}
+[3.321034] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics/arm.h\n'}
+[3.321081] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/threads.h\n'}
+[3.321130] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/mh3.h\n'}
+[3.321183] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/process.h\n'}
+[3.321231] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/circlist.h\n'}
+[3.321277] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/netstat.h\n'}
+[3.321338] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/expand_vars.h\n'}
+[3.321394] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/log.h\n'}
+[3.321450] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/countargs.h\n'}
+[3.321500] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync.h\n'}
+[3.321568] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/strtol.h\n'}
+[3.321635] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/static_assert.h\n'}
+[3.321699] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/retcode.h\n'}
+[3.321771] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/time\n'}
+[3.321822] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/time/freertos.h\n'}
+[3.321883] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/avl.h\n'}
+[3.321955] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/io.h\n'}
+[3.322025] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/strtod.h\n'}
+[3.322073] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/dynlib.h\n'}
+[3.322120] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/string.h\n'}
+[3.322166] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/misc.h\n'}
+[3.322222] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/hopscotch.h\n'}
+[3.322270] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/iovec.h\n'}
+[3.322316] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync\n'}
+[3.322362] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync/freertos.h\n'}
+[3.322410] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync/windows.h\n'}
+[3.322469] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/sync/posix.h\n'}
+[3.322530] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/heap.h\n'}
+[3.322578] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/align.h\n'}
+[3.322625] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/attributes.h\n'}
+[3.322670] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/md5.h\n'}
+[3.322716] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsrt/atomics.h\n'}
+[3.322771] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include\n'}
+[3.322838] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[3.322886] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/config.h\n'}
+[3.322932] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/version.h\n'}
+[3.322978] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/features.h\n'}
+[3.323023] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl\n'}
+[3.323067] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/file.h\n'}
+[3.323124] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/processor.h\n'}
+[3.323169] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/visit.h\n'}
+[3.323230] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/expression.h\n'}
+[3.323290] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/symbol.h\n'}
+[3.323359] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/scope.h\n'}
+[3.323427] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/tree.h\n'}
+[3.323488] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/retcode.h\n'}
+[3.323551] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/print.h\n'}
+[3.323617] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/string.h\n'}
+[3.323678] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/stream.h\n'}
+[3.323744] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl\n'}
+[3.323810] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/endian.h\n'}
+[3.323871] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/export.h\n'}
+[3.323937] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/misc.h\n'}
+[3.323997] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/version.h\n'}
+[3.324063] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/attributes.h\n'}
+[3.324129] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/idl/md5.h\n'}
+[3.324192] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so.0.10.5\n'}
+[3.324299] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so.0\n'}
+[3.324347] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so.0.10.5" to "$ORIGIN/../lib"\n'}
+[3.324374] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libcycloneddsidl.so\n'}
+[3.324397] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include\n'}
+[3.324421] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[3.324444] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security\n'}
+[3.324467] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_types.h\n'}
+[3.324489] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_cryptography.h\n'}
+[3.324511] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_access_control.h\n'}
+[3.324532] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_defs.h\n'}
+[3.324553] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api.h\n'}
+[3.324575] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_err.h\n'}
+[3.324597] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/dds_security_api_authentication.h\n'}
+[3.324639] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/core/\n'}
+[3.324662] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_fsm.h\n'}
+[3.324683] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_serialize.h\n'}
+[3.324704] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_utils.h\n'}
+[3.324726] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_types.h\n'}
+[3.324746] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_timed_cb.h\n'}
+[3.324766] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/core//shared_secret.h\n'}
+[3.324787] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/security/core//dds_security_plugins.h\n'}
+[3.324809] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libdds_security_ac.so\n'}
+[3.324830] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libdds_security_ac.so" to "$ORIGIN/../lib"\n'}
+[3.324852] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libdds_security_auth.so\n'}
+[3.324875] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libdds_security_auth.so" to "$ORIGIN/../lib"\n'}
+[3.324897] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libdds_security_crypto.so\n'}
+[3.324924] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libdds_security_crypto.so" to "$ORIGIN/../lib"\n'}
+[3.324946] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include\n'}
+[3.324967] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[3.324987] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi\n'}
+[3.325009] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_protocol.h\n'}
+[3.325030] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_inverse_uint32_set.h\n'}
+[3.325051] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_feature_check.h\n'}
+[3.325072] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_sockwaitset.h\n'}
+[3.325092] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_entity_match.h\n'}
+[3.325113] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_cfgunits.h\n'}
+[3.325133] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_ssl.h\n'}
+[3.325154] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata_plist.h\n'}
+[3.325205] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xqos.h\n'}
+[3.325231] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_ddsi_discovery.h\n'}
+[3.325252] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_radmin.h\n'}
+[3.325273] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typeinfo.idl\n'}
+[3.325294] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_ipaddr.h\n'}
+[3.325315] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typelookup.h\n'}
+[3.325335] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_exchange.h\n'}
+[3.325355] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_ownip.h\n'}
+[3.325376] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_plist.h\n'}
+[3.325396] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_lifespan.h\n'}
+[3.325417] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_entity.h\n'}
+[3.325438] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_lat_estim.h\n'}
+[3.325459] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_util.h\n'}
+[3.325479] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_config_impl.h\n'}
+[3.325500] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_guid.h\n'}
+[3.325521] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_xmsg.h\n'}
+[3.325541] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata.h\n'}
+[3.325562] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_tcp.h\n'}
+[3.325583] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_transmit.h\n'}
+[3.325604] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_iid.h\n'}
+[3.325625] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/sysdeps.h\n'}
+[3.325646] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_sertopic.h\n'}
+[3.325668] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typelookup.h\n'}
+[3.325689] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_locator.h\n'}
+[3.325710] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_gc.h\n'}
+[3.325732] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_log.h\n'}
+[3.325759] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_xevent.h\n'}
+[3.325779] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_portmapping.h\n'}
+[3.325801] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_proxy_endpoint.h\n'}
+[3.325847] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_vendor.h\n'}
+[3.325869] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata_pserop.h\n'}
+[3.325891] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_misc.h\n'}
+[3.325911] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_keyhash.h\n'}
+[3.325932] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_thread.h\n'}
+[3.325954] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_list_genptr.h\n'}
+[3.325974] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_time.h\n'}
+[3.325995] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_participant.h\n'}
+[3.326016] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_rhc.h\n'}
+[3.326037] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_udp.h\n'}
+[3.326058] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_unused.h\n'}
+[3.326079] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_wraddrset.h\n'}
+[3.326125] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_debmon.h\n'}
+[3.326146] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_receive.h\n'}
+[3.326167] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_rtps.h\n'}
+[3.326188] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_deliver_locally.h\n'}
+[3.326209] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_freelist.h\n'}
+[3.326229] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_tkmap.h\n'}
+[3.326249] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_pmd.h\n'}
+[3.326270] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_bswap.h\n'}
+[3.326291] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_config.h\n'}
+[3.326312] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_raweth.h\n'}
+[3.326333] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_shm_transport.h\n'}
+[3.326354] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_msg.h\n'}
+[3.326375] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_lease.h\n'}
+[3.326395] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_topic.h\n'}
+[3.326415] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_init.h\n'}
+[3.326442] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typemap.idl\n'}
+[3.326463] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_qosmatch.h\n'}
+[3.326483] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_whc.h\n'}
+[3.326504] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_plist_generic.h\n'}
+[3.326524] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typelookup.idl\n'}
+[3.326544] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_builtin_topic_if.h\n'}
+[3.326565] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_threadmon.h\n'}
+[3.326602] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_handshake.h\n'}
+[3.326622] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_serdata_default.h\n'}
+[3.326643] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_cdrstream.h\n'}
+[3.326662] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_addrset.h\n'}
+[3.326681] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typelib.h\n'}
+[3.326700] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_proxy_participant.h\n'}
+[3.326719] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typebuilder.h\n'}
+[3.326738] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_list_tmpl.h\n'}
+[3.326758] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_typewrap.h\n'}
+[3.326776] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_pcap.h\n'}
+[3.326795] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_vnet.h\n'}
+[3.326813] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_tran.h\n'}
+[3.326832] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_security_omg.h\n'}
+[3.326851] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_hbcontrol.h\n'}
+[3.326869] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_domaingv.h\n'}
+[3.326887] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_deadline.h\n'}
+[3.326906] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_endpoint.h\n'}
+[3.326925] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_sertype.h\n'}
+[3.326943] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_acknack.h\n'}
+[3.326965] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_statistics.h\n'}
+[3.326985] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_cfgelems.h\n'}
+[3.327004] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_entity_index.h\n'}
+[3.327023] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typemap.h\n'}
+[3.327043] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_impl.h\n'}
+[3.327062] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/q_bitset.h\n'}
+[3.327081] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_mcgroup.h\n'}
+[3.327099] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsi/ddsi_xt_typeinfo.h\n'}
+[3.327116] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include\n'}
+[3.327136] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[3.327154] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc\n'}
+[3.327173] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_qos.h\n'}
+[3.327192] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_basic_types.h\n'}
+[3.327211] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_loan_api.h\n'}
+[3.327229] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_internal_api.h\n'}
+[3.327247] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_data_allocator.h\n'}
+[3.327266] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_opcodes.h\n'}
+[3.327285] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_listener.h\n'}
+[3.327303] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_impl.h\n'}
+[3.327324] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_statistics.h\n'}
+[3.327343] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_status.h\n'}
+[3.327361] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_alloc.h\n'}
+[3.327380] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_rhc.h\n'}
+[3.327399] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_error.h\n'}
+[3.327418] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/ddsc/dds_public_qosdefs.h\n'}
+[3.327435] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/dds.h\n'}
+[3.327454] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/ddsc\n'}
+[3.327473] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/ddsc/dds.h\n'}
+[3.327492] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include\n'}
+[3.327509] (cyclonedds) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds\n'}
+[3.327527] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/include/dds/export.h\n'}
+[3.327546] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libddsc.so.0.10.5\n'}
+[3.329671] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libddsc.so.0\n'}
+[3.329738] (cyclonedds) StdoutLine: {'line': b'-- Set runtime path of "/home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libddsc.so.0.10.5" to "$ORIGIN/../lib"\n'}
+[3.329775] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/lib/libddsc.so\n'}
+[3.329896] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/CONTRIBUTING.md\n'}
+[3.329926] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/CYCLONEDDS_QUALITY_DECLARATION.md\n'}
+[3.329955] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/LICENSE\n'}
+[3.329986] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/NOTICE.md\n'}
+[3.330017] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/README.md\n'}
+[3.330045] (cyclonedds) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/cyclonedds_ws/install/cyclonedds/share/doc/CycloneDDS/CHANGELOG.rst\n'}
+[3.330797] (cyclonedds) CommandEnded: {'returncode': 0}
+[3.347843] (cyclonedds) JobEnded: {'identifier': 'cyclonedds', 'rc': 0}
+[3.348113] (-) EventReactorShutdown: {}

@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target wang3_node[0m
+[ 50%] Built target wang2_node
+[ 75%] [32mBuilding CXX object CMakeFiles/wang3_node.dir/src/wang3.cpp.o[0m

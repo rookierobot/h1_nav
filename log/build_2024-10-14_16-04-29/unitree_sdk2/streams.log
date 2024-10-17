@@ -1,0 +1,30 @@
+[0.009s] Invoking command in '/home/robot/nav2_ws/build/unitree_sdk2': /usr/bin/cmake --build /home/robot/nav2_ws/build/unitree_sdk2 -- -j32 -l32
+[0.040s] [ 10%] Built target test_subscriber
+[0.040s] [ 10%] Built target test_publisher
+[0.040s] [ 13%] Built target state_machine_example
+[0.041s] [ 16%] Built target h1_2_arm_sdk_dds_example
+[0.041s] [ 20%] Built target go2_stand_example
+[0.041s] [ 25%] Built target b2_stand_example
+[0.041s] [ 26%] Built target h1_low_level_example
+[0.041s] [ 30%] Built target advanced_gamepad
+[0.041s] [ 33%] Built target h1_arm_sdk_dds_example
+[0.041s] [ 36%] Built target test_jsonize
+[0.041s] [ 40%] Built target g1_29dof_example
+[0.041s] [ 43%] Built target go2_robot_state_client
+[0.041s] [ 46%] Built target go2_video_client
+[0.041s] [ 50%] Built target h1_27dof_example
+[0.042s] [ 53%] Built target go2_vui_client
+[0.042s] [ 58%] Built target go2_sport_client
+[0.042s] [ 60%] Built target b2_sport_client
+[0.042s] [ 63%] Built target h1_loco_client
+[0.042s] [ 66%] Built target g1_arm5_sdk_dds_example
+[0.042s] [ 70%] Built target g1_dual_arm_example
+[0.043s] [ 75%] Built target g1_23dof_example
+[0.043s] [ 76%] Built target g1_23dof_ankle_track
+[0.044s] [ 80%] Built target h1_2_ankle_track
+[0.045s] [ 95%] Built target g1_loco_client
+[0.045s] [ 95%] Built target go2w_stand_example
+[0.045s] [ 95%] Built target g1_arm7_sdk_dds_example
+[0.045s] [ 96%] Built target go2_trajectory_follow
+[0.045s] [ 95%] Built target go2_low_level
+[0.054s] [100%] Built target go2w_sport_client

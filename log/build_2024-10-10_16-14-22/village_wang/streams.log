@@ -1,0 +1,19 @@
+[0.871s] Invoking command in '/home/robot/nav2_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32
+[0.888s] [35m[1mScanning dependencies of target wang3_node[0m
+[0.896s] [ 50%] Built target wang2_node
+[0.900s] [ 75%] [32mBuilding CXX object CMakeFiles/wang3_node.dir/src/wang3.cpp.o[0m
+[1.371s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:10:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[1.371s]    10 | }
+[1.371s]       |  [01;31m[K^[m[K
+[1.371s]       |  [32m[K;[m[K
+[1.373s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.373s] [01m[K/home/robot/nav2_ws/src/village_wang/src/wang3.cpp:15:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+[1.373s]    15 |     rclcpp::spin(Node)
+[1.373s]       |                       [01;31m[K^[m[K
+[1.373s]       |                       [32m[K;[m[K
+[1.373s]    16 |     [32m[Krclcpp[m[K::shutdown();
+[1.373s]       |     [32m[K~~~~~~[m[K             
+[1.502s] make[2]: *** [CMakeFiles/wang3_node.dir/build.make:63：CMakeFiles/wang3_node.dir/src/wang3.cpp.o] 错误 1
+[1.502s] make[1]: *** [CMakeFiles/Makefile2:80：CMakeFiles/wang3_node.dir/all] 错误 2
+[1.502s] make: *** [Makefile:141：all] 错误 2
+[1.504s] Invoked command in '/home/robot/nav2_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32

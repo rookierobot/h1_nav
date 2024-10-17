@@ -1,0 +1,56 @@
+[0.012s] Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/hello_world_msgs -- -j32 -l32
+[0.024s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.043s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.128s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.138s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.191s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.210s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.260s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.275s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.338s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.338s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.339s]   hello_world_msgs --arguments-file
+[0.339s]   /home/robot/nav2_ws/build/hello_world_msgs/rosidl_adapter__arguments__hello_world_msgs.json
+[0.339s]   --output-dir
+[0.339s]   /home/robot/nav2_ws/build/hello_world_msgs/rosidl_adapter/hello_world_msgs
+[0.339s]   --output-file
+[0.339s]   /home/robot/nav2_ws/build/hello_world_msgs/rosidl_adapter/hello_world_msgs.idls)
+[0.339s]   returned error code 1:
+[0.339s] 
+[0.339s]   Error processing 'int64 userID' of 'hello_world_msgs/HelloWorld': ''userID'
+[0.339s]   is an invalid field name.  It should have the pattern
+[0.339s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.339s] 
+[0.339s]   Traceback (most recent call last):
+[0.339s] 
+[0.339s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.339s]       return _run_code(code, main_globals, None,
+[0.339s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.339s]       exec(code, run_globals)
+[0.339s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.339s]       sys.exit(main())
+[0.339s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.339s]       abs_idl_file = convert_to_idl(
+[0.339s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.339s]       return convert_msg_to_idl(
+[0.339s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.339s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.339s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[0.339s]       fields.append(Field(
+[0.339s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[0.339s]       raise NameError(
+[0.339s] 
+[0.339s]   NameError: 'userID' is an invalid field name.  It should have the pattern
+[0.339s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.339s] 
+[0.339s] Call Stack (most recent call first):
+[0.339s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.339s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.339s] 
+[0.339s] 
+[0.339s] -- Configuring incomplete, errors occurred!
+[0.339s] See also "/home/robot/nav2_ws/build/hello_world_msgs/CMakeFiles/CMakeOutput.log".
+[0.342s] make: *** [Makefile:748：cmake_check_build_system] 错误 1
+[0.343s] Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/hello_world_msgs -- -j32 -l32

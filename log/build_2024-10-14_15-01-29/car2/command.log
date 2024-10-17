@@ -1,0 +1,4 @@
+Invoking command in '/home/robot/nav2_ws/build/car2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/car2 -- -j32 -l32
+Invoked command in '/home/robot/nav2_ws/build/car2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/car2 -- -j32 -l32
+Invoking command in '/home/robot/nav2_ws/build/car2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/car2
+Invoked command in '/home/robot/nav2_ws/build/car2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/car2

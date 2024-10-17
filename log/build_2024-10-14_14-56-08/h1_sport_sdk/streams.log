@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/robot/nav2_ws/build/h1_sport_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport_sdk -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/h1_sport_sdk
+[0.014s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.025s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.108s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.122s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.124s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.198s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.198s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.261s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.293s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.293s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.293s] -- Configured cppcheck include dirs: 
+[0.293s] -- Configured cppcheck exclude dirs and/or files: 
+[0.294s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.294s] -- Configured cpplint exclude dirs and/or files: 
+[0.294s] -- Added test 'lint_cmake' to check CMake code style
+[0.294s] -- Added test 'uncrustify' to check C / C++ code style
+[0.294s] -- Configured uncrustify additional arguments: 
+[0.294s] -- Added test 'xmllint' to check XML markup files
+[0.295s] -- Configuring done
+[0.296s] -- Generating done
+[0.297s] -- Build files have been written to: /home/robot/nav2_ws/build/h1_sport_sdk
+[0.299s] Invoked command in '/home/robot/nav2_ws/build/h1_sport_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport_sdk -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/h1_sport_sdk
+[0.300s] Invoking command in '/home/robot/nav2_ws/build/h1_sport_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport_sdk -- -j32 -l32

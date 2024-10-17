@@ -1,0 +1,9 @@
+-- /home/robot/nav2_ws/src/h1_sport_sdk
+CMake Error at CMakeLists.txt:24 (message):
+  Unitree SDK library for the architecture is not found
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/robot/nav2_ws/build/h1_sport_sdk/CMakeFiles/CMakeOutput.log".
+See also "/home/robot/nav2_ws/build/h1_sport_sdk/CMakeFiles/CMakeError.log".
+make: *** [Makefile:266：cmake_check_build_system] 错误 1

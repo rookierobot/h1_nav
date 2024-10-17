@@ -1,0 +1,46 @@
+-- Current system architecture: x86_64
+-- Importing: /home/robot/nav2_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+-- Importing: /home/robot/nav2_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+-- Unitree SDK library found at: /home/robot/nav2_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+-- Importing: /home/robot/nav2_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/nav2_ws/build/unitree_sdk2
+[35m[1mScanning dependencies of target chen_test_subscriber[0m
+[35m[1mScanning dependencies of target test_subscriber[0m
+[35m[1mScanning dependencies of target h1_sport[0m
+[  4%] Built target test_publisher
+[  7%] Built target advanced_gamepad
+[ 10%] Built target state_machine_example
+[ 14%] Built target go2_video_client
+[ 17%] Built target test_jsonize
+[ 20%] Built target go2_trajectory_follow
+[ 23%] Built target h1_arm_sdk_dds_example
+[ 26%] Built target go2_low_level
+[ 29%] Built target g1_23dof_example
+[ 34%] Built target h1_27dof_example
+[ 35%] Built target go2_robot_state_client
+[ 40%] Built target h1_2_arm_sdk_dds_example
+[ 42%] Built target go2_sport_client
+[ 45%] Built target go2_vui_client
+[ 48%] Built target b2_stand_example
+[ 51%] Built target g1_23dof_ankle_track
+[ 54%] Built target b2_sport_client
+[ 57%] Built target h1_2_ankle_track
+[ 60%] Built target h1_loco_client
+[ 62%] [32mBuilding CXX object example/h1/CMakeFiles/h1_sport.dir/high_level/h1_sport.cpp.o[0m
+[ 65%] Built target go2_stand_example
+[ 67%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o[0m
+[ 70%] Built target g1_arm5_sdk_dds_example
+[ 73%] Built target g1_dual_arm_example
+[ 79%] Built target h1_low_level_example
+[ 79%] Built target g1_29dof_example
+[ 82%] Built target g1_loco_client
+[ 85%] Built target g1_arm7_sdk_dds_example
+[ 89%] Built target go2w_stand_example
+[ 90%] [32mBuilding CXX object example/helloworld/CMakeFiles/chen_test_subscriber.dir/test_subscriber.cpp.o[0m
+[ 93%] Built target go2w_sport_client
+[ 95%] [32m[1mLinking CXX executable ../../bin/h1_sport[0m
+[ 96%] [32m[1mLinking CXX executable ../../bin/test_subscriber[0m
+[ 96%] Built target h1_sport
+[ 98%] Built target test_subscriber

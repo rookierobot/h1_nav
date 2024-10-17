@@ -1,0 +1,26 @@
+[0.021s] Invoking command in '/home/robot/nav2_ws/build/ros2_socket_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/ros2_socket_sender -- -j32 -l32
+[0.046s] [35m[1mScanning dependencies of target socket_sender[0m
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/socket_sender.dir/src/demo.cpp.o[0m
+[1.912s] [100%] [32m[1mLinking CXX executable socket_sender[0m
+[2.000s] [100%] Built target socket_sender
+[2.004s] Invoked command in '/home/robot/nav2_ws/build/ros2_socket_sender' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/ros2_socket_sender -- -j32 -l32
+[2.016s] Invoking command in '/home/robot/nav2_ws/build/ros2_socket_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/ros2_socket_sender
+[2.020s] -- Install configuration: ""
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ament_index/resource_index/package_run_dependencies/ros2_socket_sender
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ament_index/resource_index/parent_prefix_path/ros2_socket_sender
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/environment/ament_prefix_path.sh
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/environment/ament_prefix_path.dsv
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/environment/path.sh
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/environment/path.dsv
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/local_setup.bash
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/local_setup.sh
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/local_setup.zsh
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/local_setup.dsv
+[2.020s] -- Installing: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/package.dsv
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ament_index/resource_index/packages/ros2_socket_sender
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/cmake/ros2_socket_senderConfig.cmake
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/cmake/ros2_socket_senderConfig-version.cmake
+[2.020s] -- Up-to-date: /home/robot/nav2_ws/install/ros2_socket_sender/share/ros2_socket_sender/package.xml
+[2.020s] -- Installing: /home/robot/nav2_ws/install/ros2_socket_sender/lib/ros2_socket_sender/socket_sender
+[2.021s] -- Set runtime path of "/home/robot/nav2_ws/install/ros2_socket_sender/lib/ros2_socket_sender/socket_sender" to ""
+[2.022s] Invoked command in '/home/robot/nav2_ws/build/ros2_socket_sender' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/ros2_socket_sender

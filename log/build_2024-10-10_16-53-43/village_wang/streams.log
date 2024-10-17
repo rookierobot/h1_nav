@@ -1,0 +1,52 @@
+[0.875s] Invoking command in '/home/robot/nav2_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32
+[0.887s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.904s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.994s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.022s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.113s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.113s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.176s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.204s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.205s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.205s] -- Configured cppcheck include dirs: 
+[1.205s] -- Configured cppcheck exclude dirs and/or files: 
+[1.205s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.205s] -- Configured cpplint exclude dirs and/or files: 
+[1.205s] -- Added test 'lint_cmake' to check CMake code style
+[1.205s] -- Added test 'uncrustify' to check C / C++ code style
+[1.205s] -- Configured uncrustify additional arguments: 
+[1.206s] -- Added test 'xmllint' to check XML markup files
+[1.208s] -- Configuring done
+[1.213s] -- Generating done
+[1.213s] -- Build files have been written to: /home/robot/nav2_ws/build/village_wang
+[1.224s] [35m[1mScanning dependencies of target li3_node[0m
+[1.234s] [ 33%] Built target wang3_node
+[1.237s] [ 66%] Built target wang2_node
+[1.239s] [ 83%] [32mBuilding CXX object CMakeFiles/li3_node.dir/src/li3.cpp.o[0m
+[2.375s] [100%] [32m[1mLinking CXX executable li3_node[0m
+[2.436s] [100%] Built target li3_node
+[2.442s] Invoked command in '/home/robot/nav2_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32
+[2.452s] Invoking command in '/home/robot/nav2_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/village_wang
+[2.455s] -- Install configuration: ""
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[2.455s] -- Installing: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/path.sh
+[2.455s] -- Installing: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/path.dsv
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.bash
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.sh
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.zsh
+[2.455s] -- Installing: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.dsv
+[2.455s] -- Installing: /home/robot/nav2_ws/install/village_wang/share/village_wang/package.dsv
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/package.xml
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/lib/village_wang/wang2_node
+[2.455s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/lib/village_wang/wang3_node
+[2.455s] -- Installing: /home/robot/nav2_ws/install/village_wang/lib/village_wang/li3_node
+[2.456s] -- Set runtime path of "/home/robot/nav2_ws/install/village_wang/lib/village_wang/li3_node" to ""
+[2.457s] Invoked command in '/home/robot/nav2_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/village_wang

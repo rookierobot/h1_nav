@@ -1,0 +1,17 @@
+In file included from [01m[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp:12[m[K,
+                 from [01m[K/usr/local/include/unitree/robot/internal/internal_idl_decl/Request_.hpp:12[m[K,
+                 from [01m[K/usr/local/include/unitree/robot/internal/internal_request_response.hpp:4[m[K,
+                 from [01m[K/usr/local/include/unitree/robot/internal/internal.hpp:6[m[K,
+                 from [01m[K/usr/local/include/unitree/robot/future/request_future.hpp:5[m[K,
+                 from [01m[K/usr/local/include/unitree/robot/client/client_stub.hpp:4[m[K,
+                 from [01m[K/usr/local/include/unitree/robot/client/client_base.hpp:4[m[K,
+                 from [01m[K/usr/local/include/unitree/robot/client/client.hpp:4[m[K,
+                 from [01m[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:6[m[K,
+                 from [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:1[m[K:
+[01m[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp:62:10:[m[K [01;31m[Kfatal error: [m[Kdds/topic/TopicTraits.hpp: 没有那个文件或目录
+   62 | #include [01;31m[K"dds/topic/TopicTraits.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/demo.dir/build.make:63：CMakeFiles/demo.dir/src/demo.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/demo.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

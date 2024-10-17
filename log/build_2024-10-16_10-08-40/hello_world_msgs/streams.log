@@ -1,0 +1,24 @@
+[0.011s] Invoking command in '/home/robot/nav2_ws/build/hello_world_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/hello_world_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/hello_world_msgs
+[0.018s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.040s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.143s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.168s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.205s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.219s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.283s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.318s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.319s] -- Added test 'lint_cmake' to check CMake code style
+[0.319s] -- Added test 'xmllint' to check XML markup files
+[0.321s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.326s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):
+[0.326s]   rosidl_generate_interfaces() must be called before ament_package()
+[0.326s] Call Stack (most recent call first):
+[0.326s]   CMakeLists.txt:36 (rosidl_generate_interfaces)
+[0.326s] 
+[0.326s] 
+[0.327s] -- Configuring incomplete, errors occurred!
+[0.327s] See also "/home/robot/nav2_ws/build/hello_world_msgs/CMakeFiles/CMakeOutput.log".
+[0.330s] Invoked command in '/home/robot/nav2_ws/build/hello_world_msgs' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/hello_world_msgs -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/hello_world_msgs

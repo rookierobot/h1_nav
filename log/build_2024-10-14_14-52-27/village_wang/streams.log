@@ -1,0 +1,32 @@
+[0.840s] Invoking command in '/home/robot/nav2_ws/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32
+[0.858s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.863s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.946s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.963s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.049s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.071s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.072s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.135s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.165s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.166s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.166s] -- Configured cppcheck include dirs: 
+[1.166s] -- Configured cppcheck exclude dirs and/or files: 
+[1.166s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.166s] -- Configured cpplint exclude dirs and/or files: 
+[1.166s] -- Added test 'lint_cmake' to check CMake code style
+[1.167s] -- Added test 'uncrustify' to check C / C++ code style
+[1.167s] -- Configured uncrustify additional arguments: 
+[1.167s] -- Added test 'xmllint' to check XML markup files
+[1.169s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.169s]   ament_target_dependencies() the passed package name 'unitree_sdk2' was not
+[1.169s]   found before
+[1.169s] Call Stack (most recent call first):
+[1.169s]   CMakeLists.txt:45 (ament_target_dependencies)
+[1.169s] 
+[1.170s] 
+[1.170s] -- Configuring incomplete, errors occurred!
+[1.170s] See also "/home/robot/nav2_ws/build/village_wang/CMakeFiles/CMakeOutput.log".
+[1.170s] See also "/home/robot/nav2_ws/build/village_wang/CMakeFiles/CMakeError.log".
+[1.174s] make: *** [Makefile:354：cmake_check_build_system] 错误 1
+[1.176s] Invoked command in '/home/robot/nav2_ws/build/village_wang' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32

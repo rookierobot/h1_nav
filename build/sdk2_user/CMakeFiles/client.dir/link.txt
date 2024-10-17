@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/client.dir/src/client.cpp.o  -o client   -L/home/robot/nav2_ws/install/unitree_sdk2/lib  -Wl,-rpath,/home/robot/nav2_ws/install/unitree_sdk2/lib /home/robot/nav2_ws/install/unitree_sdk2/lib/libunitree_sdk2.a -lddsc -lddscxx -lpthread 

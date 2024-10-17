@@ -1,0 +1,28 @@
+[0.856s] Invoking command in '/home/robot/nav2_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32
+[0.875s] [35m[1mScanning dependencies of target wang3_node[0m
+[0.886s] [ 50%] Built target wang2_node
+[0.889s] [ 75%] [32mBuilding CXX object CMakeFiles/wang3_node.dir/src/wang3.cpp.o[0m
+[2.716s] [100%] [32m[1mLinking CXX executable wang3_node[0m
+[2.802s] [100%] Built target wang3_node
+[2.806s] Invoked command in '/home/robot/nav2_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/village_wang -- -j32 -l32
+[2.817s] Invoking command in '/home/robot/nav2_ws/build/village_wang': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/village_wang
+[2.821s] -- Install configuration: ""
+[2.821s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[2.821s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[2.821s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[2.821s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/path.sh
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/path.dsv
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.bash
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.sh
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.zsh
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.dsv
+[2.822s] -- Installing: /home/robot/nav2_ws/install/village_wang/share/village_wang/package.dsv
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/package.xml
+[2.822s] -- Up-to-date: /home/robot/nav2_ws/install/village_wang/lib/village_wang/wang2_node
+[2.822s] -- Installing: /home/robot/nav2_ws/install/village_wang/lib/village_wang/wang3_node
+[2.822s] -- Set runtime path of "/home/robot/nav2_ws/install/village_wang/lib/village_wang/wang3_node" to ""
+[2.823s] Invoked command in '/home/robot/nav2_ws/build/village_wang' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/village_wang

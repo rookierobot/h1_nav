@@ -1,0 +1,34 @@
+[1.210s] Invoking command in '/home/robot/nav2_ws/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_client --single-version-externally-managed install_data
+[1.374s] /home/robot/.local/lib/python3.8/site-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.374s]   warnings.warn(
+[1.393s] running egg_info
+[1.394s] creating ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info
+[1.395s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.397s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[1.397s] running build
+[1.397s] running build_py
+[1.397s] creating /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/build
+[1.397s] creating /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/build/lib
+[1.397s] creating /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.397s] copying examples_rclpy_minimal_action_client/client_not_composable.py -> /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.397s] copying examples_rclpy_minimal_action_client/client.py -> /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.397s] copying examples_rclpy_minimal_action_client/__init__.py -> /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.397s] copying examples_rclpy_minimal_action_client/client_cancel.py -> /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/build/lib/examples_rclpy_minimal_action_client
+[1.397s] running install
+[1.399s] running install_lib
+[1.399s] creating /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples_rclpy_minimal_action_client
+[1.400s] byte-compiling /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples_rclpy_minimal_action_client/client_not_composable.py to client_not_composable.cpython-38.pyc
+[1.400s] byte-compiling /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples_rclpy_minimal_action_client/client.py to client.cpython-38.pyc
+[1.401s] byte-compiling /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples_rclpy_minimal_action_client/__init__.py to __init__.cpython-38.pyc
+[1.401s] byte-compiling /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples_rclpy_minimal_action_client/client_cancel.py to client_cancel.cpython-38.pyc
+[1.401s] running install_data
+[1.401s] creating /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/share/ament_index
+[1.401s] creating /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index
+[1.401s] creating /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[1.401s] copying resource/examples_rclpy_minimal_action_client -> /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/share/ament_index/resource_index/packages
+[1.401s] copying package.xml -> /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/share/examples_rclpy_minimal_action_client
+[1.401s] running install_egg_info
+[1.402s] Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples_rclpy_minimal_action_client-0.9.4-py3.8.egg-info
+[1.403s] running install_scripts
+[1.417s] writing list of installed files to '/home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/install.log'
+[1.440s] Invoked command in '/home/robot/nav2_ws/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/build install --record /home/robot/nav2_ws/build/examples_rclpy_minimal_action_client/install.log --install-scripts $base/lib/examples_rclpy_minimal_action_client --single-version-externally-managed install_data

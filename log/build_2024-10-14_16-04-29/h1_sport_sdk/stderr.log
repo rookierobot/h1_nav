@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:24 (message):
+  Unitree SDK library for the architecture is not found
+
+
+make: *** [Makefile:266：cmake_check_build_system] 错误 1

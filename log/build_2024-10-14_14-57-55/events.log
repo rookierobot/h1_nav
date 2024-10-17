@@ -1,0 +1,861 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (car2) JobQueued: {'identifier': 'car2', 'dependencies': OrderedDict()}
+[0.000319] (h1_sport_sdk) JobQueued: {'identifier': 'h1_sport_sdk', 'dependencies': OrderedDict()}
+[0.000328] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict()}
+[0.000335] (car2) JobStarted: {'identifier': 'car2'}
+[0.002962] (h1_sport_sdk) JobStarted: {'identifier': 'h1_sport_sdk'}
+[0.004889] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.007606] (car2) JobProgress: {'identifier': 'car2', 'progress': 'cmake'}
+[0.007834] (car2) JobProgress: {'identifier': 'car2', 'progress': 'build'}
+[0.008076] (car2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/nav2_ws/build/car2', '--', '-j32', '-l32'], 'cwd': '/home/robot/nav2_ws/build/car2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1904'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1827'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5892'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58240'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1939,unix/robot:/tmp/.ICE-unix/1939'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ee5601c29b1843fca1ba760e029b8596'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/car2'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.009831] (h1_sport_sdk) JobProgress: {'identifier': 'h1_sport_sdk', 'progress': 'cmake'}
+[0.010039] (h1_sport_sdk) JobProgress: {'identifier': 'h1_sport_sdk', 'progress': 'build'}
+[0.010195] (h1_sport_sdk) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/nav2_ws/build/h1_sport_sdk', '--', '-j32', '-l32'], 'cwd': '/home/robot/nav2_ws/build/h1_sport_sdk', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1904'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1827'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5892'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58240'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1939,unix/robot:/tmp/.ICE-unix/1939'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ee5601c29b1843fca1ba760e029b8596'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/h1_sport_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.011956] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.012172] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.012320] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/nav2_ws/build/village_wang', '--', '-j32', '-l32'], 'cwd': '/home/robot/nav2_ws/build/village_wang', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1904'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1827'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5892'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58240'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1939,unix/robot:/tmp/.ICE-unix/1939'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ee5601c29b1843fca1ba760e029b8596'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/village_wang'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.021141] (h1_sport_sdk) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.023042] (village_wang) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.024243] (car2) CommandEnded: {'returncode': 0}
+[0.031767] (h1_sport_sdk) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.032352] (car2) JobProgress: {'identifier': 'car2', 'progress': 'install'}
+[0.033507] (village_wang) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.036473] (car2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/nav2_ws/build/car2'], 'cwd': '/home/robot/nav2_ws/build/car2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1904'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1827'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5892'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58240'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/1939,unix/robot:/tmp/.ICE-unix/1939'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ee5601c29b1843fca1ba760e029b8596'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/car2'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.040189] (car2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.040266] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/ament_index/resource_index/package_run_dependencies/car2\n'}
+[0.040333] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/ament_index/resource_index/parent_prefix_path/car2\n'}
+[0.040361] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/environment/ament_prefix_path.sh\n'}
+[0.040404] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/environment/ament_prefix_path.dsv\n'}
+[0.040429] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/environment/path.sh\n'}
+[0.040574] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/environment/path.dsv\n'}
+[0.040609] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/local_setup.bash\n'}
+[0.040663] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/local_setup.sh\n'}
+[0.040686] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/local_setup.zsh\n'}
+[0.040745] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/local_setup.dsv\n'}
+[0.040768] (car2) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/install/car2/share/car2/package.dsv\n'}
+[0.040790] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/ament_index/resource_index/packages/car2\n'}
+[0.040812] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/cmake/car2Config.cmake\n'}
+[0.040832] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/cmake/car2Config-version.cmake\n'}
+[0.040857] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/package.xml\n'}
+[0.040880] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/config\n'}
+[0.040919] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/config/fish_2d.lua\n'}
+[0.040942] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/launch\n'}
+[0.040999] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/launch/cartographer.launch.py\n'}
+[0.041022] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/rviz\n'}
+[0.041436] (car2) CommandEnded: {'returncode': 0}
+[0.055041] (car2) JobEnded: {'identifier': 'car2', 'rc': 0}
+[0.099860] (-) TimerEvent: {}
+[0.114554] (h1_sport_sdk) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.115688] (village_wang) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.130171] (h1_sport_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.130423] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.131618] (h1_sport_sdk) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.131806] (village_wang) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.184710] (h1_sport_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.184911] (village_wang) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199964] (-) TimerEvent: {}
+[0.205985] (h1_sport_sdk) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.206047] (village_wang) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.206539] (h1_sport_sdk) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.206597] (village_wang) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.268868] (h1_sport_sdk) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.269074] (village_wang) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.295573] (village_wang) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.295750] (h1_sport_sdk) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.295931] (village_wang) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.296153] (h1_sport_sdk) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.296183] (h1_sport_sdk) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.296206] (h1_sport_sdk) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.296273] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.296299] (village_wang) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.296322] (h1_sport_sdk) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.296344] (h1_sport_sdk) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.296390] (h1_sport_sdk) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.296413] (village_wang) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.296435] (village_wang) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.296478] (village_wang) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.296529] (village_wang) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.296551] (village_wang) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.296584] (h1_sport_sdk) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.296606] (h1_sport_sdk) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.296655] (village_wang) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.296687] (h1_sport_sdk) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.297872] (h1_sport_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.298400] (village_wang) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.299027] (village_wang) StderrLine: {'line': b'CMake Error at CMakeLists.txt:44 (add_executable):\n'}
+[0.299062] (village_wang) StderrLine: {'line': b'  Cannot find source file:\n'}
+[0.299084] (village_wang) StderrLine: {'line': b'\n'}
+[0.299105] (village_wang) StderrLine: {'line': b'    src/sub_cmdvel.cpp\n'}
+[0.299126] (village_wang) StderrLine: {'line': b'\n'}
+[0.299147] (village_wang) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[0.299178] (village_wang) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[0.299198] (village_wang) StderrLine: {'line': b'\n'}
+[0.299217] (village_wang) StderrLine: {'line': b'\n'}
+[0.299236] (village_wang) StderrLine: {'line': b'CMake Error at CMakeLists.txt:44 (add_executable):\n'}
+[0.299255] (village_wang) StderrLine: {'line': b'  No SOURCES given to target: sport_node\n'}
+[0.299275] (village_wang) StderrLine: {'line': b'\n'}
+[0.299294] (village_wang) StderrLine: {'line': b'\n'}
+[0.299313] (village_wang) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[0.300016] (-) TimerEvent: {}
+[0.300409] (h1_sport_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[0.300935] (h1_sport_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/robot/nav2_ws/build/h1_sport_sdk\n'}
+[0.301665] (village_wang) StderrLine: {'line': b'make: *** [Makefile:354\xef\xbc\x9acmake_check_build_system] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.302575] (village_wang) CommandEnded: {'returncode': 2}
+[0.311119] (h1_sport_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target sport_node\x1b[0m\n'}
+[0.315665] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 2}
+[0.325381] (h1_sport_sdk) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sport_node.dir/src/sub_cmdvel.cpp.o\x1b[0m\n'}
+[0.400145] (-) TimerEvent: {}
+[0.500373] (-) TimerEvent: {}
+[0.600630] (-) TimerEvent: {}
+[0.700874] (-) TimerEvent: {}
+[0.801099] (-) TimerEvent: {}
+[0.863518] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:26\x1b[m\x1b[K,\n'}
+[0.863649] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp:63\x1b[m\x1b[K,\n'}
+[0.863677] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp:12\x1b[m\x1b[K,\n'}
+[0.863699] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/Request_.hpp:12\x1b[m\x1b[K,\n'}
+[0.863720] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_request_response.hpp:4\x1b[m\x1b[K,\n'}
+[0.863740] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal.hpp:6\x1b[m\x1b[K,\n'}
+[0.863760] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/future/request_future.hpp:5\x1b[m\x1b[K,\n'}
+[0.863779] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:4\x1b[m\x1b[K,\n'}
+[0.863799] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.863818] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[0.863837] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[0.863857] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[0.863876] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:95:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.863902] (h1_sport_sdk) StderrLine: {'line': b'   95 |     static \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K *getSerType(allowable_encodings_t kinds = allowableEncodings())\n'}
+[0.863921] (h1_sport_sdk) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.863944] (h1_sport_sdk) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.865080] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:167:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_typeid_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdds_time_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.865137] (h1_sport_sdk) StderrLine: {'line': b'  167 |     static \x1b[01;31m\x1b[Kddsi_typeid_t\x1b[m\x1b[K* getTypeId(const struct ddsi_sertype *, ddsi_typeid_kind_t kind)\n'}
+[0.865163] (h1_sport_sdk) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.865189] (h1_sport_sdk) StderrLine: {'line': b'      |            \x1b[32m\x1b[Kdds_time_t\x1b[m\x1b[K\n'}
+[0.866971] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:188:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_typemap_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.867031] (h1_sport_sdk) StderrLine: {'line': b'  188 |     static \x1b[01;31m\x1b[Kddsi_typemap_t\x1b[m\x1b[K* getTypeMap(const struct ddsi_sertype *)\n'}
+[0.867056] (h1_sport_sdk) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.868982] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:202:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_typeinfo_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.869042] (h1_sport_sdk) StderrLine: {'line': b'  202 |     static \x1b[01;31m\x1b[Kddsi_typeinfo_t\x1b[m\x1b[K* getTypeInfo(const struct ddsi_sertype *)\n'}
+[0.869068] (h1_sport_sdk) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.869090] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:266:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_data_representation_id_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.869111] (h1_sport_sdk) StderrLine: {'line': b'  266 |     static struct ddsi_sertype* deriveSertype(const struct ddsi_sertype *, \x1b[01;31m\x1b[Kdds_data_representation_id_t\x1b[m\x1b[K data_representation, dds_type_consistency_enforcement_qospolicy_t)\n'}
+[0.869132] (h1_sport_sdk) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.869151] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:266:126:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_type_consistency_enforcement_qospolicy_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.869171] (h1_sport_sdk) StderrLine: {'line': b'  266 |     static struct ddsi_sertype* deriveSertype(const struct ddsi_sertype *, dds_data_representation_id_t data_representation, \x1b[01;31m\x1b[Kdds_type_consistency_enforcement_qospolicy_t\x1b[m\x1b[K)\n'}
+[0.869191] (h1_sport_sdk) StderrLine: {'line': b'      |                                                                                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.874202] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:26\x1b[m\x1b[K,\n'}
+[0.874259] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp:63\x1b[m\x1b[K,\n'}
+[0.874285] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp:12\x1b[m\x1b[K,\n'}
+[0.874313] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/Request_.hpp:12\x1b[m\x1b[K,\n'}
+[0.874334] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_request_response.hpp:4\x1b[m\x1b[K,\n'}
+[0.874354] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal.hpp:6\x1b[m\x1b[K,\n'}
+[0.874373] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/future/request_future.hpp:5\x1b[m\x1b[K,\n'}
+[0.874393] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:4\x1b[m\x1b[K,\n'}
+[0.874414] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.874432] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[0.874455] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[0.874473] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[0.874492] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic org::eclipse::cyclonedds::topic::ddsi_sertype* org::eclipse::cyclonedds::topic::TopicTraits<TOPIC>::deriveSertype(const org::eclipse::cyclonedds::topic::ddsi_sertype*, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.874514] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:270:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_DATA_REPRESENTATION_XCDR1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.874534] (h1_sport_sdk) StderrLine: {'line': b'  270 |           case \x1b[01;31m\x1b[KDDS_DATA_REPRESENTATION_XCDR1\x1b[m\x1b[K:\n'}
+[0.874553] (h1_sport_sdk) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.879848] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:271:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_DATA_REPRESENTATION_FLAG_XCDR1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.879922] (h1_sport_sdk) StderrLine: {'line': b'  271 |               ptr = getSerType(\x1b[01;31m\x1b[KDDS_DATA_REPRESENTATION_FLAG_XCDR1\x1b[m\x1b[K);\n'}
+[0.879948] (h1_sport_sdk) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.879969] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:271:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[KgetSerType\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[KgetSerType\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[0.879993] (h1_sport_sdk) StderrLine: {'line': b'  271 |               ptr = \x1b[01;31m\x1b[KgetSerType\x1b[m\x1b[K(DDS_DATA_REPRESENTATION_FLAG_XCDR1);\n'}
+[0.880013] (h1_sport_sdk) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.880032] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:271:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K(if you use \xe2\x80\x98\x1b[01m\x1b[K-fpermissive\x1b[m\x1b[K\xe2\x80\x99, G++ will accept your code, but allowing the use of an undeclared name is deprecated)\n'}
+[0.884908] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:273:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_DATA_REPRESENTATION_XCDR2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.884979] (h1_sport_sdk) StderrLine: {'line': b'  273 |           case \x1b[01;31m\x1b[KDDS_DATA_REPRESENTATION_XCDR2\x1b[m\x1b[K:\n'}
+[0.885004] (h1_sport_sdk) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.890527] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:274:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_DATA_REPRESENTATION_FLAG_XCDR2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.890596] (h1_sport_sdk) StderrLine: {'line': b'  274 |               ptr = getSerType(\x1b[01;31m\x1b[KDDS_DATA_REPRESENTATION_FLAG_XCDR2\x1b[m\x1b[K);\n'}
+[0.890625] (h1_sport_sdk) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.890646] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:274:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[KgetSerType\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[KgetSerType\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[0.890669] (h1_sport_sdk) StderrLine: {'line': b'  274 |               ptr = \x1b[01;31m\x1b[KgetSerType\x1b[m\x1b[K(DDS_DATA_REPRESENTATION_FLAG_XCDR2);\n'}
+[0.890689] (h1_sport_sdk) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.893865] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:279:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDSI_SERTYPE_REFC_MASK\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.893933] (h1_sport_sdk) StderrLine: {'line': b'  279 |             ddsrt_atomic_st32 (&ptr->flags_refc, refc & ~\x1b[01;31m\x1b[KDDSI_SERTYPE_REFC_MASK\x1b[m\x1b[K);\n'}
+[0.893958] (h1_sport_sdk) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.893980] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:279:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthe macro \xe2\x80\x98\x1b[01m\x1b[KDDSI_SERTYPE_REFC_MASK\x1b[m\x1b[K\xe2\x80\x99 had not yet been defined\n'}
+[0.894002] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:155\x1b[m\x1b[K,\n'}
+[0.894022] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23\x1b[m\x1b[K,\n'}
+[0.894042] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/BuiltinTopic.hpp:22\x1b[m\x1b[K,\n'}
+[0.894061] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36\x1b[m\x1b[K,\n'}
+[0.894081] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31\x1b[m\x1b[K,\n'}
+[0.894101] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[0.894121] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[0.894140] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[0.894159] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.894178] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.894196] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[0.894215] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[0.894233] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[0.894252] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[0.894270] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.894290] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[0.894309] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[0.894328] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[0.894346] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kit was later defined here\n'}
+[0.894365] (h1_sport_sdk) StderrLine: {'line': b'   36 | #define DDSI_SERTYPE_REFC_MASK   0x0fffffffu\n'}
+[0.894385] (h1_sport_sdk) StderrLine: {'line': b'      | \n'}
+[0.898861] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp:63\x1b[m\x1b[K,\n'}
+[0.898924] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp:12\x1b[m\x1b[K,\n'}
+[0.898953] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/Request_.hpp:12\x1b[m\x1b[K,\n'}
+[0.898976] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_request_response.hpp:4\x1b[m\x1b[K,\n'}
+[0.898996] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal.hpp:6\x1b[m\x1b[K,\n'}
+[0.899017] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/future/request_future.hpp:5\x1b[m\x1b[K,\n'}
+[0.899036] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:4\x1b[m\x1b[K,\n'}
+[0.899055] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.899074] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[0.899093] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[0.899111] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[0.899130] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kbool read_header(const void*, org::eclipse::cyclonedds::core::cdr::encoding_version&, org::eclipse::cyclonedds::core::cdr::endianness&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.899150] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:213:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_DATA_REPRESENTATION_FLAG_XCDR1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.899170] (h1_sport_sdk) StderrLine: {'line': b'  213 |           if (TopicTraits<T>::allowableEncodings() & \x1b[01;31m\x1b[KDDS_DATA_REPRESENTATION_FLAG_XCDR1\x1b[m\x1b[K)\n'}
+[0.899189] (h1_sport_sdk) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.900033] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:\x1b[m\x1b[K At global scope:\n'}
+[0.900088] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:380:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.900115] (h1_sport_sdk) StderrLine: {'line': b'  380 |   const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* type,\n'}
+[0.900143] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.900164] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.900976] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:406:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.901048] (h1_sport_sdk) StderrLine: {'line': b'  406 |   const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* type,\n'}
+[0.901074] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.901095] (-) TimerEvent: {}
+[0.901138] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.901954] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:441:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.902014] (h1_sport_sdk) StderrLine: {'line': b'  441 |   const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* type,\n'}
+[0.902042] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.902063] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.902822] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:452:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.902879] (h1_sport_sdk) StderrLine: {'line': b'  452 |   const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* typecmn,\n'}
+[0.902904] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.902926] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.903812] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:561:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.903839] (h1_sport_sdk) StderrLine: {'line': b'  561 |   const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* type,\n'}
+[0.903860] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.903881] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.904700] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:595:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.904724] (h1_sport_sdk) StderrLine: {'line': b'  595 |   const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* tpcmn, const ddsi_serdata* dcmn, char* buf, size_t bufsize)\n'}
+[0.904745] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.904765] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.908507] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:699:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.908573] (h1_sport_sdk) StderrLine: {'line': b'  699 |   ddscxx_serdata(const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* type, ddsi_serdata_kind kind);\n'}
+[0.908599] (h1_sport_sdk) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.908621] (h1_sport_sdk) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.909739] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:719:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.909763] (h1_sport_sdk) StderrLine: {'line': b'  719 | ddscxx_serdata<T>::ddscxx_serdata(const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* type, ddsi_serdata_kind kind)\n'}
+[0.909784] (h1_sport_sdk) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.909806] (h1_sport_sdk) StderrLine: {'line': b'      |                                         \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.910642] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ddscxx_serdata<T>::populate_hash()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.910669] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:766:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.910691] (h1_sport_sdk) StderrLine: {'line': b'  766 |   hash ^= \x1b[01;31m\x1b[Ktype\x1b[m\x1b[K->serdata_basehash;\n'}
+[0.910711] (h1_sport_sdk) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.910748] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:\x1b[m\x1b[K At global scope:\n'}
+[0.910771] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:850:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Ksertype_free\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[0.910794] (h1_sport_sdk) StderrLine: {'line': b'  850 | void sertype_free(\x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* tpcmn)\n'}
+[0.910814] (h1_sport_sdk) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.910898] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:850:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Korg::eclipse::cyclonedds::topic::ddsi_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.910947] (h1_sport_sdk) StderrLine: {'line': b'  850 | void sertype_free(\x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* tpcmn)\n'}
+[0.910967] (h1_sport_sdk) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.910987] (h1_sport_sdk) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Korg::eclipse::cyclonedds::topic::ddsi_sertype\x1b[m\x1b[K\n'}
+[0.911007] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:26\x1b[m\x1b[K,\n'}
+[0.911026] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp:63\x1b[m\x1b[K,\n'}
+[0.911045] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp:12\x1b[m\x1b[K,\n'}
+[0.911065] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/Request_.hpp:12\x1b[m\x1b[K,\n'}
+[0.911084] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_request_response.hpp:4\x1b[m\x1b[K,\n'}
+[0.911102] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal.hpp:6\x1b[m\x1b[K,\n'}
+[0.911120] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/future/request_future.hpp:5\x1b[m\x1b[K,\n'}
+[0.911139] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:4\x1b[m\x1b[K,\n'}
+[0.911157] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.911175] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[0.911192] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[0.911211] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[0.911229] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:266:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Korg::eclipse::cyclonedds::topic::ddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[0.911247] (h1_sport_sdk) StderrLine: {'line': b'  266 |     static struct \x1b[01;36m\x1b[Kddsi_sertype\x1b[m\x1b[K* deriveSertype(const struct ddsi_sertype *, dds_data_representation_id_t data_representation, dds_type_consistency_enforcement_qospolicy_t)\n'}
+[0.911265] (h1_sport_sdk) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.911559] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp:63\x1b[m\x1b[K,\n'}
+[0.911582] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp:12\x1b[m\x1b[K,\n'}
+[0.911619] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/Request_.hpp:12\x1b[m\x1b[K,\n'}
+[0.911638] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_request_response.hpp:4\x1b[m\x1b[K,\n'}
+[0.911658] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal.hpp:6\x1b[m\x1b[K,\n'}
+[0.911677] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/future/request_future.hpp:5\x1b[m\x1b[K,\n'}
+[0.911695] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:4\x1b[m\x1b[K,\n'}
+[0.911714] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.911732] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[0.911750] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[0.911768] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[0.911786] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:850:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktpcmn\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.911804] (h1_sport_sdk) StderrLine: {'line': b'  850 | void sertype_free(ddsi_sertype* \x1b[01;31m\x1b[Ktpcmn\x1b[m\x1b[K)\n'}
+[0.911823] (h1_sport_sdk) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.912419] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:858:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.912441] (h1_sport_sdk) StderrLine: {'line': b'  858 | void sertype_zero_samples(const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K*, void*, size_t)\n'}
+[0.912460] (h1_sport_sdk) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.912522] (h1_sport_sdk) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.913288] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:865:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.913339] (h1_sport_sdk) StderrLine: {'line': b'  865 |   void** ptrs, const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K*, void*, size_t, size_t)\n'}
+[0.913363] (h1_sport_sdk) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.913384] (h1_sport_sdk) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.914167] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:884:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.914191] (h1_sport_sdk) StderrLine: {'line': b'  884 |   const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K*, void** ptrs, size_t, dds_free_op_t op)\n'}
+[0.914211] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.914232] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.915057] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:909:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.915080] (h1_sport_sdk) StderrLine: {'line': b'  909 |   const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* acmn, const ddsi_sertype* bcmn)\n'}
+[0.915099] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.915119] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.915905] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:909:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.915927] (h1_sport_sdk) StderrLine: {'line': b'  909 |   const ddsi_sertype* acmn, const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* bcmn)\n'}
+[0.915946] (h1_sport_sdk) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.915965] (h1_sport_sdk) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.916760] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:919:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.916783] (h1_sport_sdk) StderrLine: {'line': b'  919 | uint32_t sertype_hash(const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K* tpcmn)\n'}
+[0.916802] (h1_sport_sdk) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.916822] (h1_sport_sdk) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.917613] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:926:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.917635] (h1_sport_sdk) StderrLine: {'line': b'  926 | size_t sertype_get_serialized_size(const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K*, const void * sample)\n'}
+[0.917654] (h1_sport_sdk) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.917673] (h1_sport_sdk) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.918491] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:941:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.918523] (h1_sport_sdk) StderrLine: {'line': b'  941 | bool sertype_serialize_into(const \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K*,\n'}
+[0.918545] (h1_sport_sdk) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.918566] (h1_sport_sdk) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.918587] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:954:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected class-name before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.918619] (h1_sport_sdk) StderrLine: {'line': b'  954 | struct ddscxx_sertype_ops: public ddsi_sertype_ops \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[0.918638] (h1_sport_sdk) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.918656] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype_ops<T, S>::ddscxx_sertype_ops()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.918676] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:955:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype_ops<T, S>\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype_ops\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.918697] (h1_sport_sdk) StderrLine: {'line': b'  955 |   ddscxx_sertype_ops(): \x1b[01;31m\x1b[Kddsi_sertype_ops\x1b[m\x1b[K {\n'}
+[0.918715] (h1_sport_sdk) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.920285] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:956:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype_v0\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddsi_sertopic\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.920329] (h1_sport_sdk) StderrLine: {'line': b'  956 |   \x1b[01;31m\x1b[Kddsi_sertype_v0\x1b[m\x1b[K,\n'}
+[0.920351] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.920375] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kddsi_sertopic\x1b[m\x1b[K\n'}
+[0.921748] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:958:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksertype_free\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksertype_hash\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.921805] (h1_sport_sdk) StderrLine: {'line': b'  958 |   \x1b[01;31m\x1b[Ksertype_free\x1b[m\x1b[K<T,S>,\n'}
+[0.921828] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.921851] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[32m\x1b[Ksertype_hash\x1b[m\x1b[K\n'}
+[0.921872] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:958:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.921894] (h1_sport_sdk) StderrLine: {'line': b'  958 |   sertype_free<T\x1b[01;31m\x1b[K,\x1b[m\x1b[KS>,\n'}
+[0.921916] (h1_sport_sdk) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.921937] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:958:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.921957] (h1_sport_sdk) StderrLine: {'line': b'  958 |   sertype_free<T,S\x1b[01;31m\x1b[K>\x1b[m\x1b[K,\n'}
+[0.921977] (h1_sport_sdk) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.921997] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:958:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.922029] (h1_sport_sdk) StderrLine: {'line': b'  958 |   sertype_free<T,S>\x1b[01;31m\x1b[K,\x1b[m\x1b[K\n'}
+[0.922048] (h1_sport_sdk) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.922068] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:\x1b[m\x1b[K At global scope:\n'}
+[0.922087] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:981:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected class-name before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.922106] (h1_sport_sdk) StderrLine: {'line': b'  981 | class ddscxx_sertype : public ddsi_sertype \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[0.922125] (h1_sport_sdk) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.922143] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype<T, S>::ddscxx_sertype()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.922162] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:996:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype<T, S>\x1b[m\x1b[K\xe2\x80\x99 does not have any field named \xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.922183] (h1_sport_sdk) StderrLine: {'line': b'  996 |   : \x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K{}\n'}
+[0.922202] (h1_sport_sdk) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.926380] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:998:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDSI_SERTYPE_FLAG_TOPICKIND_NO_KEY\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.926443] (h1_sport_sdk) StderrLine: {'line': b'  998 |   uint32_t flags = (TopicTraits<T>::isKeyless() ? \x1b[01;31m\x1b[KDDSI_SERTYPE_FLAG_TOPICKIND_NO_KEY\x1b[m\x1b[K : 0);\n'}
+[0.926465] (h1_sport_sdk) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.926487] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:998:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kthe macro \xe2\x80\x98\x1b[01m\x1b[KDDSI_SERTYPE_FLAG_TOPICKIND_NO_KEY\x1b[m\x1b[K\xe2\x80\x99 had not yet been defined\n'}
+[0.926509] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:155\x1b[m\x1b[K,\n'}
+[0.926529] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23\x1b[m\x1b[K,\n'}
+[0.926549] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/BuiltinTopic.hpp:22\x1b[m\x1b[K,\n'}
+[0.926568] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36\x1b[m\x1b[K,\n'}
+[0.926588] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31\x1b[m\x1b[K,\n'}
+[0.926607] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[0.926625] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[0.926644] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[0.926663] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.926682] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.926700] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[0.926719] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[0.926737] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[0.926757] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[0.926776] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.926794] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[0.926813] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[0.926831] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[0.926850] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:178:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kit was later defined here\n'}
+[0.926868] (h1_sport_sdk) StderrLine: {'line': b'  178 | #define DDSI_SERTYPE_FLAG_TOPICKIND_NO_KEY (1u)\n'}
+[0.926888] (h1_sport_sdk) StderrLine: {'line': b'      | \n'}
+[0.927566] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp:63\x1b[m\x1b[K,\n'}
+[0.927592] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp:12\x1b[m\x1b[K,\n'}
+[0.927618] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/Request_.hpp:12\x1b[m\x1b[K,\n'}
+[0.927670] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_request_response.hpp:4\x1b[m\x1b[K,\n'}
+[0.927691] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal.hpp:6\x1b[m\x1b[K,\n'}
+[0.927709] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/future/request_future.hpp:5\x1b[m\x1b[K,\n'}
+[0.927728] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:4\x1b[m\x1b[K,\n'}
+[0.927746] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.927765] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[0.927783] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[0.927801] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[0.927819] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:1005:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddscxx_sertype\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.927838] (h1_sport_sdk) StderrLine: {'line': b' 1005 |       static_cast<\x1b[01;31m\x1b[Kddsi_sertype\x1b[m\x1b[K*>(this),\n'}
+[0.927858] (h1_sport_sdk) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.927876] (h1_sport_sdk) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Kddscxx_sertype\x1b[m\x1b[K\n'}
+[0.927895] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:1005:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.927914] (h1_sport_sdk) StderrLine: {'line': b' 1005 |       static_cast<ddsi_sertype\x1b[01;31m\x1b[K*\x1b[m\x1b[K>(this),\n'}
+[0.927933] (h1_sport_sdk) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.927951] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:1005:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K*\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.927971] (h1_sport_sdk) StderrLine: {'line': b' 1005 |       static_cast<ddsi_sertype\x1b[01;31m\x1b[K*\x1b[m\x1b[K>(this),\n'}
+[0.927989] (h1_sport_sdk) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.928007] (h1_sport_sdk) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K(\x1b[m\x1b[K\n'}
+[0.928026] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:1005:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.928050] (h1_sport_sdk) StderrLine: {'line': b' 1005 |       static_cast<ddsi_sertype*\x1b[01;31m\x1b[K>\x1b[m\x1b[K(this),\n'}
+[0.928068] (h1_sport_sdk) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.932305] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:1011:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kallowed_data_representation\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.932329] (h1_sport_sdk) StderrLine: {'line': b' 1011 |   \x1b[01;31m\x1b[Kallowed_data_representation\x1b[m\x1b[K = TopicTraits<T>::allowableEncodings();\n'}
+[0.932349] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.993806] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp:23\x1b[m\x1b[K,\n'}
+[0.993917] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/detail/DomainParticipant.hpp:22\x1b[m\x1b[K,\n'}
+[0.993948] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/DomainParticipant.hpp:22\x1b[m\x1b[K,\n'}
+[0.993969] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/find.hpp:22\x1b[m\x1b[K,\n'}
+[0.993991] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/ddsdomain.hpp:21\x1b[m\x1b[K,\n'}
+[0.994012] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:34\x1b[m\x1b[K,\n'}
+[0.994032] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.994052] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.994073] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[0.994095] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[0.994115] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[0.994134] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[0.994153] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[0.994172] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[0.994191] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[0.994210] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[0.994230] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantDelegate.hpp:\x1b[m\x1b[K At global scope:\n'}
+[0.994249] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantDelegate.hpp:120:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_typeinfo_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdds_sample_info_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.994270] (h1_sport_sdk) StderrLine: {'line': b'  120 |                  const \x1b[01;31m\x1b[Kdds_typeinfo_t\x1b[m\x1b[K *type_info,\n'}
+[0.994288] (h1_sport_sdk) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.994307] (h1_sport_sdk) StderrLine: {'line': b'      |                        \x1b[32m\x1b[Kdds_sample_info_t\x1b[m\x1b[K\n'}
+[1.001162] (-) TimerEvent: {}
+[1.004126] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsrt/rusage.h:33\x1b[m\x1b[K,\n'}
+[1.004357] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsi/q_log.h:19\x1b[m\x1b[K,\n'}
+[1.004383] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsi/ddsi_xqos.h:20\x1b[m\x1b[K,\n'}
+[1.004404] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:18\x1b[m\x1b[K,\n'}
+[1.004424] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:155\x1b[m\x1b[K,\n'}
+[1.004446] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23\x1b[m\x1b[K,\n'}
+[1.004470] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/BuiltinTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.004491] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36\x1b[m\x1b[K,\n'}
+[1.004511] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31\x1b[m\x1b[K,\n'}
+[1.004531] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.004551] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[1.004569] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[1.004592] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.004613] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.004631] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.004654] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.004672] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.004691] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.004710] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.004728] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.004748] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.004767] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.004785] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsrt/threads.h:71:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDSRT_SCHED_DEFAULT\x1b[m\x1b[K\xe2\x80\x99 conflicts with a previous declaration\n'}
+[1.004805] (h1_sport_sdk) StderrLine: {'line': b'   71 |   \x1b[01;31m\x1b[KDDSRT_SCHED_DEFAULT\x1b[m\x1b[K,\n'}
+[1.004823] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.004841] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_config.h:19\x1b[m\x1b[K,\n'}
+[1.004859] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/TDomainParticipant.hpp:24\x1b[m\x1b[K,\n'}
+[1.004876] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp:22\x1b[m\x1b[K,\n'}
+[1.004894] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/detail/DomainParticipant.hpp:22\x1b[m\x1b[K,\n'}
+[1.004913] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/DomainParticipant.hpp:22\x1b[m\x1b[K,\n'}
+[1.004930] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/find.hpp:22\x1b[m\x1b[K,\n'}
+[1.004948] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/ddsdomain.hpp:21\x1b[m\x1b[K,\n'}
+[1.004966] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:34\x1b[m\x1b[K,\n'}
+[1.004983] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.005000] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.005017] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.005034] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.005052] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.005070] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.005087] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.005105] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.005122] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.005139] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.005157] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsrt/sched.h:28:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kddsrt_sched_t DDSRT_SCHED_DEFAULT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.005176] (h1_sport_sdk) StderrLine: {'line': b'   28 |   \x1b[01;36m\x1b[KDDSRT_SCHED_DEFAULT\x1b[m\x1b[K,\n'}
+[1.005195] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.005215] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsrt/rusage.h:33\x1b[m\x1b[K,\n'}
+[1.005233] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsi/q_log.h:19\x1b[m\x1b[K,\n'}
+[1.005252] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsi/ddsi_xqos.h:20\x1b[m\x1b[K,\n'}
+[1.005271] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:18\x1b[m\x1b[K,\n'}
+[1.005289] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:155\x1b[m\x1b[K,\n'}
+[1.005307] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23\x1b[m\x1b[K,\n'}
+[1.005325] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/BuiltinTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.005343] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36\x1b[m\x1b[K,\n'}
+[1.005360] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31\x1b[m\x1b[K,\n'}
+[1.005378] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.005396] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[1.005531] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[1.005569] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.005593] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.005617] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.005636] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.005655] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.005675] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.005694] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.005713] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.005732] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.005752] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.005771] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsrt/threads.h:78:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDSRT_SCHED_REALTIME\x1b[m\x1b[K\xe2\x80\x99 conflicts with a previous declaration\n'}
+[1.005792] (h1_sport_sdk) StderrLine: {'line': b'   78 |   \x1b[01;31m\x1b[KDDSRT_SCHED_REALTIME\x1b[m\x1b[K,\n'}
+[1.005811] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.005829] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_config.h:19\x1b[m\x1b[K,\n'}
+[1.005847] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/TDomainParticipant.hpp:24\x1b[m\x1b[K,\n'}
+[1.005867] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp:22\x1b[m\x1b[K,\n'}
+[1.005885] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/detail/DomainParticipant.hpp:22\x1b[m\x1b[K,\n'}
+[1.005904] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/DomainParticipant.hpp:22\x1b[m\x1b[K,\n'}
+[1.005923] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/find.hpp:22\x1b[m\x1b[K,\n'}
+[1.005941] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/ddsdomain.hpp:21\x1b[m\x1b[K,\n'}
+[1.005960] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:34\x1b[m\x1b[K,\n'}
+[1.005978] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.005997] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.006015] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.006034] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.006053] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.006071] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.006090] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.006109] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.006128] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.006147] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.006166] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsrt/sched.h:35:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kddsrt_sched_t DDSRT_SCHED_REALTIME\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.006185] (h1_sport_sdk) StderrLine: {'line': b'   35 |   \x1b[01;36m\x1b[KDDSRT_SCHED_REALTIME\x1b[m\x1b[K,\n'}
+[1.006204] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.006222] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsrt/rusage.h:33\x1b[m\x1b[K,\n'}
+[1.006240] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsi/q_log.h:19\x1b[m\x1b[K,\n'}
+[1.006258] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsi/ddsi_xqos.h:20\x1b[m\x1b[K,\n'}
+[1.006277] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:18\x1b[m\x1b[K,\n'}
+[1.006294] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:155\x1b[m\x1b[K,\n'}
+[1.006311] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23\x1b[m\x1b[K,\n'}
+[1.006328] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/BuiltinTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.006346] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36\x1b[m\x1b[K,\n'}
+[1.006364] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31\x1b[m\x1b[K,\n'}
+[1.006384] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.006402] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[1.006420] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[1.006437] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.006455] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.006473] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.006491] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.006507] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.006524] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.006542] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.006559] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.006577] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.006595] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.006613] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsrt/threads.h:84:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDSRT_SCHED_TIMESHARE\x1b[m\x1b[K\xe2\x80\x99 conflicts with a previous declaration\n'}
+[1.006631] (h1_sport_sdk) StderrLine: {'line': b'   84 |   \x1b[01;31m\x1b[KDDSRT_SCHED_TIMESHARE\x1b[m\x1b[K\n'}
+[1.006650] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.006668] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_config.h:19\x1b[m\x1b[K,\n'}
+[1.006686] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/TDomainParticipant.hpp:24\x1b[m\x1b[K,\n'}
+[1.006704] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp:22\x1b[m\x1b[K,\n'}
+[1.006721] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/detail/DomainParticipant.hpp:22\x1b[m\x1b[K,\n'}
+[1.006739] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/DomainParticipant.hpp:22\x1b[m\x1b[K,\n'}
+[1.006757] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/find.hpp:22\x1b[m\x1b[K,\n'}
+[1.006775] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/ddsdomain.hpp:21\x1b[m\x1b[K,\n'}
+[1.006791] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:34\x1b[m\x1b[K,\n'}
+[1.006809] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.006826] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.006843] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.006861] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.006877] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.006895] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.006912] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.006930] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.006947] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.006965] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.006982] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsrt/sched.h:41:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kddsrt_sched_t DDSRT_SCHED_TIMESHARE\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007000] (h1_sport_sdk) StderrLine: {'line': b'   41 |   \x1b[01;36m\x1b[KDDSRT_SCHED_TIMESHARE\x1b[m\x1b[K\n'}
+[1.007017] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.007035] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsrt/rusage.h:33\x1b[m\x1b[K,\n'}
+[1.007052] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsi/q_log.h:19\x1b[m\x1b[K,\n'}
+[1.007071] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsi/ddsi_xqos.h:20\x1b[m\x1b[K,\n'}
+[1.007089] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:18\x1b[m\x1b[K,\n'}
+[1.007106] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:155\x1b[m\x1b[K,\n'}
+[1.007124] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23\x1b[m\x1b[K,\n'}
+[1.007142] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/BuiltinTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.007160] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36\x1b[m\x1b[K,\n'}
+[1.007178] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31\x1b[m\x1b[K,\n'}
+[1.007195] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.007212] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[1.007230] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[1.007248] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.007265] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.007282] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.007299] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.007317] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.007335] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.007352] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.007369] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.007387] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.007404] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.007423] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/dds/ddsrt/threads.h:85:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Ktypedef enum ddsrt_sched_t ddsrt_sched_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007441] (h1_sport_sdk) StderrLine: {'line': b'   85 | } \x1b[01;31m\x1b[Kddsrt_sched_t\x1b[m\x1b[K;\n'}
+[1.007459] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.007478] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_config.h:19\x1b[m\x1b[K,\n'}
+[1.007496] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/TDomainParticipant.hpp:24\x1b[m\x1b[K,\n'}
+[1.007515] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp:22\x1b[m\x1b[K,\n'}
+[1.007532] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/detail/DomainParticipant.hpp:22\x1b[m\x1b[K,\n'}
+[1.007549] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/DomainParticipant.hpp:22\x1b[m\x1b[K,\n'}
+[1.007567] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/find.hpp:22\x1b[m\x1b[K,\n'}
+[1.007584] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/domain/ddsdomain.hpp:21\x1b[m\x1b[K,\n'}
+[1.007601] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:34\x1b[m\x1b[K,\n'}
+[1.007618] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.007636] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.007654] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.007694] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.007713] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.007731] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.007748] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.007766] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.007784] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.007803] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.007822] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsrt/sched.h:42:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Ktypedef enum ddsrt_sched_t ddsrt_sched_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.007840] (h1_sport_sdk) StderrLine: {'line': b'   42 | } \x1b[01;36m\x1b[Kddsrt_sched_t\x1b[m\x1b[K;\n'}
+[1.007858] (h1_sport_sdk) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.007876] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:155\x1b[m\x1b[K,\n'}
+[1.007893] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23\x1b[m\x1b[K,\n'}
+[1.007910] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/BuiltinTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.007927] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36\x1b[m\x1b[K,\n'}
+[1.007945] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31\x1b[m\x1b[K,\n'}
+[1.007962] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.007979] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[1.007997] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[1.008015] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.008032] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.008049] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.008067] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.008084] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.008102] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.008121] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.008139] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.008156] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.008174] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.008191] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:138:93:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_data_representation_id_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.008209] (h1_sport_sdk) StderrLine: {'line': b'  138 | typedef struct ddsi_sertype * (*ddsi_sertype_derive_t) (const struct ddsi_sertype *sertype, \x1b[01;31m\x1b[Kdds_data_representation_id_t\x1b[m\x1b[K data_representation, dds_type_consistency_enforcement_qospolicy_t tce_qos);\n'}
+[1.008227] (h1_sport_sdk) StderrLine: {'line': b'      |                                                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.008246] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:138:143:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_type_consistency_enforcement_qospolicy_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.008264] (h1_sport_sdk) StderrLine: {'line': b'  138 | typedef struct ddsi_sertype * (*ddsi_sertype_derive_t) (const struct ddsi_sertype *sertype, dds_data_representation_id_t data_representation, \x1b[01;31m\x1b[Kdds_type_consistency_enforcement_qospolicy_t\x1b[m\x1b[K tce_qos);\n'}
+[1.008282] (h1_sport_sdk) StderrLine: {'line': b'      |                                                                                                                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.008300] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:202:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.008319] (h1_sport_sdk) StderrLine: {'line': b'  202 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline void ddsi_sertype_free (struct ddsi_sertype *tp) {\n'}
+[1.008337] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.008355] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.009801] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:205:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.009842] (h1_sport_sdk) StderrLine: {'line': b'  205 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline void ddsi_sertype_zero_samples (const struct ddsi_sertype *tp, void *samples, size_t count) {\n'}
+[1.009864] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.009883] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.011912] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:208:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.011968] (h1_sport_sdk) StderrLine: {'line': b'  208 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline void ddsi_sertype_realloc_samples (void **ptrs, const struct ddsi_sertype *tp, void *old, size_t oldcount, size_t count)\n'}
+[1.011993] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.012013] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.014004] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:212:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.014061] (h1_sport_sdk) StderrLine: {'line': b'  212 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline void ddsi_sertype_free_samples (const struct ddsi_sertype *tp, void **ptrs, size_t count, dds_free_op_t op) {\n'}
+[1.014090] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.014111] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.016066] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:215:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.016122] (h1_sport_sdk) StderrLine: {'line': b'  215 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline void ddsi_sertype_zero_sample (const struct ddsi_sertype *tp, void *sample) {\n'}
+[1.016148] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.016169] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.018143] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:218:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.018201] (h1_sport_sdk) StderrLine: {'line': b'  218 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline void *ddsi_sertype_alloc_sample (const struct ddsi_sertype *tp) {\n'}
+[1.018227] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.018248] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.020211] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:223:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.020269] (h1_sport_sdk) StderrLine: {'line': b'  223 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline void ddsi_sertype_free_sample (const struct ddsi_sertype *tp, void *sample, dds_free_op_t op) {\n'}
+[1.020295] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.020315] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.022294] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:226:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.022354] (h1_sport_sdk) StderrLine: {'line': b'  226 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline ddsi_typeid_t * ddsi_sertype_typeid (const struct ddsi_sertype *tp, ddsi_typeid_kind_t kind)\n'}
+[1.022379] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.022400] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.024370] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:232:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.024426] (h1_sport_sdk) StderrLine: {'line': b'  232 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline ddsi_typemap_t * ddsi_sertype_typemap (const struct ddsi_sertype *tp)\n'}
+[1.024451] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.024476] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.026452] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:238:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.026509] (h1_sport_sdk) StderrLine: {'line': b'  238 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline ddsi_typeinfo_t *ddsi_sertype_typeinfo (const struct ddsi_sertype *tp)\n'}
+[1.026535] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.026555] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.028519] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:244:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.028580] (h1_sport_sdk) StderrLine: {'line': b'  244 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline struct ddsi_sertype * ddsi_sertype_derive_sertype (const struct ddsi_sertype *base_sertype, dds_data_representation_id_t data_representation, dds_type_consistency_enforcement_qospolicy_t tce_qos) {\n'}
+[1.028606] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.028627] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.030599] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:250:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.030656] (h1_sport_sdk) StderrLine: {'line': b'  250 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline size_t\n'}
+[1.030682] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.030707] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.032707] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:256:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.032765] (h1_sport_sdk) StderrLine: {'line': b'  256 | \x1b[01;31m\x1b[KDDS_INLINE_EXPORT\x1b[m\x1b[K inline bool\n'}
+[1.032790] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.032814] (h1_sport_sdk) StderrLine: {'line': b'      | \x1b[32m\x1b[KDDS_NO_EXPORT\x1b[m\x1b[K\n'}
+[1.032951] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23\x1b[m\x1b[K,\n'}
+[1.033008] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/BuiltinTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.033033] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36\x1b[m\x1b[K,\n'}
+[1.033055] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31\x1b[m\x1b[K,\n'}
+[1.033079] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.033100] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[1.033119] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[1.033140] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.033159] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.033178] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.033197] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.033215] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.033233] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.033251] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.033270] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.033288] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.033306] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.033324] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kdds::topic::detail::Topic<T>::Topic(const DomainParticipant&, const string&, const string&, const TopicQos&, dds::topic::TopicListener<T>*, const dds::core::status::StatusMask&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.033347] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:178:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kdds_create_topic_sertype\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kdds_create_topic_sertype\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[1.033368] (h1_sport_sdk) StderrLine: {'line': b'  178 |     dds_entity_t ddsc_topic = \x1b[01;31m\x1b[Kdds_create_topic_sertype\x1b[m\x1b[K(\n'}
+[1.033387] (h1_sport_sdk) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.033405] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:184:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Korg::eclipse::cyclonedds::topic::ddsi_sertype*\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kddsi_sertype*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.033424] (h1_sport_sdk) StderrLine: {'line': b'  184 |       ddsi_sertype_unref(\x1b[01;31m\x1b[Kser_type_\x1b[m\x1b[K);\n'}
+[1.033444] (h1_sport_sdk) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.033463] (h1_sport_sdk) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.033483] (h1_sport_sdk) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[Korg::eclipse::cyclonedds::topic::ddsi_sertype*\x1b[m\x1b[K\n'}
+[1.033501] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:155\x1b[m\x1b[K,\n'}
+[1.033519] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23\x1b[m\x1b[K,\n'}
+[1.033536] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/BuiltinTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.033554] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36\x1b[m\x1b[K,\n'}
+[1.033574] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31\x1b[m\x1b[K,\n'}
+[1.033591] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.033609] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[1.033629] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[1.033648] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.033666] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.033684] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.033703] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.033721] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.033739] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.033757] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.033775] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.033795] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.033813] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.033831] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/dds/ddsi/ddsi_sertype.h:190:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid ddsi_sertype_unref(ddsi_sertype*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.033851] (h1_sport_sdk) StderrLine: {'line': b'  190 | DDS_EXPORT void ddsi_sertype_unref (\x1b[01;36m\x1b[Kstruct ddsi_sertype *tp\x1b[m\x1b[K); /* tp->gv->sertypes_lock may not be held */\n'}
+[1.033870] (h1_sport_sdk) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[1.033888] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp:26\x1b[m\x1b[K,\n'}
+[1.033906] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp:63\x1b[m\x1b[K,\n'}
+[1.033924] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp:12\x1b[m\x1b[K,\n'}
+[1.033942] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_idl_decl/Request_.hpp:12\x1b[m\x1b[K,\n'}
+[1.033960] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal_request_response.hpp:4\x1b[m\x1b[K,\n'}
+[1.033978] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/internal/internal.hpp:6\x1b[m\x1b[K,\n'}
+[1.033997] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/future/request_future.hpp:5\x1b[m\x1b[K,\n'}
+[1.034016] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:4\x1b[m\x1b[K,\n'}
+[1.034034] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.034053] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.034071] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.034089] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.034106] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp:266:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kclass type \xe2\x80\x98\x1b[01m\x1b[Korg::eclipse::cyclonedds::topic::ddsi_sertype\x1b[m\x1b[K\xe2\x80\x99 is incomplete\n'}
+[1.034125] (h1_sport_sdk) StderrLine: {'line': b'  266 |     static struct \x1b[01;36m\x1b[Kddsi_sertype\x1b[m\x1b[K* deriveSertype(const struct ddsi_sertype *, dds_data_representation_id_t data_representation, dds_type_consistency_enforcement_qospolicy_t)\n'}
+[1.034147] (h1_sport_sdk) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.034399] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp:23\x1b[m\x1b[K,\n'}
+[1.034564] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/BuiltinTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.034598] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp:36\x1b[m\x1b[K,\n'}
+[1.034625] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:31\x1b[m\x1b[K,\n'}
+[1.034646] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.034666] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[1.034686] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[1.034708] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.034727] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.034745] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.034763] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.034781] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.034799] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.034818] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.034836] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.034854] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.034872] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.034891] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic dds::topic::Topic<T, dds::topic::detail::Topic> dds::topic::detail::Topic<T>::discover_topic(const DomainParticipant&, const string&, const dds::core::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.034912] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:311:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_typeinfo_t\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kddsi_typeinfo_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.034931] (h1_sport_sdk) StderrLine: {'line': b'  311 |     std::unique_ptr<\x1b[01;31m\x1b[Kdds_typeinfo_t\x1b[m\x1b[K, std::function<void(dds_typeinfo_t *)> >\n'}
+[1.034950] (h1_sport_sdk) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.034969] (h1_sport_sdk) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kddsi_typeinfo_t\x1b[m\x1b[K\n'}
+[1.034987] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:311:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.035006] (h1_sport_sdk) StderrLine: {'line': b'  311 |     std::unique_ptr<dds_typeinfo_t, std::function<void(dds_typeinfo_t *)\x1b[01;31m\x1b[K>\x1b[m\x1b[K >\n'}
+[1.035024] (h1_sport_sdk) StderrLine: {'line': b'      |                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.035042] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:311:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.035061] (h1_sport_sdk) StderrLine: {'line': b'  311 |     std::unique_ptr<dds_typeinfo_t, std::function<void(dds_typeinfo_t *)> \x1b[01;31m\x1b[K>\x1b[m\x1b[K\n'}
+[1.035079] (h1_sport_sdk) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.035097] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:311:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 2 is invalid\n'}
+[1.035115] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:313:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_typeinfo_t\x1b[m\x1b[K\xe2\x80\x99 is not a type\n'}
+[1.035135] (h1_sport_sdk) StderrLine: {'line': b'  313 |                 [](\x1b[01;31m\x1b[Kdds_typeinfo_t\x1b[m\x1b[K *ti) { static_cast<void>(dds_free_typeinfo(ti)); });\n'}
+[1.035153] (h1_sport_sdk) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.035171] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:\x1b[m\x1b[K In lambda function:\n'}
+[1.035191] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:313:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kdds_free_typeinfo\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kdds_free_typeinfo\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[1.035212] (h1_sport_sdk) StderrLine: {'line': b'  313 |                 [](dds_typeinfo_t *ti) { static_cast<void>(\x1b[01;31m\x1b[Kdds_free_typeinfo\x1b[m\x1b[K(ti)); });\n'}
+[1.035231] (h1_sport_sdk) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.035249] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic dds::topic::Topic<T, dds::topic::detail::Topic> dds::topic::detail::Topic<T>::discover_topic(const DomainParticipant&, const string&, const dds::core::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.035268] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:313:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpression list treated as compound expression in initializer [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[1.035287] (h1_sport_sdk) StderrLine: {'line': b'  313 |                 [](dds_typeinfo_t *ti) { static_cast<void>(dds_free_typeinfo(ti)); }\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.035306] (h1_sport_sdk) StderrLine: {'line': b'      |                                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.035325] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/TTopicImpl.hpp:314:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kget\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Ktype_info\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.035345] (h1_sport_sdk) StderrLine: {'line': b'  314 |     dds_entity_t ddsc_topic = dp.delegate()->lookup_topic(name, type_info.\x1b[01;31m\x1b[Kget\x1b[m\x1b[K(), timeout);\n'}
+[1.035364] (h1_sport_sdk) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.101247] (-) TimerEvent: {}
+[1.115678] (h1_sport_sdk) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ContentFilteredTopic.hpp:22\x1b[m\x1b[K,\n'}
+[1.115804] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/ddstopic.hpp:25\x1b[m\x1b[K,\n'}
+[1.115830] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:35\x1b[m\x1b[K,\n'}
+[1.115851] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[1.115871] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[1.115890] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_factory_model.hpp:5\x1b[m\x1b[K,\n'}
+[1.115910] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_factory.hpp:4\x1b[m\x1b[K,\n'}
+[1.115932] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/channel/channel_labor.hpp:4\x1b[m\x1b[K,\n'}
+[1.115951] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_stub.hpp:5\x1b[m\x1b[K,\n'}
+[1.115970] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client_base.hpp:4\x1b[m\x1b[K,\n'}
+[1.115988] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/client/client.hpp:4\x1b[m\x1b[K,\n'}
+[1.116007] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/robot/h1/loco/h1_loco_client.hpp:4\x1b[m\x1b[K,\n'}
+[1.116026] (h1_sport_sdk) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport_sdk/src/sub_cmdvel.cpp:3\x1b[m\x1b[K:\n'}
+[1.116044] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:\x1b[m\x1b[K At global scope:\n'}
+[1.116064] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:439:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_topic_filter\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.116084] (h1_sport_sdk) StderrLine: {'line': b'  439 |     void filter_function_internal(Functor && func, \x1b[01;31m\x1b[Kdds_topic_filter\x1b[m\x1b[K * flt)\n'}
+[1.116103] (h1_sport_sdk) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.118123] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid dds::topic::detail::ContentFilteredTopic<T>::filter_function(Functor&&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.118191] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:413:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_topic_filter\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdds_topic_filter_fn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.118223] (h1_sport_sdk) StderrLine: {'line': b'  413 |         \x1b[01;31m\x1b[Kdds_topic_filter\x1b[m\x1b[K flt;\n'}
+[1.118244] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.118263] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kdds_topic_filter_fn\x1b[m\x1b[K\n'}
+[1.118932] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:414:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kflt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.118994] (h1_sport_sdk) StderrLine: {'line': b'  414 |         \x1b[01;31m\x1b[Kflt\x1b[m\x1b[K.mode = DDS_TOPIC_FILTER_SAMPLE_ARG;\n'}
+[1.119023] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.125332] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:414:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_TOPIC_FILTER_SAMPLE_ARG\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KDDS_TOPIC_FILTER_HPP_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.125391] (h1_sport_sdk) StderrLine: {'line': b'  414 |         flt.mode = \x1b[01;31m\x1b[KDDS_TOPIC_FILTER_SAMPLE_ARG\x1b[m\x1b[K;\n'}
+[1.125416] (h1_sport_sdk) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.125437] (h1_sport_sdk) StderrLine: {'line': b'      |                    \x1b[32m\x1b[KDDS_TOPIC_FILTER_HPP_\x1b[m\x1b[K\n'}
+[1.126864] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid dds::topic::detail::ContentFilteredTopic<T>::filter_function(Functor&&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.126897] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:422:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_topic_filter\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdds_topic_filter_fn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.126919] (h1_sport_sdk) StderrLine: {'line': b'  422 |         \x1b[01;31m\x1b[Kdds_topic_filter\x1b[m\x1b[K flt;\n'}
+[1.126939] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.126959] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kdds_topic_filter_fn\x1b[m\x1b[K\n'}
+[1.127519] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:423:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kflt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.127542] (h1_sport_sdk) StderrLine: {'line': b'  423 |         \x1b[01;31m\x1b[Kflt\x1b[m\x1b[K.mode = DDS_TOPIC_FILTER_SAMPLEINFO_ARG;\n'}
+[1.127562] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.135108] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:423:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_TOPIC_FILTER_SAMPLEINFO_ARG\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.135132] (h1_sport_sdk) StderrLine: {'line': b'  423 |         flt.mode = \x1b[01;31m\x1b[KDDS_TOPIC_FILTER_SAMPLEINFO_ARG\x1b[m\x1b[K;\n'}
+[1.135151] (h1_sport_sdk) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.136821] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid dds::topic::detail::ContentFilteredTopic<T>::filter_function(Functor&&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.136846] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:431:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdds_topic_filter\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdds_topic_filter_fn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.136867] (h1_sport_sdk) StderrLine: {'line': b'  431 |         \x1b[01;31m\x1b[Kdds_topic_filter\x1b[m\x1b[K flt;\n'}
+[1.136889] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.136908] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kdds_topic_filter_fn\x1b[m\x1b[K\n'}
+[1.137550] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:432:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kflt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.137572] (h1_sport_sdk) StderrLine: {'line': b'  432 |         \x1b[01;31m\x1b[Kflt\x1b[m\x1b[K.mode = DDS_TOPIC_FILTER_SAMPLE_SAMPLEINFO_ARG;\n'}
+[1.137591] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.145694] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:432:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDDS_TOPIC_FILTER_SAMPLE_SAMPLEINFO_ARG\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.145720] (h1_sport_sdk) StderrLine: {'line': b'  432 |         flt.mode = \x1b[01;31m\x1b[KDDS_TOPIC_FILTER_SAMPLE_SAMPLEINFO_ARG\x1b[m\x1b[K;\n'}
+[1.145739] (h1_sport_sdk) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.145788] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid dds::topic::detail::ContentFilteredTopic<T>::filter_function_internal(Functor&&, int*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.145815] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:455:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Karg\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kflt->\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.145836] (h1_sport_sdk) StderrLine: {'line': b'  455 |         flt->\x1b[01;31m\x1b[Karg\x1b[m\x1b[K = myFunctor;\n'}
+[1.145855] (h1_sport_sdk) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[1.145873] (h1_sport_sdk) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp:456:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kthere are no arguments to \xe2\x80\x98\x1b[01m\x1b[Kdds_set_topic_filter_extended\x1b[m\x1b[K\xe2\x80\x99 that depend on a template parameter, so a declaration of \xe2\x80\x98\x1b[01m\x1b[Kdds_set_topic_filter_extended\x1b[m\x1b[K\xe2\x80\x99 must be available [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[1.145895] (h1_sport_sdk) StderrLine: {'line': b'  456 |         \x1b[01;31m\x1b[Kdds_set_topic_filter_extended\x1b[m\x1b[K(cfTopic, flt);\n'}
+[1.145914] (h1_sport_sdk) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.201324] (-) TimerEvent: {}
+[1.301562] (-) TimerEvent: {}
+[1.401834] (-) TimerEvent: {}
+[1.460712] (h1_sport_sdk) StderrLine: {'line': b'make[2]: *** [CMakeFiles/sport_node.dir/build.make:63\xef\xbc\x9aCMakeFiles/sport_node.dir/src/sub_cmdvel.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.460991] (h1_sport_sdk) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78\xef\xbc\x9aCMakeFiles/sport_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[1.461052] (h1_sport_sdk) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[1.462161] (h1_sport_sdk) JobEnded: {'identifier': 'h1_sport_sdk', 'rc': 'SIGINT'}
+[1.472398] (-) EventReactorShutdown: {}

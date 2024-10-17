@@ -1,0 +1,2 @@
+Invoking command in '/home/robot/nav2_ws/build/h1_sport_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport_sdk -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/h1_sport_sdk
+Invoked command in '/home/robot/nav2_ws/build/h1_sport_sdk' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport_sdk -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/h1_sport_sdk

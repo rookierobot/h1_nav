@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/robot/nav2_ws/build/h1_sport_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport_sdk -- -j32 -l32
+[0.020s] -- /home/robot/nav2_ws/src/h1_sport_sdk
+[0.020s] CMake Error at CMakeLists.txt:24 (message):
+[0.020s]   Unitree SDK library for the architecture is not found
+[0.020s] 
+[0.020s] 
+[0.021s] -- Configuring incomplete, errors occurred!
+[0.021s] See also "/home/robot/nav2_ws/build/h1_sport_sdk/CMakeFiles/CMakeOutput.log".
+[0.021s] See also "/home/robot/nav2_ws/build/h1_sport_sdk/CMakeFiles/CMakeError.log".
+[0.021s] make: *** [Makefile:266：cmake_check_build_system] 错误 1
+[0.022s] Invoked command in '/home/robot/nav2_ws/build/h1_sport_sdk' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport_sdk -- -j32 -l32

@@ -1,0 +1,38 @@
+-- Current system architecture: x86_64
+-- Importing: /home/robot/nav2_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+-- Importing: /home/robot/nav2_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+-- Unitree SDK library found at: /home/robot/nav2_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+-- Importing: /home/robot/nav2_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/nav2_ws/build/unitree_sdk2
+[  1%] [32mBuilding CXX object example/helloworld/CMakeFiles/chen_test_subscriber.dir/test_subscriber.cpp.o[0m
+[  6%] Built target test_subscriber
+[  9%] Built target state_machine_example
+[ 12%] Built target advanced_gamepad
+[ 19%] Built target go2_video_client
+[ 19%] Built target go2_robot_state_client
+[ 24%] Built target go2_vui_client
+[ 25%] Built target go2_sport_client
+[ 32%] Built target test_publisher
+[ 33%] Built target h1_arm_sdk_dds_example
+[ 37%] Built target h1_2_ankle_track
+[ 40%] Built target test_jsonize
+[ 43%] Built target g1_29dof_example
+[ 46%] Built target go2_trajectory_follow
+[ 50%] Built target go2_low_level
+[ 53%] Built target go2_stand_example
+[ 56%] Built target h1_2_arm_sdk_dds_example
+[ 59%] Built target b2_stand_example
+[ 66%] Built target h1_27dof_example
+[ 66%] Built target b2_sport_client
+[ 69%] Built target h1_low_level_example
+[ 72%] Built target h1_loco_client
+[ 75%] Built target g1_23dof_example
+[ 79%] Built target g1_loco_client
+[ 82%] Built target g1_arm5_sdk_dds_example
+[ 85%] Built target g1_23dof_ankle_track
+[ 88%] Built target g1_dual_arm_example
+[ 91%] Built target g1_arm7_sdk_dds_example
+[ 98%] Built target go2w_sport_client
+[ 98%] Built target go2w_stand_example

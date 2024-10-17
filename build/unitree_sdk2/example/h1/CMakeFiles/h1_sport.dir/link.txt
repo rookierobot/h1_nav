@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/h1_sport.dir/high_level/h1_sport.cpp.o  -o ../../bin/h1_sport   -L/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/lib/x86_64  -Wl,-rpath,/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/lib/x86_64 /home/robot/nav2_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a -lddsc -lddscxx -lpthread 

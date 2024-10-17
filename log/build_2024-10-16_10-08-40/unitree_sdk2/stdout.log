@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target test_publisher[0m
+[35m[1mScanning dependencies of target test_subscriber[0m
+[  3%] Built target test_jsonize
+[ 10%] Built target go2_low_level
+[ 10%] Built target b2_stand_example
+[ 13%] Built target advanced_gamepad
+[ 16%] Built target go2_video_client
+[ 20%] Built target state_machine_example
+[ 23%] Built target go2_trajectory_follow
+[ 25%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o[0m
+[ 33%] Built target go2_stand_example
+[ 33%] Built target go2_robot_state_client
+[ 36%] Built target h1_arm_sdk_dds_example
+[ 38%] Built target go2_sport_client
+[ 41%] Built target go2_vui_client
+[ 43%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o[0m
+[ 46%] Built target h1_2_arm_sdk_dds_example
+[ 50%] Built target h1_27dof_example
+[ 53%] Built target b2_sport_client
+[ 56%] Built target g1_dual_arm_example
+[ 60%] Built target h1_2_ankle_track
+[ 68%] Built target g1_23dof_ankle_track
+[ 68%] Built target h1_loco_client
+[ 70%] Built target g1_loco_client
+[ 73%] Built target h1_low_level_example
+[ 76%] Built target g1_23dof_example
+[ 80%] Built target go2w_sport_client
+[ 90%] Built target g1_29dof_example
+[ 90%] Built target g1_arm7_sdk_dds_example
+[ 90%] Built target g1_arm5_sdk_dds_example
+[ 93%] Built target go2w_stand_example
+[ 95%] [32m[1mLinking CXX executable ../../bin/test_publisher[0m
+[ 96%] Built target test_publisher
+[ 98%] [32m[1mLinking CXX executable ../../bin/test_subscriber[0m
+[100%] Built target test_subscriber

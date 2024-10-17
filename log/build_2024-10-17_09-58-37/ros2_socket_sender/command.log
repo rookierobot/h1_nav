@@ -1,0 +1,6 @@
+Invoking command in '/home/robot/nav2_ws/build/ros2_socket_sender': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/ros2_socket_sender -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/ros2_socket_sender
+Invoked command in '/home/robot/nav2_ws/build/ros2_socket_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/ros2_socket_sender -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/ros2_socket_sender
+Invoking command in '/home/robot/nav2_ws/build/ros2_socket_sender': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/ros2_socket_sender -- -j32 -l32
+Invoked command in '/home/robot/nav2_ws/build/ros2_socket_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/ros2_socket_sender -- -j32 -l32
+Invoking command in '/home/robot/nav2_ws/build/ros2_socket_sender': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/ros2_socket_sender
+Invoked command in '/home/robot/nav2_ws/build/ros2_socket_sender' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/ros2_socket_sender

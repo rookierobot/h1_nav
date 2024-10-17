@@ -1,0 +1,14 @@
+[0.009s] Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32
+[0.029s] [35m[1mScanning dependencies of target demo[0m
+[0.044s] [ 50%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[0.544s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.544s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:36:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[0.544s]    36 |     rclcpp::shutdown()[01;31m[K;[m[K //
+[0.544s]       |                       [01;31m[K^[m[K
+[0.544s] [01m[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:33:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[0.544s]    33 | [01;36m[K{[m[K
+[0.544s]       | [01;36m[K^[m[K
+[0.869s] make[2]: *** [CMakeFiles/demo.dir/build.make:63：CMakeFiles/demo.dir/src/demo.cpp.o] 错误 1
+[0.869s] make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/demo.dir/all] 错误 2
+[0.869s] make: *** [Makefile:141：all] 错误 2
+[0.871s] Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32

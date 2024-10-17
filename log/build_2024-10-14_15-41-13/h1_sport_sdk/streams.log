@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/robot/nav2_ws/build/h1_sport_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport_sdk -- -j32 -l32
+[0.026s] [35m[1mScanning dependencies of target sport_node[0m
+[0.036s] [ 50%] [32mBuilding CXX object CMakeFiles/sport_node.dir/src/sub_cmdvel.cpp.o[0m
+[1.047s] [100%] [32m[1mLinking CXX executable sport_node[0m
+[1.142s] [100%] Built target sport_node
+[1.151s] Invoked command in '/home/robot/nav2_ws/build/h1_sport_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport_sdk -- -j32 -l32
+[1.167s] Invoking command in '/home/robot/nav2_ws/build/h1_sport_sdk': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/h1_sport_sdk
+[1.173s] -- Install configuration: ""
+[1.173s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/ament_index/resource_index/package_run_dependencies/h1_sport_sdk
+[1.173s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/ament_index/resource_index/parent_prefix_path/h1_sport_sdk
+[1.174s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/environment/ament_prefix_path.sh
+[1.174s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/environment/ament_prefix_path.dsv
+[1.174s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/environment/path.sh
+[1.174s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/environment/path.dsv
+[1.175s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/local_setup.bash
+[1.175s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/local_setup.sh
+[1.175s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/local_setup.zsh
+[1.175s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/local_setup.dsv
+[1.175s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/package.dsv
+[1.175s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/ament_index/resource_index/packages/h1_sport_sdk
+[1.175s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/cmake/h1_sport_sdkConfig.cmake
+[1.175s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/cmake/h1_sport_sdkConfig-version.cmake
+[1.175s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/share/h1_sport_sdk/package.xml
+[1.175s] -- Installing: /home/robot/nav2_ws/install/h1_sport_sdk/lib/h1_sport_sdk/sport_node
+[1.175s] -- Set runtime path of "/home/robot/nav2_ws/install/h1_sport_sdk/lib/h1_sport_sdk/sport_node" to ""
+[1.182s] Invoked command in '/home/robot/nav2_ws/build/h1_sport_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/h1_sport_sdk

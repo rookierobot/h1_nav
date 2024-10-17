@@ -1,0 +1,70 @@
+[0.009s] Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/h1_sport
+[0.034s] -- The C compiler identification is GNU 9.4.0
+[0.061s] -- The CXX compiler identification is GNU 9.4.0
+[0.063s] -- Check for working C compiler: /usr/bin/cc
+[0.089s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.090s] -- Detecting C compiler ABI info
+[0.117s] -- Detecting C compiler ABI info - done
+[0.122s] -- Detecting C compile features
+[0.122s] -- Detecting C compile features - done
+[0.123s] -- Check for working CXX compiler: /usr/bin/c++
+[0.154s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.155s] -- Detecting CXX compiler ABI info
+[0.188s] -- Detecting CXX compiler ABI info - done
+[0.195s] -- Detecting CXX compile features
+[0.195s] -- Detecting CXX compile features - done
+[0.196s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.208s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.208s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.300s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.325s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.365s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.381s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.442s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.443s] -- Looking for pthread.h
+[0.473s] -- Looking for pthread.h - found
+[0.473s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.504s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.504s] -- Looking for pthread_create in pthreads
+[0.529s] -- Looking for pthread_create in pthreads - not found
+[0.529s] -- Looking for pthread_create in pthread
+[0.557s] -- Looking for pthread_create in pthread - found
+[0.558s] -- Found Threads: TRUE  
+[0.626s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.657s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.658s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.658s] -- Configured cppcheck include dirs: 
+[0.658s] -- Configured cppcheck exclude dirs and/or files: 
+[0.658s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.658s] -- Configured cpplint exclude dirs and/or files: 
+[0.659s] -- Added test 'lint_cmake' to check CMake code style
+[0.659s] -- Added test 'uncrustify' to check C / C++ code style
+[0.659s] -- Configured uncrustify additional arguments: 
+[0.659s] -- Added test 'xmllint' to check XML markup files
+[0.660s] -- Configuring done
+[0.661s] -- Generating done
+[0.661s] -- Build files have been written to: /home/robot/nav2_ws/build/h1_sport
+[0.665s] Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/install/h1_sport
+[0.666s] Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32
+[0.683s] Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32
+[0.691s] Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/h1_sport
+[0.695s] -- Install configuration: ""
+[0.695s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/ament_index/resource_index/package_run_dependencies/h1_sport
+[0.695s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/ament_index/resource_index/parent_prefix_path/h1_sport
+[0.695s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/environment/ament_prefix_path.sh
+[0.695s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/environment/ament_prefix_path.dsv
+[0.695s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/environment/path.sh
+[0.695s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/environment/path.dsv
+[0.695s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/local_setup.bash
+[0.695s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/local_setup.sh
+[0.695s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/local_setup.zsh
+[0.696s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/local_setup.dsv
+[0.696s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/package.dsv
+[0.696s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/ament_index/resource_index/packages/h1_sport
+[0.696s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/cmake/h1_sportConfig.cmake
+[0.696s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/cmake/h1_sportConfig-version.cmake
+[0.696s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/package.xml
+[0.696s] Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/h1_sport

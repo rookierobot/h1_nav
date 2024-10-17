@@ -1,0 +1,971 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (car2) JobQueued: {'identifier': 'car2', 'dependencies': OrderedDict()}
+[0.000238] (h1_sport) JobQueued: {'identifier': 'h1_sport', 'dependencies': OrderedDict()}
+[0.000293] (unitree_sdk2) JobQueued: {'identifier': 'unitree_sdk2', 'dependencies': OrderedDict()}
+[0.000319] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict()}
+[0.000326] (sdk2_user) JobQueued: {'identifier': 'sdk2_user', 'dependencies': OrderedDict([('unitree_sdk2', '/home/robot/nav2_ws/install/unitree_sdk2')])}
+[0.000340] (unitree_sdk2) JobStarted: {'identifier': 'unitree_sdk2'}
+[0.002889] (car2) JobStarted: {'identifier': 'car2'}
+[0.004904] (h1_sport) JobStarted: {'identifier': 'h1_sport'}
+[0.006882] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.009664] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'cmake'}
+[0.009881] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'build'}
+[0.010108] (unitree_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/nav2_ws/build/unitree_sdk2', '--', '-j32', '-l32'], 'cwd': '/home/robot/nav2_ws/build/unitree_sdk2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1986'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src/h1_sport'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3601'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2021,unix/robot:/tmp/.ICE-unix/2021'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ce1247830da5457da18e17834d00dc8a'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/unitree_sdk2'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.012062] (car2) JobProgress: {'identifier': 'car2', 'progress': 'cmake'}
+[0.012408] (car2) JobProgress: {'identifier': 'car2', 'progress': 'build'}
+[0.012555] (car2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/nav2_ws/build/car2', '--', '-j32', '-l32'], 'cwd': '/home/robot/nav2_ws/build/car2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1986'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src/h1_sport'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3601'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2021,unix/robot:/tmp/.ICE-unix/2021'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ce1247830da5457da18e17834d00dc8a'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/car2'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.013766] (h1_sport) JobProgress: {'identifier': 'h1_sport', 'progress': 'cmake'}
+[0.013978] (h1_sport) JobProgress: {'identifier': 'h1_sport', 'progress': 'build'}
+[0.014138] (h1_sport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/nav2_ws/build/h1_sport', '--', '-j32', '-l32'], 'cwd': '/home/robot/nav2_ws/build/h1_sport', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1986'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src/h1_sport'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3601'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2021,unix/robot:/tmp/.ICE-unix/2021'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ce1247830da5457da18e17834d00dc8a'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/h1_sport'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.016286] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'cmake'}
+[0.016655] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'build'}
+[0.017220] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/nav2_ws/build/village_wang', '--', '-j32', '-l32'], 'cwd': '/home/robot/nav2_ws/build/village_wang', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1986'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src/h1_sport'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3601'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2021,unix/robot:/tmp/.ICE-unix/2021'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ce1247830da5457da18e17834d00dc8a'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/village_wang'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.025162] (h1_sport) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.031539] (car2) CommandEnded: {'returncode': 0}
+[0.034955] (unitree_sdk2) StdoutLine: {'line': b'[  3%] Built target test_jsonize\n'}
+[0.039721] (unitree_sdk2) StdoutLine: {'line': b'[  8%] Built target test_publisher\n'}
+[0.040117] (unitree_sdk2) StdoutLine: {'line': b'[ 13%] Built target test_subscriber\n'}
+[0.041153] (unitree_sdk2) StdoutLine: {'line': b'[ 16%] Built target advanced_gamepad\n'}
+[0.041660] (h1_sport) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.042637] (car2) JobProgress: {'identifier': 'car2', 'progress': 'install'}
+[0.044050] (unitree_sdk2) StdoutLine: {'line': b'[ 20%] Built target state_machine_example\n'}
+[0.044448] (unitree_sdk2) StdoutLine: {'line': b'[ 23%] Built target go2_vui_client\n'}
+[0.044989] (unitree_sdk2) StdoutLine: {'line': b'[ 30%] Built target go2_trajectory_follow\n'}
+[0.045058] (unitree_sdk2) StdoutLine: {'line': b'[ 30%] Built target go2_sport_client\n'}
+[0.045114] (unitree_sdk2) StdoutLine: {'line': b'[ 33%] Built target g1_loco_client\n'}
+[0.045228] (unitree_sdk2) StdoutLine: {'line': b'[ 36%] Built target h1_low_level_example\n'}
+[0.045301] (unitree_sdk2) StdoutLine: {'line': b'[ 40%] Built target g1_arm7_sdk_dds_example\n'}
+[0.045386] (unitree_sdk2) StdoutLine: {'line': b'[ 43%] Built target go2_low_level\n'}
+[0.045559] (unitree_sdk2) StdoutLine: {'line': b'[ 50%] Built target h1_arm_sdk_dds_example\n'}
+[0.045664] (unitree_sdk2) StdoutLine: {'line': b'[ 61%] Built target go2_video_client\n'}
+[0.045716] (unitree_sdk2) StdoutLine: {'line': b'[ 61%] Built target go2_stand_example\n'}
+[0.045749] (unitree_sdk2) StdoutLine: {'line': b'[ 61%] Built target go2_robot_state_client\n'}
+[0.045782] (unitree_sdk2) StdoutLine: {'line': b'[ 61%] Built target b2_stand_example\n'}
+[0.045821] (unitree_sdk2) StdoutLine: {'line': b'[ 65%] Built target h1_loco_client\n'}
+[0.045865] (unitree_sdk2) StdoutLine: {'line': b'[ 66%] Built target h1_2_ankle_track\n'}
+[0.045898] (unitree_sdk2) StdoutLine: {'line': b'[ 70%] Built target h1_27dof_example\n'}
+[0.046021] (unitree_sdk2) StdoutLine: {'line': b'[ 73%] Built target h1_2_arm_sdk_dds_example\n'}
+[0.046075] (unitree_sdk2) StdoutLine: {'line': b'[ 76%] Built target g1_23dof_example\n'}
+[0.046202] (unitree_sdk2) StdoutLine: {'line': b'[ 80%] Built target g1_arm5_sdk_dds_example\n'}
+[0.047329] (unitree_sdk2) StdoutLine: {'line': b'[ 83%] Built target g1_dual_arm_example\n'}
+[0.047985] (unitree_sdk2) StdoutLine: {'line': b'[ 86%] Built target g1_29dof_example\n'}
+[0.048444] (unitree_sdk2) StdoutLine: {'line': b'[ 90%] Built target go2w_stand_example\n'}
+[0.048589] (car2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/nav2_ws/build/car2'], 'cwd': '/home/robot/nav2_ws/build/car2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1986'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src/h1_sport'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3601'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2021,unix/robot:/tmp/.ICE-unix/2021'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ce1247830da5457da18e17834d00dc8a'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/car2'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.049718] (village_wang) StdoutLine: {'line': b'[ 33%] Built target li3_node\n'}
+[0.049998] (unitree_sdk2) StdoutLine: {'line': b'[ 93%] Built target g1_23dof_ankle_track\n'}
+[0.050036] (unitree_sdk2) StdoutLine: {'line': b'[ 96%] Built target b2_sport_client\n'}
+[0.050062] (unitree_sdk2) StdoutLine: {'line': b'[100%] Built target go2w_sport_client\n'}
+[0.050552] (village_wang) StdoutLine: {'line': b'[ 66%] Built target wang3_node\n'}
+[0.052821] (car2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.052915] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/ament_index/resource_index/package_run_dependencies/car2\n'}
+[0.052964] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/ament_index/resource_index/parent_prefix_path/car2\n'}
+[0.053000] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/environment/ament_prefix_path.sh\n'}
+[0.053026] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/environment/ament_prefix_path.dsv\n'}
+[0.053049] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/environment/path.sh\n'}
+[0.053073] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/environment/path.dsv\n'}
+[0.053095] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/local_setup.bash\n'}
+[0.053151] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/local_setup.sh\n'}
+[0.053174] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/local_setup.zsh\n'}
+[0.053197] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/local_setup.dsv\n'}
+[0.053220] (car2) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/install/car2/share/car2/package.dsv\n'}
+[0.053240] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/ament_index/resource_index/packages/car2\n'}
+[0.053270] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/cmake/car2Config.cmake\n'}
+[0.053300] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/cmake/car2Config-version.cmake\n'}
+[0.053330] (village_wang) StdoutLine: {'line': b'[100%] Built target wang2_node\n'}
+[0.053395] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/package.xml\n'}
+[0.053425] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/config\n'}
+[0.053453] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/config/fish_2d.lua\n'}
+[0.053481] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/launch\n'}
+[0.053510] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/launch/cartographer.launch.py\n'}
+[0.053558] (car2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/car2/share/car2/rviz\n'}
+[0.053958] (car2) CommandEnded: {'returncode': 0}
+[0.062874] (unitree_sdk2) CommandEnded: {'returncode': 0}
+[0.064133] (village_wang) CommandEnded: {'returncode': 0}
+[0.071410] (car2) JobEnded: {'identifier': 'car2', 'rc': 0}
+[0.074254] (village_wang) JobProgress: {'identifier': 'village_wang', 'progress': 'install'}
+[0.074365] (village_wang) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/nav2_ws/build/village_wang'], 'cwd': '/home/robot/nav2_ws/build/village_wang', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1986'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src/h1_sport'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3601'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2021,unix/robot:/tmp/.ICE-unix/2021'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ce1247830da5457da18e17834d00dc8a'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/village_wang'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.075897] (unitree_sdk2) JobProgress: {'identifier': 'unitree_sdk2', 'progress': 'install'}
+[0.076057] (unitree_sdk2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/nav2_ws/build/unitree_sdk2'], 'cwd': '/home/robot/nav2_ws/build/unitree_sdk2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1986'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src/h1_sport'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3601'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2021,unix/robot:/tmp/.ICE-unix/2021'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ce1247830da5457da18e17834d00dc8a'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/unitree_sdk2'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1')]), 'shell': False}
+[0.078344] (village_wang) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.078399] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang\n'}
+[0.078441] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang\n'}
+[0.078494] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.sh\n'}
+[0.078519] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv\n'}
+[0.078542] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/path.sh\n'}
+[0.078566] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/environment/path.dsv\n'}
+[0.078590] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.bash\n'}
+[0.078611] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.sh\n'}
+[0.078661] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.zsh\n'}
+[0.078683] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/local_setup.dsv\n'}
+[0.078702] (village_wang) StdoutLine: {'line': b'-- Installing: /home/robot/nav2_ws/install/village_wang/share/village_wang/package.dsv\n'}
+[0.078723] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/ament_index/resource_index/packages/village_wang\n'}
+[0.078744] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake\n'}
+[0.078764] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake\n'}
+[0.078785] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/share/village_wang/package.xml\n'}
+[0.078820] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/lib/village_wang/wang2_node\n'}
+[0.078851] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/lib/village_wang/wang3_node\n'}
+[0.078942] (village_wang) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/village_wang/lib/village_wang/li3_node\n'}
+[0.079539] (village_wang) CommandEnded: {'returncode': 0}
+[0.080025] (unitree_sdk2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.080116] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include\n'}
+[0.080144] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree\n'}
+[0.080168] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common\n'}
+[0.080236] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/lock\n'}
+[0.080259] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/lock/lock.hpp\n'}
+[0.080281] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds\n'}
+[0.080307] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_native.hpp\n'}
+[0.080408] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_exception.hpp\n'}
+[0.080431] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_parameter.hpp\n'}
+[0.080561] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp\n'}
+[0.080584] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_error.hpp\n'}
+[0.080606] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos.hpp\n'}
+[0.080627] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_realize.hpp\n'}
+[0.080649] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy.hpp\n'}
+[0.080671] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_callback.hpp\n'}
+[0.080692] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp\n'}
+[0.080714] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_parameter.hpp\n'}
+[0.080735] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_easy_model.hpp\n'}
+[0.080757] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_traits.hpp\n'}
+[0.080779] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp\n'}
+[0.080799] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy_parameter.hpp\n'}
+[0.080819] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/filesystem\n'}
+[0.080850] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/filesystem/filesystem.hpp\n'}
+[0.080871] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/filesystem/directory.hpp\n'}
+[0.080893] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/filesystem/file.hpp\n'}
+[0.080914] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/assert.hpp\n'}
+[0.080935] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/block_queue.hpp\n'}
+[0.080957] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/any.hpp\n'}
+[0.080979] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/decl.hpp\n'}
+[0.081001] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/exception.hpp\n'}
+[0.081022] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/thread\n'}
+[0.081051] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/thread/recurrent_thread.hpp\n'}
+[0.081179] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/thread/thread_task.hpp\n'}
+[0.081200] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/thread/thread_pool.hpp\n'}
+[0.081223] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/thread/thread_decl.hpp\n'}
+[0.081245] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/thread/future.hpp\n'}
+[0.081343] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/thread/thread.hpp\n'}
+[0.081366] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/json\n'}
+[0.081387] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/json/jsonize.hpp\n'}
+[0.081407] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/json/json_config.hpp\n'}
+[0.081429] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/json/json.hpp\n'}
+[0.081449] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/os.hpp\n'}
+[0.081470] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/error.hpp\n'}
+[0.081490] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/service\n'}
+[0.081510] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/service/dds_service.hpp\n'}
+[0.081531] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/service/base\n'}
+[0.081553] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_application.hpp\n'}
+[0.081575] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_base.hpp\n'}
+[0.081596] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_decl.hpp\n'}
+[0.081617] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/service/base/service_config.hpp\n'}
+[0.081637] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/time\n'}
+[0.081658] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/time/sleep.hpp\n'}
+[0.081678] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/time/time_tool.hpp\n'}
+[0.081699] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/string_tool.hpp\n'}
+[0.081720] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/log\n'}
+[0.081741] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/log/log_decl.hpp\n'}
+[0.081761] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/log/log_logger.hpp\n'}
+[0.081782] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/log/log_initor.hpp\n'}
+[0.081802] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/log/log_buffer.hpp\n'}
+[0.081822] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/log/log_policy.hpp\n'}
+[0.081841] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/log/log_writer.hpp\n'}
+[0.081862] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/log/log_store.hpp\n'}
+[0.081902] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/log/log_keeper.hpp\n'}
+[0.081937] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/common/log/log.hpp\n'}
+[0.081957] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot\n'}
+[0.081978] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/h1\n'}
+[0.081999] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco\n'}
+[0.082020] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_api.hpp\n'}
+[0.082040] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_client.hpp\n'}
+[0.082060] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_error.hpp\n'}
+[0.082080] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/client\n'}
+[0.082099] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/client/client_base.hpp\n'}
+[0.082120] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/client/client.hpp\n'}
+[0.082140] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/client/client_stub.hpp\n'}
+[0.082171] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/client/lease_client.hpp\n'}
+[0.082192] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/g1\n'}
+[0.082213] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco\n'}
+[0.082234] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_error.hpp\n'}
+[0.082254] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_api.hpp\n'}
+[0.082273] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_client.hpp\n'}
+[0.082294] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2\n'}
+[0.082314] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher\n'}
+[0.082333] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_client.hpp\n'}
+[0.082353] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_error.hpp\n'}
+[0.082373] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_api.hpp\n'}
+[0.082394] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video\n'}
+[0.082414] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_api.hpp\n'}
+[0.082434] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_client.hpp\n'}
+[0.082455] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_error.hpp\n'}
+[0.082478] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/config\n'}
+[0.082583] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_error.hpp\n'}
+[0.082604] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_api.hpp\n'}
+[0.082628] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/config/config_client.hpp\n'}
+[0.082649] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport\n'}
+[0.082684] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_error.hpp\n'}
+[0.082707] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_client.hpp\n'}
+[0.082729] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_api.hpp\n'}
+[0.082750] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state\n'}
+[0.082771] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_api.hpp\n'}
+[0.082793] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_error.hpp\n'}
+[0.082814] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_client.hpp\n'}
+[0.082835] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video\n'}
+[0.082856] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_error.hpp\n'}
+[0.082876] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_client.hpp\n'}
+[0.082895] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_api.hpp\n'}
+[0.082915] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/channel\n'}
+[0.082935] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_publisher.hpp\n'}
+[0.082955] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp\n'}
+[0.082975] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_labor.hpp\n'}
+[0.082994] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp\n'}
+[0.083014] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/channel/channel_namer.hpp\n'}
+[0.083034] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal\n'}
+[0.083053] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_request_response.hpp\n'}
+[0.083072] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_api.hpp\n'}
+[0.083184] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl\n'}
+[0.083206] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Request_.hpp\n'}
+[0.083332] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseStatus_.hpp\n'}
+[0.083354] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Response_.hpp\n'}
+[0.083376] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp\n'}
+[0.083397] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestLease_.hpp\n'}
+[0.083418] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestPolicy_.hpp\n'}
+[0.083439] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp\n'}
+[0.083459] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseHeader_.hpp\n'}
+[0.083479] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal.hpp\n'}
+[0.083499] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/internal/internal_error.hpp\n'}
+[0.083519] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/serialize\n'}
+[0.083540] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/serialize/serialize.hpp\n'}
+[0.083562] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/server\n'}
+[0.083583] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/server/server.hpp\n'}
+[0.083603] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/server/lease_server.hpp\n'}
+[0.083625] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/server/server_base.hpp\n'}
+[0.083646] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/server/server_stub.hpp\n'}
+[0.083667] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/future\n'}
+[0.083688] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/future/request_future.hpp\n'}
+[0.083718] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2\n'}
+[0.083741] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui\n'}
+[0.083761] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_client.hpp\n'}
+[0.083782] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_error.hpp\n'}
+[0.083803] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_api.hpp\n'}
+[0.083823] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/video\n'}
+[0.083843] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_api.hpp\n'}
+[0.083864] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_client.hpp\n'}
+[0.083968] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/video/video_error.hpp\n'}
+[0.083989] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack\n'}
+[0.084010] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_api.hpp\n'}
+[0.084031] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_client.hpp\n'}
+[0.084051] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport\n'}
+[0.084072] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_error.hpp\n'}
+[0.084092] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_client.hpp\n'}
+[0.084113] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_api.hpp\n'}
+[0.084133] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state\n'}
+[0.084152] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_api.hpp\n'}
+[0.084172] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_error.hpp\n'}
+[0.084212] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_client.hpp\n'}
+[0.084234] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid\n'}
+[0.084256] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_client.hpp\n'}
+[0.084278] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_api.hpp\n'}
+[0.084536] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/public\n'}
+[0.084561] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/robot/go2/public/jsonize_type.hpp\n'}
+[0.084582] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl\n'}
+[0.084605] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2\n'}
+[0.084627] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovarianceStamped_.hpp\n'}
+[0.084648] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Header_.hpp\n'}
+[0.084670] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/MapMetaData_.hpp\n'}
+[0.084691] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/OccupancyGrid_.hpp\n'}
+[0.084712] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovarianceStamped_.hpp\n'}
+[0.084733] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointCloud2_.hpp\n'}
+[0.084753] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseStamped_.hpp\n'}
+[0.084873] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/QuaternionStamped_.hpp\n'}
+[0.084896] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Odometry_.hpp\n'}
+[0.084919] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Pose_.hpp\n'}
+[0.085113] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Twist_.hpp\n'}
+[0.085393] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointStamped_.hpp\n'}
+[0.085416] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Quaternion_.hpp\n'}
+[0.085438] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PointField_.hpp\n'}
+[0.085461] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistStamped_.hpp\n'}
+[0.085482] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Vector3_.hpp\n'}
+[0.085503] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovariance_.hpp\n'}
+[0.085525] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovariance_.hpp\n'}
+[0.085547] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Point_.hpp\n'}
+[0.085568] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Pose2D_.hpp\n'}
+[0.085589] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Time_.hpp\n'}
+[0.085611] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/Point32_.hpp\n'}
+[0.085632] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/ros2/String_.hpp\n'}
+[0.085653] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg\n'}
+[0.085674] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/LowCmd_.hpp\n'}
+[0.085695] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/BmsState_.hpp\n'}
+[0.085717] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/MotorCmd_.hpp\n'}
+[0.085991] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/MainBoardState_.hpp\n'}
+[0.086014] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/HandCmd_.hpp\n'}
+[0.086036] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/IMUState_.hpp\n'}
+[0.086059] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/PressSensorState_.hpp\n'}
+[0.086080] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/HandState_.hpp\n'}
+[0.086100] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/BmsCmd_.hpp\n'}
+[0.086122] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/MotorState_.hpp\n'}
+[0.086192] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/hg/LowState_.hpp\n'}
+[0.086255] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2\n'}
+[0.086277] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/LowCmd_.hpp\n'}
+[0.086298] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/Req_.hpp\n'}
+[0.086319] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/BmsState_.hpp\n'}
+[0.086339] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorCmd_.hpp\n'}
+[0.086378] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorCmds_.hpp\n'}
+[0.086401] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/LidarState_.hpp\n'}
+[0.086422] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/TimeSpec_.hpp\n'}
+[0.086480] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/InterfaceConfig_.hpp\n'}
+[0.086503] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/Error_.hpp\n'}
+[0.086525] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorStates_.hpp\n'}
+[0.086546] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/IMUState_.hpp\n'}
+[0.086568] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/AudioData_.hpp\n'}
+[0.086590] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/PathPoint_.hpp\n'}
+[0.086611] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/HeightMap_.hpp\n'}
+[0.086660] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/Res_.hpp\n'}
+[0.086682] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/ConfigChangeStatus_.hpp\n'}
+[0.086704] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/BmsCmd_.hpp\n'}
+[0.086724] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/WirelessController_.hpp\n'}
+[0.086745] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/SportModeCmd_.hpp\n'}
+[0.086767] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/SportModeState_.hpp\n'}
+[0.086788] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/MotorState_.hpp\n'}
+[0.086809] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/LowState_.hpp\n'}
+[0.086829] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/UwbSwitch_.hpp\n'}
+[0.086884] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/UwbState_.hpp\n'}
+[0.086905] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/unitree/idl/go2/Go2FrontVideoData_.hpp\n'}
+[0.086927] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/lib/libunitree_sdk2.a\n'}
+[0.086948] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Targets.cmake\n'}
+[0.086973] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Config.cmake\n'}
+[0.086994] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2ConfigVersion.cmake\n'}
+[0.087015] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/lib/libddsc.so\n'}
+[0.087036] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/lib/libddsc.so.0\n'}
+[0.087056] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/lib/libddscxx.so\n'}
+[0.087076] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/lib/libddscxx.so.0\n'}
+[0.087097] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include\n'}
+[0.087118] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds\n'}
+[0.087139] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi\n'}
+[0.087330] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_protocol.h\n'}
+[0.087352] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_inverse_uint32_set.h\n'}
+[0.087374] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_feature_check.h\n'}
+[0.087439] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_sockwaitset.h\n'}
+[0.087460] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_match.h\n'}
+[0.087482] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgunits.h\n'}
+[0.087504] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ssl.h\n'}
+[0.087546] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_plist.h\n'}
+[0.087568] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xqos.h\n'}
+[0.087588] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_ddsi_discovery.h\n'}
+[0.087609] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_radmin.h\n'}
+[0.087629] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.idl\n'}
+[0.087649] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ipaddr.h\n'}
+[0.087669] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.h\n'}
+[0.087690] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_exchange.h\n'}
+[0.087710] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_ownip.h\n'}
+[0.087731] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_plist.h\n'}
+[0.087752] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_lifespan.h\n'}
+[0.087772] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity.h\n'}
+[0.087892] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_lat_estim.h\n'}
+[0.087935] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_util.h\n'}
+[0.087958] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_config_impl.h\n'}
+[0.087980] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_guid.h\n'}
+[0.088001] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_xmsg.h\n'}
+[0.088022] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata.h\n'}
+[0.088042] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tcp.h\n'}
+[0.088062] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_transmit.h\n'}
+[0.088082] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_iid.h\n'}
+[0.088102] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/sysdeps.h\n'}
+[0.088122] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_sertopic.h\n'}
+[0.088142] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typelookup.h\n'}
+[0.088162] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_locator.h\n'}
+[0.088182] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_gc.h\n'}
+[0.088202] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_log.h\n'}
+[0.088222] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_xevent.h\n'}
+[0.088257] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_portmapping.h\n'}
+[0.088278] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_endpoint.h\n'}
+[0.088303] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_vendor.h\n'}
+[0.088322] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_pserop.h\n'}
+[0.088342] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_misc.h\n'}
+[0.088361] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_keyhash.h\n'}
+[0.088380] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_thread.h\n'}
+[0.088399] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_list_genptr.h\n'}
+[0.088418] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_time.h\n'}
+[0.088437] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_participant.h\n'}
+[0.088456] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_rhc.h\n'}
+[0.088475] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_udp.h\n'}
+[0.088493] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_unused.h\n'}
+[0.088511] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_wraddrset.h\n'}
+[0.088531] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_debmon.h\n'}
+[0.088552] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_receive.h\n'}
+[0.088630] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_rtps.h\n'}
+[0.088652] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_deliver_locally.h\n'}
+[0.088673] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_freelist.h\n'}
+[0.088725] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tkmap.h\n'}
+[0.088747] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_pmd.h\n'}
+[0.088768] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_bswap.h\n'}
+[0.088789] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_config.h\n'}
+[0.088811] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_raweth.h\n'}
+[0.088832] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_shm_transport.h\n'}
+[0.088854] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_msg.h\n'}
+[0.088876] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_lease.h\n'}
+[0.088898] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_topic.h\n'}
+[0.088917] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_init.h\n'}
+[0.088937] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.idl\n'}
+[0.088957] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_qosmatch.h\n'}
+[0.088977] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_whc.h\n'}
+[0.089010] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_plist_generic.h\n'}
+[0.089032] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.idl\n'}
+[0.089053] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_builtin_topic_if.h\n'}
+[0.089074] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_threadmon.h\n'}
+[0.089095] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_handshake.h\n'}
+[0.089116] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_default.h\n'}
+[0.089136] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cdrstream.h\n'}
+[0.089157] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_addrset.h\n'}
+[0.089178] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typelib.h\n'}
+[0.089198] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_participant.h\n'}
+[0.089218] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typebuilder.h\n'}
+[0.089289] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_list_tmpl.h\n'}
+[0.089310] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_typewrap.h\n'}
+[0.089332] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_pcap.h\n'}
+[0.089352] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_vnet.h\n'}
+[0.089374] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_tran.h\n'}
+[0.089401] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_security_omg.h\n'}
+[0.089423] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_hbcontrol.h\n'}
+[0.089443] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_domaingv.h\n'}
+[0.089464] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_deadline.h\n'}
+[0.089485] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_endpoint.h\n'}
+[0.089505] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_sertype.h\n'}
+[0.089526] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_acknack.h\n'}
+[0.089547] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_statistics.h\n'}
+[0.089567] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgelems.h\n'}
+[0.089587] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_index.h\n'}
+[0.089608] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.h\n'}
+[0.089629] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_impl.h\n'}
+[0.089650] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/q_bitset.h\n'}
+[0.089671] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_mcgroup.h\n'}
+[0.089691] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.h\n'}
+[0.089713] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt\n'}
+[0.089747] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem.h\n'}
+[0.089774] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/sched.h\n'}
+[0.089797] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/arch.h\n'}
+[0.089818] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/time.h\n'}
+[0.089839] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/rusage.h\n'}
+[0.089902] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem\n'}
+[0.089926] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem/windows.h\n'}
+[0.089947] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/filesystem/posix.h\n'}
+[0.090005] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/random.h\n'}
+[0.090027] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/fibheap.h\n'}
+[0.090048] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets.h\n'}
+[0.090068] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/threads\n'}
+[0.090089] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/threads/freertos.h\n'}
+[0.090109] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/threads/windows.h\n'}
+[0.090128] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/threads/posix.h\n'}
+[0.090148] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/xmlparser.h\n'}
+[0.090168] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets\n'}
+[0.090189] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets/windows.h\n'}
+[0.090209] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/sockets/posix.h\n'}
+[0.090229] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/ifaddrs.h\n'}
+[0.090250] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/endian.h\n'}
+[0.090269] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/environ.h\n'}
+[0.090288] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/bswap.h\n'}
+[0.090308] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/types\n'}
+[0.090327] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/types/vxworks.h\n'}
+[0.090348] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/types/windows.h\n'}
+[0.090369] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/types/posix.h\n'}
+[0.090389] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/types.h\n'}
+[0.090409] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/cdtors.h\n'}
+[0.090428] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics\n'}
+[0.090448] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/sun.h\n'}
+[0.090467] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/msvc.h\n'}
+[0.090487] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/gcc.h\n'}
+[0.090506] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics/arm.h\n'}
+[0.090524] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/threads.h\n'}
+[0.090541] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/mh3.h\n'}
+[0.090560] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/process.h\n'}
+[0.090579] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/circlist.h\n'}
+[0.090620] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/netstat.h\n'}
+[0.090641] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/expand_vars.h\n'}
+[0.090663] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/log.h\n'}
+[0.090684] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/countargs.h\n'}
+[0.090704] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/sync.h\n'}
+[0.090724] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/strtol.h\n'}
+[0.090745] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/static_assert.h\n'}
+[0.090765] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/retcode.h\n'}
+[0.090786] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/time\n'}
+[0.090806] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/time/freertos.h\n'}
+[0.090836] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/avl.h\n'}
+[0.090942] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/io.h\n'}
+[0.090965] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/strtod.h\n'}
+[0.090986] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/dynlib.h\n'}
+[0.091007] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/string.h\n'}
+[0.091028] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/misc.h\n'}
+[0.091049] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/hopscotch.h\n'}
+[0.091069] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/iovec.h\n'}
+[0.091090] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/sync\n'}
+[0.091110] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/sync/freertos.h\n'}
+[0.091130] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/sync/windows.h\n'}
+[0.091150] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/sync/posix.h\n'}
+[0.091171] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/heap.h\n'}
+[0.091190] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/align.h\n'}
+[0.091210] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/attributes.h\n'}
+[0.091230] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/md5.h\n'}
+[0.091257] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsrt/atomics.h\n'}
+[0.091278] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc\n'}
+[0.091299] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_qos.h\n'}
+[0.091319] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_basic_types.h\n'}
+[0.091341] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_loan_api.h\n'}
+[0.091362] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_internal_api.h\n'}
+[0.091382] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_data_allocator.h\n'}
+[0.091402] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_opcodes.h\n'}
+[0.091422] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_listener.h\n'}
+[0.091442] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_impl.h\n'}
+[0.091462] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_statistics.h\n'}
+[0.091482] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_status.h\n'}
+[0.091501] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_alloc.h\n'}
+[0.091520] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_rhc.h\n'}
+[0.091540] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_error.h\n'}
+[0.091560] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/ddsc/dds_public_qosdefs.h\n'}
+[0.091583] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/config.h\n'}
+[0.091605] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/export.h\n'}
+[0.091625] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/dds.h\n'}
+[0.091645] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/version.h\n'}
+[0.091665] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/dds/features.h\n'}
+[0.091684] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddsc\n'}
+[0.091704] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddsc/dds.h\n'}
+[0.091723] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx\n'}
+[0.091743] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds\n'}
+[0.091763] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub\n'}
+[0.091784] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriterListener.hpp\n'}
+[0.091805] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriter.hpp\n'}
+[0.091825] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/PublisherListener.hpp\n'}
+[0.091856] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/CoherentSet.hpp\n'}
+[0.091879] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriter.hpp\n'}
+[0.091900] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TSuspendedPublication.hpp\n'}
+[0.091924] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/Publisher.hpp\n'}
+[0.092041] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TAnyDataWriter.hpp\n'}
+[0.092063] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriterListener.hpp\n'}
+[0.092085] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TCoherentSet.hpp\n'}
+[0.092106] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail\n'}
+[0.092128] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TSuspendedPublicationImpl.hpp\n'}
+[0.092148] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriter.hpp\n'}
+[0.092169] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/CoherentSet.hpp\n'}
+[0.092190] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/AnyDataWriter.hpp\n'}
+[0.092211] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TAnyDataWriterImpl.hpp\n'}
+[0.092232] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriterImpl.hpp\n'}
+[0.092252] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/Publisher.hpp\n'}
+[0.092273] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TCoherentSetImpl.hpp\n'}
+[0.092433] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/SuspendedPublication.hpp\n'}
+[0.092603] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/ddspub.hpp\n'}
+[0.092626] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/discovery.hpp\n'}
+[0.092649] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/find.hpp\n'}
+[0.092669] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TPublisherImpl.hpp\n'}
+[0.092690] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/SuspendedPublication.hpp\n'}
+[0.092710] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/ddspub.hpp\n'}
+[0.092731] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/TPublisher.hpp\n'}
+[0.092752] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/discovery.hpp\n'}
+[0.092773] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/find.hpp\n'}
+[0.092793] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos\n'}
+[0.092813] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/DataWriterQos.hpp\n'}
+[0.092832] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail\n'}
+[0.092852] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/DataWriterQos.hpp\n'}
+[0.092871] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/PublisherQos.hpp\n'}
+[0.092894] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/pub/qos/PublisherQos.hpp\n'}
+[0.092914] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core\n'}
+[0.092934] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Entity.hpp\n'}
+[0.092954] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TEntity.hpp\n'}
+[0.092975] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/InstanceHandle.hpp\n'}
+[0.092995] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/SafeEnumeration.hpp\n'}
+[0.093015] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/macros.hpp\n'}
+[0.093064] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/refmacros.hpp\n'}
+[0.093088] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Reference.hpp\n'}
+[0.093109] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/ddscore.hpp\n'}
+[0.093130] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TInstanceHandle.hpp\n'}
+[0.093151] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/QosProvider.hpp\n'}
+[0.093171] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond\n'}
+[0.093192] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/StatusCondition.hpp\n'}
+[0.093213] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TGuardCondition.hpp\n'}
+[0.093571] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/GuardCondition.hpp\n'}
+[0.093594] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TStatusCondition.hpp\n'}
+[0.093614] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/WaitSet.hpp\n'}
+[0.093633] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail\n'}
+[0.093652] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TWaitSetImpl.hpp\n'}
+[0.093702] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/StatusCondition.hpp\n'}
+[0.093723] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/GuardCondition.hpp\n'}
+[0.093743] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/WaitSet.hpp\n'}
+[0.093764] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TGuardConditionImpl.hpp\n'}
+[0.093784] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TConditionImpl.hpp\n'}
+[0.093804] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TStatusConditionImpl.hpp\n'}
+[0.093824] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/Condition.hpp\n'}
+[0.093846] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/Condition.hpp\n'}
+[0.093866] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TWaitSet.hpp\n'}
+[0.093886] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/cond/TCondition.hpp\n'}
+[0.093905] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Duration.hpp\n'}
+[0.093925] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/types.hpp\n'}
+[0.093944] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Exception.hpp\n'}
+[0.093964] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/array.hpp\n'}
+[0.093983] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TQosProvider.hpp\n'}
+[0.094002] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TEntityQos.hpp\n'}
+[0.094034] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy\n'}
+[0.094056] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/TQosPolicyCount.hpp\n'}
+[0.094077] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/PolicyKind.hpp\n'}
+[0.094098] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail\n'}
+[0.094118] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TCorePolicyImpl.hpp\n'}
+[0.094138] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TQosPolicyCountImpl.hpp\n'}
+[0.094159] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/QosPolicyCount.hpp\n'}
+[0.094179] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/CorePolicy.hpp\n'}
+[0.094289] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/QosPolicyCount.hpp\n'}
+[0.094312] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/TCorePolicy.hpp\n'}
+[0.094346] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/policy/CorePolicy.hpp\n'}
+[0.094368] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/TBuiltinTopicTypes.hpp\n'}
+[0.094389] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail\n'}
+[0.094411] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/Entity.hpp\n'}
+[0.094431] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/module_docs.hpp\n'}
+[0.094451] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/InstanceHandle.hpp\n'}
+[0.094475] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/macros.hpp\n'}
+[0.094497] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TInstanceHandleImpl.hpp\n'}
+[0.094518] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ddscore.hpp\n'}
+[0.094595] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/QosProvider.hpp\n'}
+[0.094617] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityQosImpl.hpp\n'}
+[0.094639] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/WeakReferenceImpl.hpp\n'}
+[0.094661] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/inttypes.hpp\n'}
+[0.094683] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/array.hpp\n'}
+[0.094705] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TQosProviderImpl.hpp\n'}
+[0.094726] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/conformance.hpp\n'}
+[0.094747] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/Value.hpp\n'}
+[0.094767] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/old_win_stdint.h\n'}
+[0.094788] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/BuiltinTopicTypes.hpp\n'}
+[0.094809] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ReferenceImpl.hpp\n'}
+[0.094830] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityImpl.hpp\n'}
+[0.094850] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/ref_traits.hpp\n'}
+[0.094873] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/detail/export.hpp\n'}
+[0.094893] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/LengthUnlimited.hpp\n'}
+[0.094914] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/conformance.hpp\n'}
+[0.094933] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Value.hpp\n'}
+[0.094953] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Time.hpp\n'}
+[0.094973] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/BuiltinTopicTypes.hpp\n'}
+[0.094994] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes\n'}
+[0.095013] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/Annotations.hpp\n'}
+[0.095034] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionType.hpp\n'}
+[0.095054] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TStructType.hpp\n'}
+[0.095075] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TTypeProvider.hpp\n'}
+[0.095095] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeProvider.hpp\n'}
+[0.095125] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/CollectionTypes.hpp\n'}
+[0.095209] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/MemberType.hpp\n'}
+[0.095231] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeKind.hpp\n'}
+[0.095251] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TAnnotation.hpp\n'}
+[0.095276] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TMemberType.hpp\n'}
+[0.095298] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/StructType.hpp\n'}
+[0.095319] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail\n'}
+[0.095339] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionType.hpp\n'}
+[0.095360] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/TypeProvider.hpp\n'}
+[0.095379] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/CollectionTypes.hpp\n'}
+[0.095399] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/MemberType.hpp\n'}
+[0.095418] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/StructType.hpp\n'}
+[0.095438] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/PrimitiveTypes.hpp\n'}
+[0.095458] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicType.hpp\n'}
+[0.095490] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/Annotation.hpp\n'}
+[0.095512] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionCase.hpp\n'}
+[0.095532] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicData.hpp\n'}
+[0.095553] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/PrimitiveTypes.hpp\n'}
+[0.095573] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicType.hpp\n'}
+[0.095594] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TCollectionTypes.hpp\n'}
+[0.095646] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicType.hpp\n'}
+[0.095667] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionCase.hpp\n'}
+[0.095688] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicData.hpp\n'}
+[0.095708] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicData.hpp\n'}
+[0.095729] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status\n'}
+[0.095749] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/State.hpp\n'}
+[0.095794] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/Status.hpp\n'}
+[0.095816] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail\n'}
+[0.095836] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/Status.hpp\n'}
+[0.095857] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/TStatusImpl.hpp\n'}
+[0.095878] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/status/TStatus.hpp\n'}
+[0.095898] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/External.hpp\n'}
+[0.095919] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/WeakReference.hpp\n'}
+[0.095938] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/ref_traits.hpp\n'}
+[0.095963] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/core/Optional.hpp\n'}
+[0.095982] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/features.hpp\n'}
+[0.096010] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic\n'}
+[0.096033] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TAnyTopic.hpp\n'}
+[0.096117] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopicKey.hpp\n'}
+[0.096140] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/Filter.hpp\n'}
+[0.096166] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopic.hpp\n'}
+[0.096186] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/MultiTopic.hpp\n'}
+[0.096207] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopicKey.hpp\n'}
+[0.096227] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicDescription.hpp\n'}
+[0.096247] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicTraits.hpp\n'}
+[0.096268] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/ddstopic.hpp\n'}
+[0.096293] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopicListener.hpp\n'}
+[0.096333] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TTopic.hpp\n'}
+[0.096361] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/Topic.hpp\n'}
+[0.096389] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicInstance.hpp\n'}
+[0.096419] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TFilter.hpp\n'}
+[0.096481] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TContentFilteredTopic.hpp\n'}
+[0.096544] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail\n'}
+[0.096611] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TFilterImpl.hpp\n'}
+[0.096633] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopicKey.hpp\n'}
+[0.096654] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Filter.hpp\n'}
+[0.096678] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/AnyTopic.hpp\n'}
+[0.096698] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/MultiTopic.hpp\n'}
+[0.096718] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicImpl.hpp\n'}
+[0.096738] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TAnyTopicImpl.hpp\n'}
+[0.096758] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicDescriptionImpl.hpp\n'}
+[0.096778] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicDescription.hpp\n'}
+[0.096799] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ddstopic.hpp\n'}
+[0.096819] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Topic.hpp\n'}
+[0.096838] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp\n'}
+[0.096858] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp\n'}
+[0.096878] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicImpl.hpp\n'}
+[0.096898] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicInstanceImpl.hpp\n'}
+[0.096927] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TContentFilteredTopicImpl.hpp\n'}
+[0.096949] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicKeyImpl.hpp\n'}
+[0.096969] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/discovery.hpp\n'}
+[0.096990] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/detail/find.hpp\n'}
+[0.097010] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/ContentFilteredTopic.hpp\n'}
+[0.097030] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopic.hpp\n'}
+[0.097051] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopic.hpp\n'}
+[0.097074] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TopicListener.hpp\n'}
+[0.097095] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/discovery.hpp\n'}
+[0.097115] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/find.hpp\n'}
+[0.097135] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos\n'}
+[0.097155] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/TopicQos.hpp\n'}
+[0.097206] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail\n'}
+[0.097229] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail/TopicQos.hpp\n'}
+[0.097250] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TMultiTopic.hpp\n'}
+[0.097270] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/topic/TTopicDescription.hpp\n'}
+[0.097317] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain\n'}
+[0.097339] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/TDomainParticipant.hpp\n'}
+[0.097361] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipantListener.hpp\n'}
+[0.097382] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail\n'}
+[0.097402] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp\n'}
+[0.097422] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/ddsdomain.hpp\n'}
+[0.097443] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/detail/DomainParticipant.hpp\n'}
+[0.097462] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/ddsdomain.hpp\n'}
+[0.097482] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/discovery.hpp\n'}
+[0.097501] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/find.hpp\n'}
+[0.097521] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipant.hpp\n'}
+[0.097541] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos\n'}
+[0.097607] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/DomainParticipantQos.hpp\n'}
+[0.097629] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail\n'}
+[0.097650] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail/DomainParticipantQos.hpp\n'}
+[0.097670] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/dds.hpp\n'}
+[0.097701] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/LICENSE\n'}
+[0.097721] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub\n'}
+[0.097741] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TAnyDataReader.hpp\n'}
+[0.097761] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/LoanedSamples.hpp\n'}
+[0.097780] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/CoherentAccess.hpp\n'}
+[0.097800] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Subscriber.hpp\n'}
+[0.097820] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Query.hpp\n'}
+[0.097844] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/DataReaderListener.hpp\n'}
+[0.097865] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Sample.hpp\n'}
+[0.097885] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TRank.hpp\n'}
+[0.097905] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SampleInfo.hpp\n'}
+[0.097925] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SampleRef.hpp\n'}
+[0.097945] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/GenerationCount.hpp\n'}
+[0.097964] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond\n'}
+[0.098017] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TReadCondition.hpp\n'}
+[0.098039] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/QueryCondition.hpp\n'}
+[0.098070] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TQueryCondition.hpp\n'}
+[0.098093] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail\n'}
+[0.098115] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/QueryCondition.hpp\n'}
+[0.098136] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TReadConditionImpl.hpp\n'}
+[0.098157] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/ReadCondition.hpp\n'}
+[0.098178] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TQueryConditionImpl.hpp\n'}
+[0.098199] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/cond/ReadCondition.hpp\n'}
+[0.098218] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSubscriber.hpp\n'}
+[0.098238] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SubscriberListener.hpp\n'}
+[0.098259] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TCoherentAccess.hpp\n'}
+[0.098280] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSample.hpp\n'}
+[0.098300] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/Rank.hpp\n'}
+[0.098321] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TGenerationCount.hpp\n'}
+[0.098341] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail\n'}
+[0.098362] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamples.hpp\n'}
+[0.098382] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleInfoImpl.hpp\n'}
+[0.098416] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/CoherentAccess.hpp\n'}
+[0.098438] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TAnyDataReaderImpl.hpp\n'}
+[0.098461] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Subscriber.hpp\n'}
+[0.098482] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Query.hpp\n'}
+[0.098502] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamplesImpl.hpp\n'}
+[0.098522] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TCoherentAccessImpl.hpp\n'}
+[0.098555] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Sample.hpp\n'}
+[0.098577] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TQueryImpl.hpp\n'}
+[0.098598] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleInfo.hpp\n'}
+[0.098619] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleRef.hpp\n'}
+[0.098639] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleImpl.hpp\n'}
+[0.098660] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/GenerationCount.hpp\n'}
+[0.098682] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp\n'}
+[0.098702] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSubscriberImpl.hpp\n'}
+[0.098723] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Rank.hpp\n'}
+[0.098744] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SamplesHolder.hpp\n'}
+[0.098785] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Manipulators.hpp\n'}
+[0.098807] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TRankImpl.hpp\n'}
+[0.098828] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/DataReader.hpp\n'}
+[0.098851] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleRefImpl.hpp\n'}
+[0.098872] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamplesImpl.hpp\n'}
+[0.098893] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/ddssub.hpp\n'}
+[0.098914] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/discovery.hpp\n'}
+[0.098935] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/AnyDataReader.hpp\n'}
+[0.098955] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/find.hpp\n'}
+[0.098976] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamples.hpp\n'}
+[0.098996] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TGenerationCountImpl.hpp\n'}
+[0.099017] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleInfo.hpp\n'}
+[0.099045] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/DataReader.hpp\n'}
+[0.099067] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReaderListener.hpp\n'}
+[0.099087] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TDataReader.hpp\n'}
+[0.099107] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status\n'}
+[0.099127] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/DataState.hpp\n'}
+[0.099147] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail\n'}
+[0.099167] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail/DataStateImpl.hpp\n'}
+[0.099187] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/ddssub.hpp\n'}
+[0.099207] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/discovery.hpp\n'}
+[0.099227] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TQuery.hpp\n'}
+[0.099247] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReader.hpp\n'}
+[0.099266] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/find.hpp\n'}
+[0.099286] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleRef.hpp\n'}
+[0.099305] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos\n'}
+[0.099324] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/SubscriberQos.hpp\n'}
+[0.099344] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail\n'}
+[0.099363] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/SubscriberQos.hpp\n'}
+[0.099383] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/DataReaderQos.hpp\n'}
+[0.099403] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/qos/DataReaderQos.hpp\n'}
+[0.099512] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/dds/sub/SharedSamples.hpp\n'}
+[0.099538] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org\n'}
+[0.099559] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse\n'}
+[0.099580] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds\n'}
+[0.099601] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub\n'}
+[0.099622] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/AnyDataWriterDelegate.hpp\n'}
+[0.099641] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/CoherentSetDelegate.hpp\n'}
+[0.099661] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos\n'}
+[0.100271] (-) TimerEvent: {}
+[0.100358] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/DataWriterQosDelegate.hpp\n'}
+[0.100528] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/PublisherQosDelegate.hpp\n'}
+[0.100599] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/PublisherDelegate.hpp\n'}
+[0.100622] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/SuspendedPublicationDelegate.hpp\n'}
+[0.100643] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core\n'}
+[0.100664] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntitySet.hpp\n'}
+[0.100686] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/config.hpp\n'}
+[0.100706] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/QosProviderDelegate.hpp\n'}
+[0.100727] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectSet.hpp\n'}
+[0.100779] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/WeakReferenceSet.hpp\n'}
+[0.100800] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond\n'}
+[0.100821] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/GuardConditionDelegate.hpp\n'}
+[0.100843] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/WaitSetDelegate.hpp\n'}
+[0.100864] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/StatusConditionDelegate.hpp\n'}
+[0.100884] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/FunctorHolder.hpp\n'}
+[0.100905] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ShadowParticipant.hpp\n'}
+[0.100925] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ConditionDelegate.hpp\n'}
+[0.100946] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Mutex.hpp\n'}
+[0.100967] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/DDScObjectDelegate.hpp\n'}
+[0.100987] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityDelegate.hpp\n'}
+[0.101007] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/MiscUtils.hpp\n'}
+[0.101029] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/type_helpers.hpp\n'}
+[0.101050] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy\n'}
+[0.101072] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/PolicyDelegate.hpp\n'}
+[0.101135] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/ProprietaryPolicyKind.hpp\n'}
+[0.101179] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/Policy.hpp\n'}
+[0.101199] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/TPolicy.hpp\n'}
+[0.101220] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/QosPolicyCountDelegate.hpp\n'}
+[0.101518] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityRegistry.hpp\n'}
+[0.101622] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr\n'}
+[0.101642] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_enums.hpp\n'}
+[0.101662] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp\n'}
+[0.101704] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/fragchain.hpp\n'}
+[0.101725] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp\n'}
+[0.101766] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp\n'}
+[0.101789] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp\n'}
+[0.101810] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/entity_properties.hpp\n'}
+[0.101831] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/TimeHelper.hpp\n'}
+[0.101853] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ReportUtils.hpp\n'}
+[0.101874] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Missing.hpp\n'}
+[0.101895] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ScopedLock.hpp\n'}
+[0.102028] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ListenerDispatcher.hpp\n'}
+[0.102051] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status\n'}
+[0.102072] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status/StatusDelegate.hpp\n'}
+[0.102092] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/InstanceHandleDelegate.hpp\n'}
+[0.102112] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectDelegate.hpp\n'}
+[0.102132] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic\n'}
+[0.102152] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicKeyDelegate.hpp\n'}
+[0.102337] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp\n'}
+[0.102358] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/FilterDelegate.hpp\n'}
+[0.102379] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicCopy.hpp\n'}
+[0.102400] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicDelegate.hpp\n'}
+[0.102421] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp\n'}
+[0.102441] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicDescriptionDelegate.hpp\n'}
+[0.102461] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicListener.hpp\n'}
+[0.102481] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicTraits.hpp\n'}
+[0.102501] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopic.hpp\n'}
+[0.102520] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicDelegate.hpp\n'}
+[0.102539] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TBuiltinTopic.hpp\n'}
+[0.102557] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicListener.hpp\n'}
+[0.102577] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/hash.hpp\n'}
+[0.102598] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/discovery.hpp\n'}
+[0.102698] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/find.hpp\n'}
+[0.102720] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/CDRBlob.hpp\n'}
+[0.102741] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos\n'}
+[0.102761] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos/TopicQosDelegate.hpp\n'}
+[0.102789] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain\n'}
+[0.102810] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainWrap.hpp\n'}
+[0.102830] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantListener.hpp\n'}
+[0.102850] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/Domain.hpp\n'}
+[0.102870] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantRegistry.hpp\n'}
+[0.102890] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantDelegate.hpp\n'}
+[0.102912] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos\n'}
+[0.102934] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos/DomainParticipantQosDelegate.hpp\n'}
+[0.102954] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/ForwardDeclarations.hpp\n'}
+[0.102974] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub\n'}
+[0.102994] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SampleInfoImpl.hpp\n'}
+[0.103014] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/GenerationCountImpl.hpp\n'}
+[0.103034] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp\n'}
+[0.103054] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond\n'}
+[0.103074] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/ReadConditionDelegate.hpp\n'}
+[0.103095] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/QueryConditionDelegate.hpp\n'}
+[0.103116] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/RankImpl.hpp\n'}
+[0.103136] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SubscriberDelegate.hpp\n'}
+[0.103156] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/QueryDelegate.hpp\n'}
+[0.103175] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos\n'}
+[0.103195] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/SubscriberQosDelegate.hpp\n'}
+[0.103215] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/DataReaderQosDelegate.hpp\n'}
+[0.103235] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/CoherentAccessDelegate.hpp\n'}
+[0.103256] (unitree_sdk2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/nav2_ws/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/BuiltinSubscriberDelegate.hpp\n'}
+[0.103278] (unitree_sdk2) CommandEnded: {'returncode': 0}
+[0.106495] (unitree_sdk2) JobEnded: {'identifier': 'unitree_sdk2', 'rc': 0}
+[0.106877] (sdk2_user) JobStarted: {'identifier': 'sdk2_user'}
+[0.109539] (sdk2_user) JobProgress: {'identifier': 'sdk2_user', 'progress': 'cmake'}
+[0.109845] (sdk2_user) JobProgress: {'identifier': 'sdk2_user', 'progress': 'build'}
+[0.109914] (sdk2_user) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/nav2_ws/build/sdk2_user', '--', '-j32', '-l32'], 'cwd': '/home/robot/nav2_ws/build/sdk2_user', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1986'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/nav2_ws/install/unitree_sdk2/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src/h1_sport'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1909'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3601'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:58000'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2021,unix/robot:/tmp/.ICE-unix/2021'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', 'ce1247830da5457da18e17834d00dc8a'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/sdk2_user'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/nav2_ws/install/unitree_sdk2')]), 'shell': False}
+[0.113442] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 0}
+[0.131243] (h1_sport) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.131691] (sdk2_user) StdoutLine: {'line': b'[100%] Built target demo\n'}
+[0.135595] (sdk2_user) CommandEnded: {'returncode': 0}
+[0.143996] (sdk2_user) JobEnded: {'identifier': 'sdk2_user', 'rc': 0}
+[0.146091] (h1_sport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.147416] (h1_sport) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.200330] (-) TimerEvent: {}
+[0.200668] (h1_sport) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.222543] (h1_sport) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.223201] (h1_sport) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.285588] (h1_sport) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.300376] (-) TimerEvent: {}
+[0.312015] (h1_sport) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.312275] (h1_sport) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.312444] (h1_sport) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.312472] (h1_sport) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.312624] (h1_sport) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.312649] (h1_sport) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.312815] (h1_sport) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.313111] (h1_sport) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.313134] (h1_sport) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.313198] (h1_sport) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.314277] (h1_sport) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.314630] (h1_sport) StderrLine: {'line': b'CMake Error at CMakeLists.txt:35 (add_executable):\n'}
+[0.314664] (h1_sport) StderrLine: {'line': b'  Cannot find source file:\n'}
+[0.314685] (h1_sport) StderrLine: {'line': b'\n'}
+[0.314705] (h1_sport) StderrLine: {'line': b'    src/wang2.cpp\n'}
+[0.314725] (h1_sport) StderrLine: {'line': b'\n'}
+[0.314746] (h1_sport) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[0.314765] (h1_sport) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[0.314784] (h1_sport) StderrLine: {'line': b'\n'}
+[0.314803] (h1_sport) StderrLine: {'line': b'\n'}
+[0.314849] (h1_sport) StderrLine: {'line': b'CMake Error at CMakeLists.txt:35 (add_executable):\n'}
+[0.314873] (h1_sport) StderrLine: {'line': b'  No SOURCES given to target: wang2_node\n'}
+[0.314893] (h1_sport) StderrLine: {'line': b'\n'}
+[0.314912] (h1_sport) StderrLine: {'line': b'\n'}
+[0.314931] (h1_sport) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[0.317438] (h1_sport) StderrLine: {'line': b'make: *** [Makefile:222\xef\xbc\x9acmake_check_build_system] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.318334] (h1_sport) CommandEnded: {'returncode': 2}
+[0.329230] (h1_sport) JobEnded: {'identifier': 'h1_sport', 'rc': 2}
+[0.339581] (-) EventReactorShutdown: {}

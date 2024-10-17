@@ -1,0 +1,46 @@
+[35m[1mScanning dependencies of target chen_test_subscriber[0m
+[  3%] Built target test_jsonize
+[  6%] Built target advanced_gamepad
+[ 11%] Built target test_subscriber
+[ 14%] Built target go2_stand_example
+[ 17%] Built target go2_video_client
+[ 22%] Built target test_publisher
+[ 25%] Built target go2_low_level
+[ 29%] Built target go2_vui_client
+[ 32%] Built target h1_arm_sdk_dds_example
+[ 35%] Built target b2_sport_client
+[ 38%] Built target go2_robot_state_client
+[ 41%] Built target state_machine_example
+[ 45%] Built target go2_sport_client
+[ 48%] Built target b2_stand_example
+[ 51%] Built target go2_trajectory_follow
+[ 53%] [32mBuilding CXX object example/helloworld/CMakeFiles/chen_test_subscriber.dir/test_subscriber.cpp.o[0m
+[ 56%] Built target h1_low_level_example
+[ 61%] Built target g1_dual_arm_example
+[ 62%] Built target g1_23dof_ankle_track
+[ 66%] Built target g1_23dof_example
+[ 69%] Built target h1_27dof_example
+[ 72%] Built target g1_arm5_sdk_dds_example
+[ 75%] Built target g1_29dof_example
+[ 79%] Built target g1_arm7_sdk_dds_example
+[ 82%] Built target g1_loco_client
+[ 85%] Built target go2w_sport_client
+[ 91%] Built target h1_loco_client
+[ 91%] Built target go2w_stand_example
+[ 95%] Built target h1_2_arm_sdk_dds_example
+[ 98%] Built target h1_2_ankle_track
+[100%] [32m[1mLinking CXX executable ../../bin/chen_test_subscriber[0m
+/usr/bin/ld: CMakeFiles/chen_test_subscriber.dir/test_subscriber.cpp.o: in function `bool serialize_into<HelloWorldData::Msg, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream>(void*, unsigned long, HelloWorldData::Msg const&, bool) [clone .part.0]':
+test_subscriber.cpp:(.text+0xc9): undefined reference to `std::vector<org::eclipse::cyclonedds::core::cdr::entity_properties, std::allocator<org::eclipse::cyclonedds::core::cdr::entity_properties> >& org::eclipse::cyclonedds::core::cdr::get_type_props<HelloWorldData::Msg>()'
+/usr/bin/ld: CMakeFiles/chen_test_subscriber.dir/test_subscriber.cpp.o: in function `bool get_serialized_size<HelloWorldData::Msg, org::eclipse::cyclonedds::core::cdr::basic_cdr_stream>(HelloWorldData::Msg const&, bool, unsigned long&)':
+test_subscriber.cpp:(.text._Z19get_serialized_sizeIN14HelloWorldData3MsgEN3org7eclipse10cyclonedds4core3cdr16basic_cdr_streamEEbRKT_bRm[_Z19get_serialized_sizeIN14HelloWorldData3MsgEN3org7eclipse10cyclonedds4core3cdr16basic_cdr_streamEEbRKT_bRm]+0xa8): undefined reference to `std::vector<org::eclipse::cyclonedds::core::cdr::entity_properties, std::allocator<org::eclipse::cyclonedds::core::cdr::entity_properties> >& org::eclipse::cyclonedds::core::cdr::get_type_props<HelloWorldData::Msg>()'
+/usr/bin/ld: CMakeFiles/chen_test_subscriber.dir/test_subscriber.cpp.o: in function `bool get_serialized_size<HelloWorldData::Msg, org::eclipse::cyclonedds::core::cdr::xcdr_v2_stream>(HelloWorldData::Msg const&, bool, unsigned long&)':
+test_subscriber.cpp:(.text._Z19get_serialized_sizeIN14HelloWorldData3MsgEN3org7eclipse10cyclonedds4core3cdr14xcdr_v2_streamEEbRKT_bRm[_Z19get_serialized_sizeIN14HelloWorldData3MsgEN3org7eclipse10cyclonedds4core3cdr14xcdr_v2_streamEEbRKT_bRm]+0xec): undefined reference to `std::vector<org::eclipse::cyclonedds::core::cdr::entity_properties, std::allocator<org::eclipse::cyclonedds::core::cdr::entity_properties> >& org::eclipse::cyclonedds::core::cdr::get_type_props<HelloWorldData::Msg>()'
+/usr/bin/ld: CMakeFiles/chen_test_subscriber.dir/test_subscriber.cpp.o: in function `bool deserialize_sample_from_buffer<HelloWorldData::Msg>(void*, unsigned long, HelloWorldData::Msg&, ddsi_serdata_kind)':
+test_subscriber.cpp:(.text._Z30deserialize_sample_from_bufferIN14HelloWorldData3MsgEEbPvmRT_17ddsi_serdata_kind[_Z30deserialize_sample_from_bufferIN14HelloWorldData3MsgEEbPvmRT_17ddsi_serdata_kind]+0x140): undefined reference to `std::vector<org::eclipse::cyclonedds::core::cdr::entity_properties, std::allocator<org::eclipse::cyclonedds::core::cdr::entity_properties> >& org::eclipse::cyclonedds::core::cdr::get_type_props<HelloWorldData::Msg>()'
+/usr/bin/ld: test_subscriber.cpp:(.text._Z30deserialize_sample_from_bufferIN14HelloWorldData3MsgEEbPvmRT_17ddsi_serdata_kind[_Z30deserialize_sample_from_bufferIN14HelloWorldData3MsgEEbPvmRT_17ddsi_serdata_kind]+0x204): undefined reference to `std::vector<org::eclipse::cyclonedds::core::cdr::entity_properties, std::allocator<org::eclipse::cyclonedds::core::cdr::entity_properties> >& org::eclipse::cyclonedds::core::cdr::get_type_props<HelloWorldData::Msg>()'
+/usr/bin/ld: CMakeFiles/chen_test_subscriber.dir/test_subscriber.cpp.o:test_subscriber.cpp:(.text._Z14serialize_intoIN14HelloWorldData3MsgEN3org7eclipse10cyclonedds4core3cdr14xcdr_v2_streamEEbPvmRKT_b[_Z14serialize_intoIN14HelloWorldData3MsgEN3org7eclipse10cyclonedds4core3cdr14xcdr_v2_streamEEbPvmRKT_b]+0x10d): more undefined references to `std::vector<org::eclipse::cyclonedds::core::cdr::entity_properties, std::allocator<org::eclipse::cyclonedds::core::cdr::entity_properties> >& org::eclipse::cyclonedds::core::cdr::get_type_props<HelloWorldData::Msg>()' follow
+collect2: error: ld returned 1 exit status
+make[2]: *** [example/helloworld/CMakeFiles/chen_test_subscriber.dir/build.make:87：bin/chen_test_subscriber] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:343：example/helloworld/CMakeFiles/chen_test_subscriber.dir/all] 错误 2
+make: *** [Makefile:130：all] 错误 2

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp
+iostream
+-
+dds/dds.h
+-
+unistd.h
+-
+string.h
+-
+

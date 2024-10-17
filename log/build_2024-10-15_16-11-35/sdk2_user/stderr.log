@@ -1,0 +1,16 @@
+[01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:20:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+   20 |     dds_entity_t topic = dds_create_topic(participant, &std_msg_string[01;31m[K,[m[K "/sport_cmd", NULL, NULL);
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:38:39:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msg_string*[m[K’ to ‘[01m[Kvoid**[m[K’
+   38 |         int result = dds_take(reader, [01;31m[K&msg[m[K, &info, 1, 1);
+      |                                       [01;31m[K^~~~[m[K
+      |                                       [01;31m[K|[m[K
+      |                                       [01;31m[Kstd_msg_string*[m[K
+In file included from [01m[K/home/robot/nav2_ws/src/sdk2_user_cmake_example/src/client.cpp:2[m[K:
+[01m[K/home/robot/nav2_ws/install/unitree_sdk2/include/dds/dds.h:3529:10:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kdds_return_t dds_take(dds_entity_t, void**, dds_sample_info_t*, size_t, uint32_t)[m[K’
+ 3529 |   [01;36m[Kvoid **buf[m[K,
+      |   [01;36m[K~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/client.dir/build.make:63：CMakeFiles/client.dir/src/client.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:78：CMakeFiles/client.dir/all] 错误 2
+make: *** [Makefile:84：all] 错误 2

@@ -1,0 +1,22 @@
+[0.012s] Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32
+[0.047s] [100%] Built target demo
+[0.062s] Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/robot/nav2_ws/build/h1_sport -- -j32 -l32
+[0.072s] Invoking command in '/home/robot/nav2_ws/build/h1_sport': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/h1_sport
+[0.076s] -- Install configuration: ""
+[0.077s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/ament_index/resource_index/package_run_dependencies/h1_sport
+[0.077s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/ament_index/resource_index/parent_prefix_path/h1_sport
+[0.077s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/environment/ament_prefix_path.sh
+[0.077s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/environment/ament_prefix_path.dsv
+[0.077s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/environment/path.sh
+[0.078s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/environment/path.dsv
+[0.078s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/local_setup.bash
+[0.078s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/local_setup.sh
+[0.078s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/local_setup.zsh
+[0.078s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/local_setup.dsv
+[0.078s] -- Installing: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/package.dsv
+[0.078s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/ament_index/resource_index/packages/h1_sport
+[0.078s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/cmake/h1_sportConfig.cmake
+[0.078s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/cmake/h1_sportConfig-version.cmake
+[0.078s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/share/h1_sport/package.xml
+[0.078s] -- Up-to-date: /home/robot/nav2_ws/install/h1_sport/lib/h1_sport/demo
+[0.079s] Invoked command in '/home/robot/nav2_ws/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/robot/nav2_ws/build/h1_sport

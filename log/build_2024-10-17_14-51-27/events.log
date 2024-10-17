@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (-) JobUnselected: {'identifier': 'car2'}
+[0.000133] (-) JobUnselected: {'identifier': 'dds_test'}
+[0.000224] (-) JobUnselected: {'identifier': 'hello_world_msgs'}
+[0.000307] (-) JobUnselected: {'identifier': 'ros2_socket_sender'}
+[0.000314] (-) JobUnselected: {'identifier': 'sdk2_user'}
+[0.000320] (-) JobUnselected: {'identifier': 'unitree_sdk2'}
+[0.000326] (-) JobUnselected: {'identifier': 'village_wang'}
+[0.000333] (h1_sport) JobQueued: {'identifier': 'h1_sport', 'dependencies': OrderedDict()}
+[0.000340] (h1_sport) JobStarted: {'identifier': 'h1_sport'}
+[0.003784] (h1_sport) JobProgress: {'identifier': 'h1_sport', 'progress': 'cmake'}
+[0.004045] (h1_sport) JobProgress: {'identifier': 'h1_sport', 'progress': 'build'}
+[0.004294] (h1_sport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/nav2_ws/build/h1_sport', '--', '-j32', '-l32'], 'cwd': '/home/robot/nav2_ws/build/h1_sport', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_GB:en'), ('USER', 'robot'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1902'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib::/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/robot/nav2_ws/src'), ('TERM_PROGRAM_VERSION', '1.88.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1825'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2754'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:65806'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/home/robot/.local/bin:/home/robot/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/robot/.local/bin:/home/robot/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.6/bin:/usr/local/cuda-11.6/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2006,unix/robot:/tmp/.ICE-unix/2006'), ('GDM_LANG', 'zh_CN'), ('INVOCATION_ID', '4ad70c02f09949e08aaf17bb01417b30'), ('PAPERSIZE', 'letter'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/robot/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-af9c782806.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/robot'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robot/nav2_ws/build/h1_sport'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda-11.6:/usr/local/cuda-11.6'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.021473] (h1_sport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target demo\x1b[0m\n'}
+[0.026639] (h1_sport) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o\x1b[0m\n'}
+[0.099951] (-) TimerEvent: {}
+[0.200197] (-) TimerEvent: {}
+[0.300436] (-) TimerEvent: {}
+[0.400709] (-) TimerEvent: {}
+[0.500917] (-) TimerEvent: {}
+[0.522405] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.522625] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<unitree::robot::ChannelSubscriber<std_msgs::msg::dds_::String_> >::shared_ptr(const char [13])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.522666] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.522690] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.522712] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.522737] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.522758] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.522778] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.522798] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.522817] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.522836] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.522855] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.522874] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.522894] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.522912] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.522931] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.522949] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.522968] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.522987] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.523005] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:367:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Tp>&, std::nothrow_t) [with _Tp = unitree::robot::ChannelSubscriber<std_msgs::msg::dds_::String_>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.523025] (h1_sport) StderrLine: {'line': b'  367 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Tp>& __r, std::nothrow_t)\n'}
+[0.523044] (h1_sport) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.523063] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:367:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[0.523082] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:358:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Alloc, class ... _Args> std::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.523102] (h1_sport) StderrLine: {'line': b'  358 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Sp_alloc_shared_tag<_Alloc> __tag, _Args&&... __args)\n'}
+[0.523121] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.523141] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:358:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.523160] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_alloc_shared_tag<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.523180] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.523201] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.523222] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.523243] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.523263] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.523283] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.523302] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.523322] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.523344] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.523364] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.523384] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.523402] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.523422] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.523441] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.523459] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.523478] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.523497] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.523515] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:307:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t) [with _Tp = unitree::robot::ChannelSubscriber<std_msgs::msg::dds_::String_>; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.523536] (h1_sport) StderrLine: {'line': b'  307 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t) noexcept : shared_ptr() { }\n'}
+[0.523556] (h1_sport) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.523574] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:307:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [13]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.523595] (h1_sport) StderrLine: {'line': b'  307 |       constexpr shared_ptr(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept : shared_ptr() { }\n'}
+[0.523614] (h1_sport) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.523633] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:290:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del, class> std::shared_ptr<_Tp>::shared_ptr(std::unique_ptr<_Up, _Ep>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.523659] (h1_sport) StderrLine: {'line': b'  290 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(unique_ptr<_Yp, _Del>&& __r)\n'}
+[0.523677] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.523695] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:290:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.523714] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [13]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.523733] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.523752] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.523772] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.523791] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.523809] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.523828] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.523846] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.523865] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.523883] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.523903] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.523922] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.523941] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.523960] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.523978] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.523996] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.524015] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.524034] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.524053] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:282:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::auto_ptr<_Up>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.524074] (h1_sport) StderrLine: {'line': b'  282 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(auto_ptr<_Yp>&& __r);\n'}
+[0.524093] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.524113] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:282:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.524132] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [13]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.524151] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.524170] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.524190] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.524209] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.524233] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.524252] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.524272] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.524290] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.524309] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.524327] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.524346] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.524366] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.524385] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.524404] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.524422] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.524441] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.524460] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.524478] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:275:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::weak_ptr<_Yp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.524496] (h1_sport) StderrLine: {'line': b'  275 |  explicit \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const weak_ptr<_Yp>& __r)\n'}
+[0.524515] (h1_sport) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.524534] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:275:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.524552] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::weak_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [13]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.524573] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.524593] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.524611] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.524629] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.524648] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.524666] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.524684] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.524703] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.524722] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.524740] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.524758] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.524776] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.524796] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.524814] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.524835] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.524856] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.524877] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.524896] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:263:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Yp>&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.524915] (h1_sport) StderrLine: {'line': b'  263 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr<_Yp>&& __r) noexcept\n'}
+[0.524934] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.524953] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:263:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.524972] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [13]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.524991] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.525012] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.525031] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.525050] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.525069] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.525087] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.525107] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.525125] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.525144] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.525162] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.525180] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.525199] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.525217] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.525235] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.525253] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.525271] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.525290] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.525308] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:254:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::shared_ptr<_Tp>&&) [with _Tp = unitree::robot::ChannelSubscriber<std_msgs::msg::dds_::String_>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.525327] (h1_sport) StderrLine: {'line': b'  254 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(shared_ptr&& __r) noexcept\n'}
+[0.525346] (h1_sport) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.525365] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:254:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [13]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<unitree::robot::ChannelSubscriber<std_msgs::msg::dds_::String_> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.525385] (h1_sport) StderrLine: {'line': b'  254 |       shared_ptr(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[0.525403] (h1_sport) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[0.525423] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:246:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.525443] (h1_sport) StderrLine: {'line': b'  246 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r) noexcept\n'}
+[0.525461] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.525480] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:246:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.525499] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [13]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.525519] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.525539] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.525557] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.525575] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.525594] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.525612] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.525630] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.525647] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.525666] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.525684] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.525703] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.525722] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.525740] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.525759] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.525777] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.525796] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.525814] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.525832] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:234:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Yp>&, std::shared_ptr<_Tp>::element_type*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.525852] (h1_sport) StderrLine: {'line': b'  234 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr<_Yp>& __r, element_type* __p) noexcept\n'}
+[0.525870] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.525890] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:234:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.525909] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kconst char [13]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.525927] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.525945] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.525964] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.525982] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.526000] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.526018] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.526036] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.526054] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.526072] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.526090] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.526108] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.526125] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.526142] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.526160] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.526177] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.526195] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.526212] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.526230] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:212:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter, class _Alloc> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter, _Alloc)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.526251] (h1_sport) StderrLine: {'line': b'  212 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d, _Alloc __a)\n'}
+[0.526270] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.526289] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:212:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.526308] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[0.526329] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.526348] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.526368] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.526386] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.526405] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.526425] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.526445] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.526464] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.526484] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.526503] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.526521] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.526541] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.526559] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.526578] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.526597] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.526616] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.526635] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.526654] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:193:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class _Alloc, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter, _Alloc)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.526674] (h1_sport) StderrLine: {'line': b'  193 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d, _Alloc __a)\n'}
+[0.526693] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.526711] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:193:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.526730] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 1 provided\n'}
+[0.526748] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.526768] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.526786] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.526804] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.526823] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.526842] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.526861] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.526879] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.526898] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.526916] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.526934] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.526953] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.526971] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.526991] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.527010] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.527028] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.527047] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.527064] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:173:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Deleter> std::shared_ptr<_Tp>::shared_ptr(std::nullptr_t, _Deleter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.527084] (h1_sport) StderrLine: {'line': b'  173 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(nullptr_t __p, _Deleter __d)\n'}
+[0.527103] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.527122] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:173:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.527141] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[0.527160] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.527179] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.527199] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.527218] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.527239] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.527257] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.527276] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.527295] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.527314] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.527332] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.527351] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.527369] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.527387] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.527405] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.527423] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.527441] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.527459] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.527476] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:156:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Deleter, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*, _Deleter)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.527495] (h1_sport) StderrLine: {'line': b'  156 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p, _Deleter __d)\n'}
+[0.527513] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.527531] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:156:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.527550] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:40:137:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[0.527570] (h1_sport) StderrLine: {'line': b'   40 |         std::shared_ptr<ChannelSubscriber<std_msgs::msg::dds_::String_>>(new ChannelSubscriberPtr<std_msgs::msg::dds_::String_>(SUBTOPIC\x1b[01;36m\x1b[K)\x1b[m\x1b[K);\n'}
+[0.527588] (h1_sport) StderrLine: {'line': b'      |                                                                                                                                         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[0.527606] (h1_sport) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[0.527625] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ref_traits.hpp:21\x1b[m\x1b[K,\n'}
+[0.527644] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ref_traits.hpp:53\x1b[m\x1b[K,\n'}
+[0.527663] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/refmacros.hpp:23\x1b[m\x1b[K,\n'}
+[0.527681] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Reference.hpp:23\x1b[m\x1b[K,\n'}
+[0.527700] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/ReferenceImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.527719] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/TEntityImpl.hpp:22\x1b[m\x1b[K,\n'}
+[0.527737] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/detail/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.527757] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/Entity.hpp:22\x1b[m\x1b[K,\n'}
+[0.527776] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/core/ddscore.hpp:28\x1b[m\x1b[K,\n'}
+[0.527794] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/ddscxx/dds/dds.hpp:33\x1b[m\x1b[K,\n'}
+[0.527813] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_entity.hpp:4\x1b[m\x1b[K,\n'}
+[0.527832] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_topic_channel.hpp:4\x1b[m\x1b[K,\n'}
+[0.527850] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/unitree/common/dds/dds_easy_model.hpp:4\x1b[m\x1b[K,\n'}
+[0.527869] (h1_sport) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/nav2_ws/src/h1_sport/src/demo.cpp:4\x1b[m\x1b[K:\n'}
+[0.527888] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:139:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class> std::shared_ptr<_Tp>::shared_ptr(_Yp*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.527906] (h1_sport) StderrLine: {'line': b'  139 |  \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(_Yp* __p) : __shared_ptr<_Tp>(__p) { }\n'}
+[0.527924] (h1_sport) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.527942] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:139:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[0.527962] (h1_sport) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class ... _Args> using _Constructible = typename std::enable_if<std::is_constructible<std::__shared_ptr<_Tp>, _Args ...>::value>::type [with _Args = {const char*}; _Tp = unitree::robot::ChannelSubscriber<std_msgs::msg::dds_::String_>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.527983] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:137:30:\x1b[m\x1b[K   required from here\n'}
+[0.528001] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:106:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.528019] (h1_sport) StderrLine: {'line': b'  106 |  using \x1b[01;31m\x1b[K_Constructible\x1b[m\x1b[K = typename enable_if<\n'}
+[0.528038] (h1_sport) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.528057] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:129:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(const std::shared_ptr<_Tp>&) [with _Tp = unitree::robot::ChannelSubscriber<std_msgs::msg::dds_::String_>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.528076] (h1_sport) StderrLine: {'line': b'  129 |       \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K(const shared_ptr&) noexcept = default;\n'}
+[0.528094] (h1_sport) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.528113] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:129:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [13]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<unitree::robot::ChannelSubscriber<std_msgs::msg::dds_::String_> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.528134] (h1_sport) StderrLine: {'line': b'  129 |       shared_ptr(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[0.528153] (h1_sport) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.528172] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:127:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::shared_ptr<_Tp>::shared_ptr() [with _Tp = unitree::robot::ChannelSubscriber<std_msgs::msg::dds_::String_>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.528191] (h1_sport) StderrLine: {'line': b'  127 |       constexpr \x1b[01;36m\x1b[Kshared_ptr\x1b[m\x1b[K() noexcept : __shared_ptr<_Tp>() { }\n'}
+[0.528210] (h1_sport) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.528230] (h1_sport) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:127:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 1 provided\n'}
+[0.601046] (-) TimerEvent: {}
+[0.701279] (-) TimerEvent: {}
+[0.722311] (h1_sport) StderrLine: {'line': b'make[2]: *** [CMakeFiles/demo.dir/build.make:63\xef\xbc\x9aCMakeFiles/demo.dir/src/demo.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[0.722533] (h1_sport) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78\xef\xbc\x9aCMakeFiles/demo.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.722693] (h1_sport) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[0.723569] (h1_sport) CommandEnded: {'returncode': 2}
+[0.737166] (h1_sport) JobEnded: {'identifier': 'h1_sport', 'rc': 2}
+[0.747504] (-) EventReactorShutdown: {}
