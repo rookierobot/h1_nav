@@ -32,6 +32,10 @@ void MessageHandlerNode(const void* message)
     std::cout << "x:" << pmsg->angular().x() << " y:" << pmsg->angular().y() << " z:" << pmsg->angular().z() << std::endl;
     std::cout << "--" << std::endl;
     // std::cout << "res " << pmsg->data() << std::endl;
+    float vx = pmsg->linear().x();
+    float vy = pmsg->linear().y();
+    float omega = pmsg->angular().z();
+    Client.Move(vx, vy, omega);
 }
 
 
@@ -39,6 +43,10 @@ int main(int argc, char** argv) {
     string arg = argv[1];
     std::cout << "当前网卡是 " << arg << std::endl;
     unitree::robot::ChannelFactory::Instance()->Init(0, arg);
+
+    unitree::robot::h1::LocoClient client;
+    client.Init();
+    client.SetTimeout(10.f);
 
     signal(SIGINT, MySigintHandler);
 
