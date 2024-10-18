@@ -37,6 +37,9 @@ void MessageHandlerNode(const void* message)
     float vx = pmsg->linear().x();
     float vy = pmsg->linear().y();
     float omega = pmsg->angular().z();
+    if (vx >= 0.3f) vx = 0.3f;
+    if (vy >= 0.3f) vy = 0.3f;
+    if (omega >= 0.3f) omega = 0.3f;
     if (client_ptr) {
         client_ptr->Move(vx, vy, omega);
     }
