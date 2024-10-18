@@ -1,5 +1,6 @@
 #include <iostream>
 #include <signal.h>    // 重定向 ctrl + c
+#include <chrono>
 
 #include "unitree/common/dds/dds_easy_model.hpp"
 #include <unitree/robot/channel/channel_subscriber.hpp>
@@ -26,6 +27,8 @@ void MySigintHandler(int sig)
 
 void MessageHandlerNode(const void* message)
 {
+    std::cout << "receive /cmd_vel msg" << std::endl;
+    auto start = std::chrono::high_resolution_clock::now();
     std::cout << "--" << std::endl;
     const geometry_msgs::msg::dds_::Twist_* pmsg = (const geometry_msgs::msg::dds_::Twist_*)message;
     std::cout << "liner: " << std::endl;
@@ -46,6 +49,9 @@ void MessageHandlerNode(const void* message)
     else {
         std::cout << "client_ptr is nullptr" << std::endl;
     }
+    auto end = std::chrono::high_resolution_clock::now();
+    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
+    std::cout << "Executing Move time: " << duration << " microseconds" << std::endl;
 }
 
 
