@@ -1,9 +1,0 @@
-/home/robot/nav2_ws/build/car2/CMakeFiles/install/strip.dir
-/home/robot/nav2_ws/build/car2/CMakeFiles/install/local.dir
-/home/robot/nav2_ws/build/car2/CMakeFiles/install.dir
-/home/robot/nav2_ws/build/car2/CMakeFiles/list_install_components.dir
-/home/robot/nav2_ws/build/car2/CMakeFiles/rebuild_cache.dir
-/home/robot/nav2_ws/build/car2/CMakeFiles/edit_cache.dir
-/home/robot/nav2_ws/build/car2/CMakeFiles/test.dir
-/home/robot/nav2_ws/build/car2/CMakeFiles/car2_uninstall.dir
-/home/robot/nav2_ws/build/car2/CMakeFiles/uninstall.dir

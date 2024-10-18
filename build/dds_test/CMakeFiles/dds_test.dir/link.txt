@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/dds_test.dir/src/dds_test.cpp.o  -o dds_test  -lunitree_sdk2 -lddsc -lddscxx -lrt -lpthread 

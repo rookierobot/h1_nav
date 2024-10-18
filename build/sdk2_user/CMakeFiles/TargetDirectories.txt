@@ -1,3 +1,0 @@
-/home/robot/nav2_ws/build/sdk2_user/CMakeFiles/rebuild_cache.dir
-/home/robot/nav2_ws/build/sdk2_user/CMakeFiles/edit_cache.dir
-/home/robot/nav2_ws/build/sdk2_user/CMakeFiles/skd_node.dir

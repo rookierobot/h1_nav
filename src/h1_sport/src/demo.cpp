@@ -17,6 +17,8 @@ using namespace unitree::robot;
 
 #define SUBTOPIC "rt/cmd_vel"
 
+std::shared_ptr<unitree::robot::h1::LocoClient> client_ptr = nullptr;
+
 void MySigintHandler(int sig)
 {
     exit(0);
@@ -35,18 +37,27 @@ void MessageHandlerNode(const void* message)
     float vx = pmsg->linear().x();
     float vy = pmsg->linear().y();
     float omega = pmsg->angular().z();
-    Client.Move(vx, vy, omega);
+    if (client_ptr) {
+        client_ptr->Move(vx, vy, omega);
+    }
+    else {
+        std::cout << "client_ptr is nullptr" << std::endl;
+    }
 }
 
 
 int main(int argc, char** argv) {
+    if (argc < 2) {
+        std::cout << "请提供网卡参数。" << std::endl;
+        return -1;
+    }
     string arg = argv[1];
     std::cout << "当前网卡是 " << arg << std::endl;
     unitree::robot::ChannelFactory::Instance()->Init(0, arg);
 
-    unitree::robot::h1::LocoClient client;
-    client.Init();
-    client.SetTimeout(10.f);
+    client_ptr = std::make_shared<unitree::robot::h1::LocoClient>();
+    client_ptr->Init();
+    client_ptr->SetTimeout(10.f);
 
     signal(SIGINT, MySigintHandler);
 

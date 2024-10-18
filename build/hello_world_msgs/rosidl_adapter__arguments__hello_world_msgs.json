@@ -1,6 +1,0 @@
-{
-  "package_name": "hello_world_msgs",
-  "non_idl_tuples": [
-    "/home/robot/nav2_ws/src/hello_world_msgs:msg/HelloWorld.msg"
-  ]
-}
