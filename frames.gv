@@ -1,0 +1,30 @@
+digraph G {
+"pelvis" -> "torso_link"[label=" Broadcaster: default_authority\nAverage rate: 205.435\nBuffer length: 5.121\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.054737\n"];
+"torso_link" -> "d435_left_imager_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"torso_link" -> "d435_rgb_module_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"torso_link" -> "imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"torso_link" -> "logo_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"torso_link" -> "livox_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"left_knee_link" -> "left_ankle_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"left_hip_pitch_link" -> "left_knee_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"left_shoulder_yaw_link" -> "left_elbow_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"left_shoulder_roll_link" -> "left_shoulder_yaw_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"left_hip_roll_link" -> "left_hip_pitch_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"left_hip_yaw_link" -> "left_hip_roll_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"pelvis" -> "left_hip_yaw_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"torso_link" -> "left_shoulder_pitch_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"left_shoulder_pitch_link" -> "left_shoulder_roll_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"right_knee_link" -> "right_ankle_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"right_hip_pitch_link" -> "right_knee_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"right_shoulder_yaw_link" -> "right_elbow_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"right_shoulder_roll_link" -> "right_shoulder_yaw_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"right_hip_roll_link" -> "right_hip_pitch_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"right_hip_yaw_link" -> "right_hip_roll_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"pelvis" -> "right_hip_yaw_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"torso_link" -> "right_shoulder_pitch_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+"right_shoulder_pitch_link" -> "right_shoulder_roll_link"[label=" Broadcaster: default_authority\nAverage rate: 10.204\nBuffer length: 4.9\nMost recent transform: 1729672064.175567\nOldest transform: 1729672059.275523\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1729672064.231117"[ shape=plaintext ] ;
+}->"pelvis";
+}

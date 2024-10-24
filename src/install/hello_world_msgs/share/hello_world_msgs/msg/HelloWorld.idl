@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hello_world_msgs/msg/HelloWorld.msg
+// generated code does not contain a copyright notice
+
+
+module hello_world_msgs {
+  module msg {
+    struct HelloWorld {
+      int64 userid;
+
+      string message;
+    };
+  };
+};

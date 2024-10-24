@@ -1,0 +1,138 @@
+[0.011s] Invoking command in '/home/robot/nav2_ws/src/build/cartographer_ros': AMENT_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:/home/robot/nav2_ws/src/install/cartographer:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib:/home/robot/nav2_ws/install/unitree_sdk2/lib:/home/robot/nav2_ws/install/hello_world_msgs/lib:/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib:/home/robot/nav2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 PATH=/home/robot/nav2_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/robot/nav2_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/robot/nav2_ws/src/install/cartographer/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/robot/nav2_ws/src/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/src/install/cartographer_ros
+[0.044s] -- The C compiler identification is GNU 9.4.0
+[0.085s] -- The CXX compiler identification is GNU 9.4.0
+[0.089s] -- Check for working C compiler: /usr/bin/cc
+[0.137s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.138s] -- Detecting C compiler ABI info
+[0.213s] -- Detecting C compiler ABI info - done
+[0.221s] -- Detecting C compile features
+[0.221s] -- Detecting C compile features - done
+[0.222s] -- Check for working CXX compiler: /usr/bin/c++
+[0.280s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.281s] -- Detecting CXX compiler ABI info
+[0.336s] -- Detecting CXX compiler ABI info - done
+[0.341s] -- Detecting CXX compile features
+[0.341s] -- Detecting CXX compile features - done
+[0.342s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.356s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.356s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.459s] -- Found installed version of Eigen: /usr/lib/cmake/eigen3
+[0.459s] -- Found required Ceres dependency: Eigen version 3.3.7 in /usr/include/eigen3
+[0.464s] -- Found required Ceres dependency: glog
+[0.465s] -- Found installed version of gflags: /usr/lib/x86_64-linux-gnu/cmake/gflags
+[0.465s] -- Detected gflags version: 2.2.2
+[0.465s] -- Found required Ceres dependency: gflags
+[0.465s] -- Found Ceres version: 1.14.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, OpenMP, Multithreading]
+[0.466s] -- Build type: Release
+[0.468s] 文件 /home/robot/nav2_ws/src/build/cartographer_ros/AllFiles.cmake 和 - 不同
+[0.470s] -- Found cartographer_ros_msgs: 1.0.9003 (/home/robot/nav2_ws/src/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.491s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.529s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.544s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.657s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.690s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.817s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.818s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.818s] -- Looking for pthread.h
+[0.851s] -- Looking for pthread.h - found
+[0.851s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.882s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.882s] -- Looking for pthread_create in pthreads
+[0.907s] -- Looking for pthread_create in pthreads - not found
+[0.907s] -- Looking for pthread_create in pthread
+[0.937s] -- Looking for pthread_create in pthread - found
+[0.938s] -- Found Threads: TRUE  
+[1.021s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.027s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.177s] -- Found tf2_eigen: 0.13.14 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[1.180s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.217s] -- Found Lua: /usr/lib/x86_64-linux-gnu/liblua5.2.so;/usr/lib/x86_64-linux-gnu/libm.so (found version "5.2.4") 
+[1.223s] -- Checking for module 'eigen3'
+[1.231s] --   Found eigen3, version 3.3.7
+[1.246s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.246s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.282s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.283s] -- looking for PCL_COMMON
+[1.283s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.284s] -- Found PCL: pcl_common;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so  
+[1.285s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.336s] -- Configuring done
+[1.360s] -- Generating done
+[1.361s] -- Build files have been written to: /home/robot/nav2_ws/src/build/cartographer_ros
+[1.366s] Invoked command in '/home/robot/nav2_ws/src/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:/home/robot/nav2_ws/src/install/cartographer:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib:/home/robot/nav2_ws/install/unitree_sdk2/lib:/home/robot/nav2_ws/install/hello_world_msgs/lib:/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib:/home/robot/nav2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 PATH=/home/robot/nav2_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/robot/nav2_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/robot/nav2_ws/src/install/cartographer/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/robot/nav2_ws/src/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/src/install/cartographer_ros
+[1.368s] Invoking command in '/home/robot/nav2_ws/src/build/cartographer_ros': AMENT_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:/home/robot/nav2_ws/src/install/cartographer:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib:/home/robot/nav2_ws/install/unitree_sdk2/lib:/home/robot/nav2_ws/install/hello_world_msgs/lib:/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib:/home/robot/nav2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 PATH=/home/robot/nav2_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/robot/nav2_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/robot/nav2_ws/src/install/cartographer/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robot/nav2_ws/src/build/cartographer_ros -- -j32 -l32
+[1.386s] [35m[1mScanning dependencies of target cartographer_ros_detect_changes[0m
+[1.386s] [35m[1mScanning dependencies of target cartographer_ros[0m
+[1.392s] [  0%] Built target cartographer_ros_detect_changes
+[1.463s] [  5%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/map_builder_bridge.cc.o[0m
+[1.463s] [ 10%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/msg_conversion.cc.o[0m
+[1.463s] [ 15%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/node.cc.o[0m
+[1.463s] [ 21%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/node_constants.cc.o[0m
+[1.464s] [ 26%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/node_options.cc.o[0m
+[1.464s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/ros_log_sink.cc.o[0m
+[1.464s] [ 36%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/sensor_bridge.cc.o[0m
+[1.466s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/ros_map.cc.o[0m
+[1.467s] [ 47%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/tf_bridge.cc.o[0m
+[1.467s] [ 52%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/time_conversion.cc.o[0m
+[1.467s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/trajectory_options.cc.o[0m
+[1.468s] [ 63%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/cartographer_ros/submap.cc.o[0m
+[15.283s] [ 68%] [32m[1mLinking CXX static library libcartographer_ros.a[0m
+[15.312s] [ 68%] Built target cartographer_ros
+[15.322s] [35m[1mScanning dependencies of target pbstream_to_ros_map_node[0m
+[15.322s] [35m[1mScanning dependencies of target cartographer_node[0m
+[15.322s] [35m[1mScanning dependencies of target occupancy_grid_node[0m
+[15.352s] [ 73%] [32mBuilding CXX object cartographer_ros/CMakeFiles/pbstream_to_ros_map_node.dir/pbstream_to_ros_map_main.cc.o[0m
+[15.358s] [ 78%] [32mBuilding CXX object cartographer_ros/CMakeFiles/occupancy_grid_node.dir/occupancy_grid_node_main.cc.o[0m
+[15.362s] [ 84%] [32mBuilding CXX object cartographer_ros/CMakeFiles/cartographer_node.dir/node_main.cc.o[0m
+[17.222s] [ 89%] [32m[1mLinking CXX executable pbstream_to_ros_map_node[0m
+[17.435s] [ 89%] Built target pbstream_to_ros_map_node
+[18.464s] [ 94%] [32m[1mLinking CXX executable cartographer_node[0m
+[18.665s] [ 94%] Built target cartographer_node
+[20.844s] [100%] [32m[1mLinking CXX executable occupancy_grid_node[0m
+[20.959s] [100%] Built target occupancy_grid_node
+[20.965s] Invoked command in '/home/robot/nav2_ws/src/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:/home/robot/nav2_ws/src/install/cartographer:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib:/home/robot/nav2_ws/install/unitree_sdk2/lib:/home/robot/nav2_ws/install/hello_world_msgs/lib:/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib:/home/robot/nav2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 PATH=/home/robot/nav2_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/robot/nav2_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/robot/nav2_ws/src/install/cartographer/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/robot/nav2_ws/src/build/cartographer_ros -- -j32 -l32
+[20.983s] Invoking command in '/home/robot/nav2_ws/src/build/cartographer_ros': AMENT_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:/home/robot/nav2_ws/src/install/cartographer:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib:/home/robot/nav2_ws/install/unitree_sdk2/lib:/home/robot/nav2_ws/install/hello_world_msgs/lib:/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib:/home/robot/nav2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 PATH=/home/robot/nav2_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/robot/nav2_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/robot/nav2_ws/src/install/cartographer/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robot/nav2_ws/src/build/cartographer_ros
+[20.986s] -- Install configuration: "Release"
+[20.986s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[20.987s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[20.988s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/lib/libcartographer_ros.a
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/package.dsv
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/share/cartographer_ros/package.xml
+[20.989s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[20.991s] -- Set runtime path of "/home/robot/nav2_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_node" to ""
+[20.991s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/lib/cartographer_ros/occupancy_grid_node
+[20.992s] -- Set runtime path of "/home/robot/nav2_ws/src/install/cartographer_ros/lib/cartographer_ros/occupancy_grid_node" to ""
+[20.992s] -- Installing: /home/robot/nav2_ws/src/install/cartographer_ros/lib/cartographer_ros/pbstream_to_ros_map_node
+[20.993s] -- Set runtime path of "/home/robot/nav2_ws/src/install/cartographer_ros/lib/cartographer_ros/pbstream_to_ros_map_node" to ""
+[20.994s] Invoked command in '/home/robot/nav2_ws/src/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs:/home/robot/nav2_ws/src/install/cartographer:/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib:/home/robot/nav2_ws/install/unitree_sdk2/lib:/home/robot/nav2_ws/install/hello_world_msgs/lib:/home/robot/nav2_ws/install/examples_rclcpp_minimal_composition/lib:/home/robot/nav2_ws/install/cartographer_ros_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64:/usr/local/cuda-11.6/lib64 PATH=/home/robot/nav2_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/robot/nav2_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/robot/nav2_ws/src/install/cartographer/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/robot/nav2_ws/src/install/cartographer_ros_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/robot/nav2_ws/src/build/cartographer_ros

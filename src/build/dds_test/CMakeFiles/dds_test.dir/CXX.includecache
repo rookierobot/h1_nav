@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robot/nav2_ws/src/dds_test/src/dds_test.cpp
+iostream
+-
+signal.h
+-
+unitree/common/dds/dds_easy_model.hpp
+/home/robot/nav2_ws/src/dds_test/src/unitree/common/dds/dds_easy_model.hpp
+unitree/robot/channel/channel_subscriber.hpp
+-
+unitree/robot/channel/channel_publisher.hpp
+-
+unitree/robot/client/client.hpp
+-
+math.h
+-
+unitree/idl/ros2/String_.hpp
+/home/robot/nav2_ws/src/dds_test/src/unitree/idl/ros2/String_.hpp
+

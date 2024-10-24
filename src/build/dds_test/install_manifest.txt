@@ -1,0 +1,16 @@
+/home/robot/nav2_ws/src/install/dds_test/lib/dds_test/dds_test
+/home/robot/nav2_ws/src/install/dds_test/share/ament_index/resource_index/package_run_dependencies/dds_test
+/home/robot/nav2_ws/src/install/dds_test/share/ament_index/resource_index/parent_prefix_path/dds_test
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/environment/ament_prefix_path.sh
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/environment/ament_prefix_path.dsv
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/environment/path.sh
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/environment/path.dsv
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/local_setup.bash
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/local_setup.sh
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/local_setup.zsh
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/local_setup.dsv
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/package.dsv
+/home/robot/nav2_ws/src/install/dds_test/share/ament_index/resource_index/packages/dds_test
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/cmake/dds_testConfig.cmake
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/cmake/dds_testConfig-version.cmake
+/home/robot/nav2_ws/src/install/dds_test/share/dds_test/package.xml

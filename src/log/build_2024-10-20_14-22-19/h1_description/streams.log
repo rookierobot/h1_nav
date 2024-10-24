@@ -1,0 +1,32 @@
+[0.572s] Invoking command in '/home/robot/nav2_ws/src/h1_description': PYTHONPATH=/home/robot/nav2_ws/src/build/h1_description/prefix_override:/home/robot/nav2_ws/src/install/h1_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/h1_description build --build-base /home/robot/nav2_ws/src/build/h1_description/build install --record /home/robot/nav2_ws/src/build/h1_description/install.log --install-scripts $base/lib/h1_description --single-version-externally-managed install_data
+[0.828s] /home/robot/.local/lib/python3.8/site-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.828s]   warnings.warn(
+[0.891s] running egg_info
+[0.891s] creating ../build/h1_description/h1_description.egg-info
+[0.894s] writing manifest file '../build/h1_description/h1_description.egg-info/SOURCES.txt'
+[0.895s] writing manifest file '../build/h1_description/h1_description.egg-info/SOURCES.txt'
+[0.896s] running build
+[0.896s] running build_py
+[0.896s] creating /home/robot/nav2_ws/src/build/h1_description/build
+[0.896s] creating /home/robot/nav2_ws/src/build/h1_description/build/lib
+[0.896s] creating /home/robot/nav2_ws/src/build/h1_description/build/lib/h1_description
+[0.896s] copying h1_description/__init__.py -> /home/robot/nav2_ws/src/build/h1_description/build/lib/h1_description
+[0.896s] running install
+[0.898s] running install_lib
+[0.898s] creating /home/robot/nav2_ws/src/install/h1_description/lib/python3.8/site-packages/h1_description
+[0.899s] byte-compiling /home/robot/nav2_ws/src/install/h1_description/lib/python3.8/site-packages/h1_description/__init__.py to __init__.cpython-38.pyc
+[0.899s] running install_data
+[0.907s] creating /home/robot/nav2_ws/src/install/h1_description/share/ament_index
+[0.907s] creating /home/robot/nav2_ws/src/install/h1_description/share/ament_index/resource_index
+[0.907s] creating /home/robot/nav2_ws/src/install/h1_description/share/ament_index/resource_index/packages
+[0.907s] copying resource/h1_description -> /home/robot/nav2_ws/src/install/h1_description/share/ament_index/resource_index/packages
+[0.907s] copying package.xml -> /home/robot/nav2_ws/src/install/h1_description/share/h1_description
+[0.907s] creating /home/robot/nav2_ws/src/install/h1_description/share/h1_description/launch
+[0.907s] copying launch/display_rviz2.launch.py -> /home/robot/nav2_ws/src/install/h1_description/share/h1_description/launch
+[0.907s] creating /home/robot/nav2_ws/src/install/h1_description/share/h1_description/urdf
+[0.907s] copying urdf/h1.urdf -> /home/robot/nav2_ws/src/install/h1_description/share/h1_description/urdf
+[0.907s] running install_egg_info
+[0.909s] Copying ../build/h1_description/h1_description.egg-info to /home/robot/nav2_ws/src/install/h1_description/lib/python3.8/site-packages/h1_description-0.0.0-py3.8.egg-info
+[0.910s] running install_scripts
+[0.941s] writing list of installed files to '/home/robot/nav2_ws/src/build/h1_description/install.log'
+[1.008s] Invoked command in '/home/robot/nav2_ws/src/h1_description' returned '0': PYTHONPATH=/home/robot/nav2_ws/src/build/h1_description/prefix_override:/home/robot/nav2_ws/src/install/h1_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/h1_description build --build-base /home/robot/nav2_ws/src/build/h1_description/build install --record /home/robot/nav2_ws/src/build/h1_description/install.log --install-scripts $base/lib/h1_description --single-version-externally-managed install_data

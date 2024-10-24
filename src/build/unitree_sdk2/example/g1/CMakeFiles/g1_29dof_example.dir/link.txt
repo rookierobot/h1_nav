@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/g1_29dof_example.dir/low_level/g1_29dof_example.cpp.o  -o ../../bin/g1_29dof_example   -L/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/lib/x86_64  -Wl,-rpath,/home/robot/nav2_ws/src/unitree_sdk2/thirdparty/lib/x86_64 /home/robot/nav2_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a -lddsc -lddscxx -lpthread 

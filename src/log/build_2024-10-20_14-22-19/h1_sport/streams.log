@@ -1,0 +1,58 @@
+[0.149s] Invoking command in '/home/robot/nav2_ws/src/build/h1_sport': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/src/install/h1_sport
+[0.172s] -- The C compiler identification is GNU 9.4.0
+[0.201s] -- The CXX compiler identification is GNU 9.4.0
+[0.206s] -- Check for working C compiler: /usr/bin/cc
+[0.236s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.237s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.283s] -- Detecting C compile features
+[0.283s] -- Detecting C compile features - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++
+[0.325s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.326s] -- Detecting CXX compiler ABI info
+[0.361s] -- Detecting CXX compiler ABI info - done
+[0.367s] -- Detecting CXX compile features
+[0.367s] -- Detecting CXX compile features - done
+[0.369s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.385s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.386s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.531s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.608s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.609s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.609s] -- Configured cppcheck include dirs: 
+[0.609s] -- Configured cppcheck exclude dirs and/or files: 
+[0.610s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.610s] -- Configured cpplint exclude dirs and/or files: 
+[0.618s] -- Added test 'lint_cmake' to check CMake code style
+[0.619s] -- Added test 'uncrustify' to check C / C++ code style
+[0.619s] -- Configured uncrustify additional arguments: 
+[0.619s] -- Added test 'xmllint' to check XML markup files
+[0.623s] -- Configuring done
+[0.633s] -- Generating done
+[0.637s] -- Build files have been written to: /home/robot/nav2_ws/src/build/h1_sport
+[0.640s] Invoked command in '/home/robot/nav2_ws/src/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/robot/nav2_ws/src/h1_sport -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/src/install/h1_sport
+[0.641s] Invoking command in '/home/robot/nav2_ws/src/build/h1_sport': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/robot/nav2_ws/src/build/h1_sport -- -j32 -l32
+[0.745s] [35m[1mScanning dependencies of target demo[0m
+[0.765s] [ 50%] [32mBuilding CXX object CMakeFiles/demo.dir/src/demo.cpp.o[0m
+[3.104s] [100%] [32m[1mLinking CXX executable demo[0m
+[3.913s] [100%] Built target demo
+[3.986s] Invoked command in '/home/robot/nav2_ws/src/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/robot/nav2_ws/src/build/h1_sport -- -j32 -l32
+[4.316s] Invoking command in '/home/robot/nav2_ws/src/build/h1_sport': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/robot/nav2_ws/src/build/h1_sport
+[4.364s] -- Install configuration: ""
+[4.364s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/ament_index/resource_index/package_run_dependencies/h1_sport
+[4.364s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/ament_index/resource_index/parent_prefix_path/h1_sport
+[4.364s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/environment/ament_prefix_path.sh
+[4.364s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/environment/ament_prefix_path.dsv
+[4.364s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/environment/path.sh
+[4.364s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/environment/path.dsv
+[4.365s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/local_setup.bash
+[4.365s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/local_setup.sh
+[4.365s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/local_setup.zsh
+[4.365s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/local_setup.dsv
+[4.365s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/package.dsv
+[4.365s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/ament_index/resource_index/packages/h1_sport
+[4.365s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/cmake/h1_sportConfig.cmake
+[4.365s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/cmake/h1_sportConfig-version.cmake
+[4.365s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/share/h1_sport/package.xml
+[4.366s] -- Installing: /home/robot/nav2_ws/src/install/h1_sport/lib/h1_sport/demo
+[4.375s] Invoked command in '/home/robot/nav2_ws/src/build/h1_sport' returned '0': CMAKE_PREFIX_PATH=/home/robot/nav2_ws/install/examples_rclpy_minimal_subscriber:/home/robot/nav2_ws/install/examples_rclpy_minimal_service:/home/robot/nav2_ws/install/examples_rclpy_minimal_publisher:/home/robot/nav2_ws/install/examples_rclpy_minimal_client:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_server:/home/robot/nav2_ws/install/examples_rclpy_minimal_action_client:/home/robot/nav2_ws/install/examples_rclpy_executors:/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/robot/nav2_ws/src/build/h1_sport

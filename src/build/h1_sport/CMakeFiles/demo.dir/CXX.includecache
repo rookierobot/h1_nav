@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/robot/nav2_ws/src/h1_sport/src/demo.cpp
+iostream
+-
+signal.h
+-
+chrono
+-
+unitree/common/dds/dds_easy_model.hpp
+/home/robot/nav2_ws/src/h1_sport/src/unitree/common/dds/dds_easy_model.hpp
+unitree/robot/channel/channel_subscriber.hpp
+-
+unitree/robot/channel/channel_publisher.hpp
+-
+unitree/robot/client/client.hpp
+-
+unitree/robot/h1/loco/h1_loco_api.hpp
+-
+unitree/robot/h1/loco/h1_loco_client.hpp
+-
+math.h
+-
+unitree/idl/ros2/String_.hpp
+/home/robot/nav2_ws/src/h1_sport/src/unitree/idl/ros2/String_.hpp
+unitree/idl/ros2/Twist_.hpp
+/home/robot/nav2_ws/src/h1_sport/src/unitree/idl/ros2/Twist_.hpp
+

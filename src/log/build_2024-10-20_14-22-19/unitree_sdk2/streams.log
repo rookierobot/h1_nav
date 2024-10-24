@@ -1,0 +1,970 @@
+[0.028s] Invoking command in '/home/robot/nav2_ws/src/build/unitree_sdk2': /usr/bin/cmake /home/robot/nav2_ws/src/unitree_sdk2 -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/src/install/unitree_sdk2
+[0.172s] -- The C compiler identification is GNU 9.4.0
+[0.172s] -- The CXX compiler identification is GNU 9.4.0
+[0.172s] -- Check for working C compiler: /usr/bin/cc
+[0.172s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.172s] -- Detecting C compiler ABI info
+[0.172s] -- Detecting C compiler ABI info - done
+[0.172s] -- Detecting C compile features
+[0.172s] -- Detecting C compile features - done
+[0.172s] -- Check for working CXX compiler: /usr/bin/c++
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.190s] -- Detecting CXX compiler ABI info
+[0.233s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Detecting CXX compile features
+[0.241s] -- Detecting CXX compile features - done
+[0.242s] -- Setting build type to 'Release' as none was specified.
+[0.243s] -- Current system architecture: x86_64
+[0.244s] -- Looking for pthread.h
+[0.275s] -- Looking for pthread.h - found
+[0.275s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.308s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.308s] -- Looking for pthread_create in pthreads
+[0.333s] -- Looking for pthread_create in pthreads - not found
+[0.333s] -- Looking for pthread_create in pthread
+[0.367s] -- Looking for pthread_create in pthread - found
+[0.367s] -- Found Threads: TRUE  
+[0.367s] -- Importing: /home/robot/nav2_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddsc.so
+[0.367s] -- Importing: /home/robot/nav2_ws/src/unitree_sdk2/thirdparty/lib/x86_64/libddscxx.so
+[0.367s] -- Unitree SDK library found at: /home/robot/nav2_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+[0.367s] -- Importing: /home/robot/nav2_ws/src/unitree_sdk2/lib/x86_64/libunitree_sdk2.a
+[0.374s] -- Configuring done
+[0.390s] -- Generating done
+[0.391s] -- Build files have been written to: /home/robot/nav2_ws/src/build/unitree_sdk2
+[0.392s] Invoked command in '/home/robot/nav2_ws/src/build/unitree_sdk2' returned '0': /usr/bin/cmake /home/robot/nav2_ws/src/unitree_sdk2 -DCMAKE_INSTALL_PREFIX=/home/robot/nav2_ws/src/install/unitree_sdk2
+[0.395s] Invoking command in '/home/robot/nav2_ws/src/build/unitree_sdk2': /usr/bin/cmake --build /home/robot/nav2_ws/src/build/unitree_sdk2 -- -j32 -l32
+[0.421s] [35m[1mScanning dependencies of target test_subscriber[0m
+[0.426s] [35m[1mScanning dependencies of target advanced_gamepad[0m
+[0.432s] [35m[1mScanning dependencies of target test_publisher[0m
+[0.437s] [35m[1mScanning dependencies of target go2_video_client[0m
+[0.441s] [35m[1mScanning dependencies of target test_jsonize[0m
+[0.443s] [35m[1mScanning dependencies of target state_machine_example[0m
+[0.445s] [35m[1mScanning dependencies of target go2_robot_state_client[0m
+[0.448s] [35m[1mScanning dependencies of target go2_stand_example[0m
+[0.463s] [35m[1mScanning dependencies of target go2_low_level[0m
+[0.478s] [35m[1mScanning dependencies of target go2_vui_client[0m
+[0.484s] [  1%] [32mBuilding CXX object example/jsonize/CMakeFiles/test_jsonize.dir/test_jsonize.cpp.o[0m
+[0.494s] [35m[1mScanning dependencies of target go2_sport_client[0m
+[0.498s] [35m[1mScanning dependencies of target h1_arm_sdk_dds_example[0m
+[0.499s] [  3%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/subscriber.cpp.o[0m
+[0.499s] [35m[1mScanning dependencies of target go2_trajectory_follow[0m
+[0.499s] [35m[1mScanning dependencies of target h1_2_arm_sdk_dds_example[0m
+[0.499s] [35m[1mScanning dependencies of target b2_sport_client[0m
+[0.499s] [35m[1mScanning dependencies of target b2_stand_example[0m
+[0.499s] [  5%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_subscriber.dir/HelloWorldData.cpp.o[0m
+[0.500s] [  6%] [32mBuilding CXX object example/go2/CMakeFiles/go2_low_level.dir/go2_low_level.cpp.o[0m
+[0.501s] [ 10%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/publisher.cpp.o[0m
+[0.501s] [ 10%] [32mBuilding CXX object example/wireless_controller/CMakeFiles/advanced_gamepad.dir/main.cpp.o[0m
+[0.502s] [ 11%] [32mBuilding CXX object example/go2/CMakeFiles/go2_video_client.dir/go2_video_client.cpp.o[0m
+[0.502s] [ 15%] [32mBuilding CXX object example/state_machine/CMakeFiles/state_machine_example.dir/main.cpp.o[0m
+[0.503s] [ 15%] [32mBuilding CXX object example/helloworld/CMakeFiles/test_publisher.dir/HelloWorldData.cpp.o[0m
+[0.503s] [ 16%] [32mBuilding CXX object example/go2/CMakeFiles/go2_stand_example.dir/go2_stand_example.cpp.o[0m
+[0.508s] [ 18%] [32mBuilding CXX object example/go2/CMakeFiles/go2_robot_state_client.dir/go2_robot_state_client.cpp.o[0m
+[0.508s] [35m[1mScanning dependencies of target h1_27dof_example[0m
+[0.508s] [35m[1mScanning dependencies of target h1_2_ankle_track[0m
+[0.516s] [ 20%] [32mBuilding CXX object example/go2/CMakeFiles/go2_vui_client.dir/go2_vui_client.cpp.o[0m
+[0.516s] [35m[1mScanning dependencies of target g1_29dof_example[0m
+[0.516s] [35m[1mScanning dependencies of target h1_loco_client[0m
+[0.516s] [35m[1mScanning dependencies of target g1_23dof_example[0m
+[0.523s] [35m[1mScanning dependencies of target g1_23dof_ankle_track[0m
+[0.524s] [35m[1mScanning dependencies of target g1_arm5_sdk_dds_example[0m
+[0.525s] [35m[1mScanning dependencies of target h1_low_level_example[0m
+[0.530s] [ 21%] [32mBuilding CXX object example/go2/CMakeFiles/go2_sport_client.dir/go2_sport_client.cpp.o[0m
+[0.534s] [ 23%] [32mBuilding CXX object example/b2/CMakeFiles/b2_stand_example.dir/b2_stand_example.cpp.o[0m
+[0.536s] [35m[1mScanning dependencies of target g1_dual_arm_example[0m
+[0.537s] [ 25%] [32mBuilding CXX object example/go2/CMakeFiles/go2_trajectory_follow.dir/go2_trajectory_follow.cpp.o[0m
+[0.537s] [ 26%] [32mBuilding CXX object example/h1/CMakeFiles/h1_arm_sdk_dds_example.dir/high_level/h1_arm_sdk_dds_example.cpp.o[0m
+[0.547s] [ 30%] [32mBuilding CXX object example/b2/CMakeFiles/b2_sport_client.dir/b2_sport_client.cpp.o[0m
+[0.547s] [ 30%] [32mBuilding CXX object example/h1/CMakeFiles/h1_2_arm_sdk_dds_example.dir/high_level/h1_2_arm_sdk_dds_example.cpp.o[0m
+[0.558s] [ 33%] [32mBuilding CXX object example/h1/CMakeFiles/h1_2_ankle_track.dir/low_level/h1_2_ankle_track.cpp.o[0m
+[0.558s] [ 33%] [32mBuilding CXX object example/h1/CMakeFiles/h1_27dof_example.dir/low_level/h1_27dof_example.cpp.o[0m
+[0.558s] [ 35%] [32mBuilding CXX object example/h1/CMakeFiles/h1_low_level_example.dir/low_level/humanoid.cpp.o[0m
+[0.560s] [ 36%] [32mBuilding CXX object example/h1/CMakeFiles/h1_loco_client.dir/high_level/h1_loco_client_example.cpp.o[0m
+[0.565s] [ 38%] [32mBuilding CXX object example/g1/CMakeFiles/g1_dual_arm_example.dir/low_level/g1_dual_arm_example.cpp.o[0m
+[0.569s] [35m[1mScanning dependencies of target g1_loco_client[0m
+[0.569s] [ 40%] [32mBuilding CXX object example/g1/CMakeFiles/g1_23dof_example.dir/low_level/g1_23dof_example.cpp.o[0m
+[0.569s] [35m[1mScanning dependencies of target g1_arm7_sdk_dds_example[0m
+[0.573s] [35m[1mScanning dependencies of target go2w_stand_example[0m
+[0.577s] [ 41%] [32mBuilding CXX object example/g1/CMakeFiles/g1_23dof_ankle_track.dir/low_level/g1_23dof_ankle_track.cpp.o[0m
+[0.590s] [35m[1mScanning dependencies of target go2w_sport_client[0m
+[0.604s] [ 45%] [32mBuilding CXX object example/g1/CMakeFiles/g1_loco_client.dir/high_level/g1_loco_client_example.cpp.o[0m
+[0.608s] [ 46%] [32mBuilding CXX object example/g1/CMakeFiles/g1_29dof_example.dir/low_level/g1_29dof_example.cpp.o[0m
+[0.608s] [ 48%] [32mBuilding CXX object example/go2w/CMakeFiles/go2w_stand_example.dir/go2w_stand_example.cpp.o[0m
+[0.609s] [ 48%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm5_sdk_dds_example.dir/high_level/g1_arm5_sdk_dds_example.cpp.o[0m
+[0.631s] [ 50%] [32mBuilding CXX object example/go2w/CMakeFiles/go2w_sport_client.dir/go2w_sport_client.cpp.o[0m
+[0.647s] [ 51%] [32mBuilding CXX object example/g1/CMakeFiles/g1_arm7_sdk_dds_example.dir/high_level/g1_arm7_sdk_dds_example.cpp.o[0m
+[1.615s] [ 53%] [32m[1mLinking CXX executable ../../bin/test_jsonize[0m
+[1.630s] [ 55%] [32m[1mLinking CXX executable ../../bin/b2_sport_client[0m
+[1.854s] [ 55%] Built target test_jsonize
+[1.860s] [ 56%] [32m[1mLinking CXX executable ../../bin/go2_vui_client[0m
+[1.919s] [ 58%] [32m[1mLinking CXX executable ../../bin/go2_video_client[0m
+[1.971s] [ 60%] [32m[1mLinking CXX executable ../../bin/go2_robot_state_client[0m
+[2.244s] [ 60%] Built target go2_vui_client
+[2.280s] [ 60%] Built target go2_video_client
+[2.339s] [ 60%] Built target b2_sport_client
+[2.374s] [ 60%] Built target go2_robot_state_client
+[2.427s] [ 61%] [32m[1mLinking CXX executable ../../bin/go2_trajectory_follow[0m
+[2.598s] [ 63%] [32m[1mLinking CXX executable ../../bin/h1_loco_client[0m
+[2.742s] [ 65%] [32m[1mLinking CXX executable ../../bin/g1_loco_client[0m
+[2.862s] [ 65%] Built target go2_trajectory_follow
+[3.010s] [ 65%] Built target h1_loco_client
+[3.418s] [ 66%] [32m[1mLinking CXX executable ../../bin/h1_2_arm_sdk_dds_example[0m
+[3.436s] [ 66%] Built target g1_loco_client
+[3.760s] [ 68%] [32m[1mLinking CXX executable ../../bin/advanced_gamepad[0m
+[3.952s] [ 68%] Built target h1_2_arm_sdk_dds_example
+[3.992s] [ 70%] [32m[1mLinking CXX executable ../../bin/test_subscriber[0m
+[4.083s] [ 71%] [32m[1mLinking CXX executable ../../bin/g1_arm5_sdk_dds_example[0m
+[4.215s] [ 73%] [32m[1mLinking CXX executable ../../bin/test_publisher[0m
+[4.336s] [ 73%] Built target advanced_gamepad
+[4.432s] [ 75%] [32m[1mLinking CXX executable ../../bin/h1_arm_sdk_dds_example[0m
+[4.558s] [ 75%] Built target test_subscriber
+[4.770s] [ 75%] Built target g1_arm5_sdk_dds_example
+[4.810s] [ 76%] [32m[1mLinking CXX executable ../../bin/g1_arm7_sdk_dds_example[0m
+[4.938s] [ 76%] Built target test_publisher
+[5.009s] [ 76%] Built target h1_arm_sdk_dds_example
+[5.478s] [ 76%] Built target g1_arm7_sdk_dds_example
+[5.779s] [ 78%] [32m[1mLinking CXX executable ../../bin/go2_sport_client[0m
+[5.849s] [ 80%] [32m[1mLinking CXX executable ../../bin/go2w_sport_client[0m
+[6.377s] [ 80%] Built target go2w_sport_client
+[6.686s] [ 80%] Built target go2_sport_client
+[7.271s] [ 81%] [32m[1mLinking CXX executable ../../bin/h1_27dof_example[0m
+[7.850s] [ 81%] Built target h1_27dof_example
+[7.922s] [ 83%] [32m[1mLinking CXX executable ../../bin/g1_29dof_example[0m
+[8.336s] [ 83%] Built target g1_29dof_example
+[8.396s] [ 85%] [32m[1mLinking CXX executable ../../bin/g1_23dof_example[0m
+[8.942s] [ 85%] Built target g1_23dof_example
+[8.948s] [ 86%] [32m[1mLinking CXX executable ../../bin/g1_23dof_ankle_track[0m
+[9.087s] [ 88%] [32m[1mLinking CXX executable ../../bin/g1_dual_arm_example[0m
+[9.129s] [ 90%] [32m[1mLinking CXX executable ../../bin/go2w_stand_example[0m
+[9.230s] [ 91%] [32m[1mLinking CXX executable ../../bin/state_machine_example[0m
+[9.356s] [ 91%] Built target g1_23dof_ankle_track
+[9.641s] [ 91%] Built target state_machine_example
+[9.668s] [ 91%] Built target g1_dual_arm_example
+[9.769s] [ 93%] [32m[1mLinking CXX executable ../../bin/h1_low_level_example[0m
+[9.777s] [ 93%] Built target go2w_stand_example
+[10.059s] [ 93%] Built target h1_low_level_example
+[10.108s] [ 95%] [32m[1mLinking CXX executable ../../bin/h1_2_ankle_track[0m
+[10.552s] [ 96%] [32m[1mLinking CXX executable ../../bin/b2_stand_example[0m
+[10.682s] [ 96%] Built target h1_2_ankle_track
+[10.698s] [ 98%] [32m[1mLinking CXX executable ../../bin/go2_low_level[0m
+[11.177s] [ 98%] Built target go2_low_level
+[11.254s] [ 98%] Built target b2_stand_example
+[11.291s] [100%] [32m[1mLinking CXX executable ../../bin/go2_stand_example[0m
+[11.669s] [100%] Built target go2_stand_example
+[11.698s] Invoked command in '/home/robot/nav2_ws/src/build/unitree_sdk2' returned '0': /usr/bin/cmake --build /home/robot/nav2_ws/src/build/unitree_sdk2 -- -j32 -l32
+[11.847s] Invoking command in '/home/robot/nav2_ws/src/build/unitree_sdk2': /usr/bin/cmake --install /home/robot/nav2_ws/src/build/unitree_sdk2
+[11.855s] -- Install configuration: "Release"
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/lock
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/lock/lock.hpp
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_native.hpp
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_exception.hpp
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_qos_parameter.hpp
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_entity.hpp
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_error.hpp
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_qos.hpp
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_qos_realize.hpp
+[11.855s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_callback.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_topic_channel.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_parameter.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_easy_model.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_traits.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_factory_model.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/dds/dds_qos_policy_parameter.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/filesystem
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/filesystem/filesystem.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/filesystem/directory.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/filesystem/file.hpp
+[11.856s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/assert.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/block_queue.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/any.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/decl.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/exception.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/thread
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/thread/recurrent_thread.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/thread/thread_task.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/thread/thread_pool.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/thread/thread_decl.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/thread/future.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/thread/thread.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/json
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/json/jsonize.hpp
+[11.857s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/json/json_config.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/json/json.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/os.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/error.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/service
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/service/dds_service.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/service/base
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/service/base/service_application.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/service/base/service_base.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/service/base/service_decl.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/service/base/service_config.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/time
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/time/sleep.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/time/time_tool.hpp
+[11.858s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/string_tool.hpp
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/log
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/log/log_decl.hpp
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/log/log_logger.hpp
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/log/log_initor.hpp
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/log/log_buffer.hpp
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/log/log_policy.hpp
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/log/log_writer.hpp
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/log/log_store.hpp
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/log/log_keeper.hpp
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/common/log/log.hpp
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot
+[11.859s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/h1
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/h1/loco
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_api.hpp
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_client.hpp
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/h1/loco/h1_loco_error.hpp
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/client
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/client/client_base.hpp
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/client/client.hpp
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/client/client_stub.hpp
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/client/lease_client.hpp
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/g1
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/g1/loco
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_error.hpp
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_api.hpp
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/g1/loco/g1_loco_client.hpp
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2
+[11.860s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_client.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_error.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/motion_switcher/motion_switcher_api.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/back_video
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_api.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_client.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/back_video/back_video_error.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/config
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/config/config_error.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/config/config_api.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/config/config_client.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/sport
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_error.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_client.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/sport/sport_api.hpp
+[11.861s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/robot_state
+[11.862s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_api.hpp
+[11.862s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_error.hpp
+[11.862s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/robot_state/robot_state_client.hpp
+[11.862s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/front_video
+[11.862s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_error.hpp
+[11.862s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_client.hpp
+[11.862s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/b2/front_video/front_video_api.hpp
+[11.862s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/channel
+[11.862s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/channel/channel_publisher.hpp
+[11.862s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/channel/channel_subscriber.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/channel/channel_labor.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/channel/channel_factory.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/channel/channel_namer.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_request_response.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_api.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Request_.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseStatus_.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/Response_.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestHeader_.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestLease_.hpp
+[11.863s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestPolicy_.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/RequestIdentity_.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_idl_decl/ResponseHeader_.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/internal/internal_error.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/serialize
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/serialize/serialize.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/server
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/server/server.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/server/lease_server.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/server/server_base.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/server/server_stub.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/future
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/future/request_future.hpp
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/vui
+[11.864s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_client.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_error.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/vui/vui_api.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/video
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/video/video_api.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/video/video_client.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/video/video_error.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/utrack
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_api.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/utrack/utrack_client.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/sport
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_error.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_client.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/sport/sport_api.hpp
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/robot_state
+[11.865s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_api.hpp
+[11.866s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_error.hpp
+[11.866s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/robot_state/robot_state_client.hpp
+[11.866s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid
+[11.866s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_client.hpp
+[11.866s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/obstacles_avoid/obstacles_avoid_api.hpp
+[11.875s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/public
+[11.875s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/robot/go2/public/jsonize_type.hpp
+[11.875s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl
+[11.875s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2
+[11.875s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovarianceStamped_.hpp
+[11.875s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/Header_.hpp
+[11.875s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/MapMetaData_.hpp
+[11.875s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/OccupancyGrid_.hpp
+[11.875s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovarianceStamped_.hpp
+[11.875s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/PointCloud2_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/PoseStamped_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/QuaternionStamped_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/Odometry_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/Pose_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/Twist_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/PointStamped_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/Quaternion_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/PointField_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/TwistStamped_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/Vector3_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/TwistWithCovariance_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/PoseWithCovariance_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/Point_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/Pose2D_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/Time_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/Point32_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/ros2/String_.hpp
+[11.876s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/LowCmd_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/BmsState_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/MotorCmd_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/MainBoardState_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/HandCmd_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/IMUState_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/PressSensorState_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/HandState_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/BmsCmd_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/MotorState_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/hg/LowState_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/LowCmd_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/Req_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/BmsState_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/MotorCmd_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/MotorCmds_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/LidarState_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/TimeSpec_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/InterfaceConfig_.hpp
+[11.877s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/Error_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/MotorStates_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/IMUState_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/AudioData_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/PathPoint_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/HeightMap_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/Res_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/ConfigChangeStatus_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/BmsCmd_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/WirelessController_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/SportModeCmd_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/SportModeState_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/MotorState_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/LowState_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/UwbSwitch_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/UwbState_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/unitree/idl/go2/Go2FrontVideoData_.hpp
+[11.878s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/lib/libunitree_sdk2.a
+[11.923s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Targets.cmake
+[11.923s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2Config.cmake
+[11.923s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/lib/cmake/unitree_sdk2/unitree_sdk2ConfigVersion.cmake
+[11.923s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/lib/libddsc.so
+[11.940s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/lib/libddsc.so.0
+[11.940s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/lib/libddscxx.so
+[11.944s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/lib/libddscxx.so.0
+[11.944s] -- Up-to-date: /home/robot/nav2_ws/src/install/unitree_sdk2/include
+[11.944s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds
+[11.944s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi
+[11.944s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_protocol.h
+[11.944s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_inverse_uint32_set.h
+[11.944s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_feature_check.h
+[11.944s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_sockwaitset.h
+[11.955s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_match.h
+[11.955s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgunits.h
+[11.955s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_ssl.h
+[11.955s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_plist.h
+[11.955s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_xqos.h
+[11.956s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_ddsi_discovery.h
+[11.956s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_radmin.h
+[11.956s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.idl
+[11.956s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_ipaddr.h
+[11.956s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.h
+[11.956s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_security_exchange.h
+[11.956s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_ownip.h
+[11.956s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_plist.h
+[11.957s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_lifespan.h
+[11.957s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_entity.h
+[11.957s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_lat_estim.h
+[11.957s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_security_util.h
+[11.957s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_config_impl.h
+[11.957s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_guid.h
+[11.957s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_xmsg.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_tcp.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_transmit.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_iid.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/sysdeps.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_sertopic.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_typelookup.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_locator.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_gc.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_log.h
+[11.958s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_xevent.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_portmapping.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_endpoint.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_vendor.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_pserop.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_misc.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_keyhash.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_thread.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_list_genptr.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_time.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_participant.h
+[11.959s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_rhc.h
+[11.960s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_udp.h
+[11.960s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_unused.h
+[11.960s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_wraddrset.h
+[11.960s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_debmon.h
+[11.960s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_receive.h
+[11.960s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_rtps.h
+[11.960s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_deliver_locally.h
+[11.960s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_freelist.h
+[11.960s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_tkmap.h
+[11.961s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_pmd.h
+[11.961s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_bswap.h
+[11.961s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_config.h
+[11.961s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_raweth.h
+[11.961s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_shm_transport.h
+[11.961s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_security_msg.h
+[11.961s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_lease.h
+[11.962s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_topic.h
+[11.962s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_init.h
+[11.962s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.idl
+[11.962s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_qosmatch.h
+[11.962s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_whc.h
+[11.962s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_plist_generic.h
+[11.962s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typelookup.idl
+[11.962s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_builtin_topic_if.h
+[11.962s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_threadmon.h
+[11.963s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_handshake.h
+[11.963s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_serdata_default.h
+[11.963s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_cdrstream.h
+[11.963s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_addrset.h
+[11.963s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_typelib.h
+[11.963s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_proxy_participant.h
+[11.963s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_typebuilder.h
+[11.963s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_list_tmpl.h
+[11.963s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_typewrap.h
+[11.964s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_pcap.h
+[11.964s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_vnet.h
+[11.964s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_tran.h
+[11.964s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_security_omg.h
+[11.964s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_hbcontrol.h
+[11.964s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_domaingv.h
+[11.964s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_deadline.h
+[11.964s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_endpoint.h
+[11.965s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_sertype.h
+[11.965s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_acknack.h
+[11.965s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_statistics.h
+[11.965s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_cfgelems.h
+[11.965s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_entity_index.h
+[11.965s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typemap.h
+[11.965s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_impl.h
+[11.966s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/q_bitset.h
+[11.966s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_mcgroup.h
+[11.966s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsi/ddsi_xt_typeinfo.h
+[11.966s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt
+[11.966s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/filesystem.h
+[11.966s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/sched.h
+[11.966s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/arch.h
+[11.967s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/time.h
+[11.967s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/rusage.h
+[11.967s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/filesystem
+[11.967s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/filesystem/windows.h
+[11.967s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/filesystem/posix.h
+[11.967s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/random.h
+[11.967s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/fibheap.h
+[11.967s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/sockets.h
+[11.967s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/threads
+[11.967s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/threads/freertos.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/threads/windows.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/threads/posix.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/xmlparser.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/sockets
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/sockets/windows.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/sockets/posix.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/ifaddrs.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/endian.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/environ.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/bswap.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/types
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/types/vxworks.h
+[11.968s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/types/windows.h
+[11.969s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/types/posix.h
+[11.969s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/types.h
+[11.969s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/cdtors.h
+[11.969s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/atomics
+[11.969s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/atomics/sun.h
+[11.969s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/atomics/msvc.h
+[11.969s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/atomics/gcc.h
+[11.969s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/atomics/arm.h
+[11.969s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/threads.h
+[11.969s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/mh3.h
+[11.971s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/process.h
+[11.971s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/circlist.h
+[11.971s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/netstat.h
+[11.971s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/expand_vars.h
+[11.971s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/log.h
+[11.971s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/countargs.h
+[11.971s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/sync.h
+[11.972s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/strtol.h
+[11.972s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/static_assert.h
+[11.972s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/retcode.h
+[11.972s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/time
+[11.972s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/time/freertos.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/avl.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/io.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/strtod.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/dynlib.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/string.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/misc.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/hopscotch.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/iovec.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/sync
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/sync/freertos.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/sync/windows.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/sync/posix.h
+[11.973s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/heap.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/align.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/attributes.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/md5.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsrt/atomics.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_public_qos.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_basic_types.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_loan_api.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_internal_api.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_data_allocator.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_opcodes.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_public_listener.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_public_impl.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_statistics.h
+[11.974s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_public_status.h
+[11.975s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_public_alloc.h
+[11.975s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_rhc.h
+[11.975s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_public_error.h
+[11.975s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/ddsc/dds_public_qosdefs.h
+[11.975s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/config.h
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/export.h
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/dds.h
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/version.h
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/dds/features.h
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddsc
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddsc/dds.h
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriterListener.hpp
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/DataWriter.hpp
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/PublisherListener.hpp
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/CoherentSet.hpp
+[11.976s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriter.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/TSuspendedPublication.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/Publisher.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/TAnyDataWriter.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/AnyDataWriterListener.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/TCoherentSet.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TSuspendedPublicationImpl.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriter.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/CoherentSet.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/AnyDataWriter.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TAnyDataWriterImpl.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/DataWriterImpl.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/Publisher.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TCoherentSetImpl.hpp
+[11.977s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/SuspendedPublication.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/ddspub.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/discovery.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/find.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/detail/TPublisherImpl.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/SuspendedPublication.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/ddspub.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/TPublisher.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/discovery.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/find.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/qos
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/qos/DataWriterQos.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/DataWriterQos.hpp
+[11.978s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/qos/detail/PublisherQos.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/pub/qos/PublisherQos.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/Entity.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/TEntity.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/InstanceHandle.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/SafeEnumeration.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/macros.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/refmacros.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/Reference.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/ddscore.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/TInstanceHandle.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/QosProvider.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/StatusCondition.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/TGuardCondition.hpp
+[11.979s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/GuardCondition.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/TStatusCondition.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/WaitSet.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TWaitSetImpl.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/StatusCondition.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/GuardCondition.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/WaitSet.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TGuardConditionImpl.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TConditionImpl.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/TStatusConditionImpl.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/detail/Condition.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/Condition.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/TWaitSet.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/cond/TCondition.hpp
+[11.980s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/Duration.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/types.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/Exception.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/array.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/TQosProvider.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/TEntityQos.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy/TQosPolicyCount.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy/PolicyKind.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TCorePolicyImpl.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/TQosPolicyCountImpl.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/QosPolicyCount.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy/detail/CorePolicy.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy/QosPolicyCount.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy/TCorePolicy.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/policy/CorePolicy.hpp
+[11.981s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/TBuiltinTopicTypes.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/Entity.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/module_docs.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/InstanceHandle.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/macros.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/TInstanceHandleImpl.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/ddscore.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/QosProvider.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityQosImpl.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/WeakReferenceImpl.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/inttypes.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/array.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/TQosProviderImpl.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/conformance.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/Value.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/old_win_stdint.h
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/BuiltinTopicTypes.hpp
+[11.982s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/ReferenceImpl.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/TEntityImpl.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/ref_traits.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/detail/export.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/LengthUnlimited.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/conformance.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/Value.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/Time.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/BuiltinTopicTypes.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/Annotations.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionType.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TStructType.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TTypeProvider.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeProvider.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/CollectionTypes.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/MemberType.hpp
+[11.983s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TypeKind.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TAnnotation.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TMemberType.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/StructType.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionType.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/TypeProvider.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/CollectionTypes.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/MemberType.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/StructType.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/PrimitiveTypes.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicType.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/Annotation.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/UnionCase.hpp
+[11.984s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/detail/DynamicData.hpp
+[11.985s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/PrimitiveTypes.hpp
+[11.985s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicType.hpp
+[11.985s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TCollectionTypes.hpp
+[11.985s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicType.hpp
+[11.985s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/UnionCase.hpp
+[11.985s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/TDynamicData.hpp
+[11.985s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/xtypes/DynamicData.hpp
+[11.986s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/status
+[11.986s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/status/State.hpp
+[11.986s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/status/Status.hpp
+[11.986s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/status/detail
+[11.986s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/Status.hpp
+[11.986s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/status/detail/TStatusImpl.hpp
+[11.986s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/status/TStatus.hpp
+[11.986s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/External.hpp
+[11.987s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/WeakReference.hpp
+[11.987s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/ref_traits.hpp
+[11.987s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/core/Optional.hpp
+[11.987s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/features.hpp
+[11.987s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic
+[11.987s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TAnyTopic.hpp
+[11.987s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopicKey.hpp
+[11.988s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/Filter.hpp
+[11.988s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopic.hpp
+[11.988s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/MultiTopic.hpp
+[11.988s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopicKey.hpp
+[11.988s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TopicDescription.hpp
+[11.988s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TopicTraits.hpp
+[11.988s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/ddstopic.hpp
+[11.988s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/AnyTopicListener.hpp
+[11.988s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TTopic.hpp
+[11.989s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/Topic.hpp
+[11.989s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TopicInstance.hpp
+[11.989s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TFilter.hpp
+[11.989s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TContentFilteredTopic.hpp
+[11.989s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail
+[11.989s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TFilterImpl.hpp
+[11.989s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopicKey.hpp
+[11.989s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Filter.hpp
+[11.989s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/AnyTopic.hpp
+[11.990s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/MultiTopic.hpp
+[11.990s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicImpl.hpp
+[11.990s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TAnyTopicImpl.hpp
+[11.990s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicDescriptionImpl.hpp
+[11.990s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicDescription.hpp
+[11.990s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ddstopic.hpp
+[11.990s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/Topic.hpp
+[11.990s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/ContentFilteredTopic.hpp
+[11.991s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/BuiltinTopic.hpp
+[11.991s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TTopicImpl.hpp
+[11.991s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TopicInstanceImpl.hpp
+[11.991s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TContentFilteredTopicImpl.hpp
+[11.991s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/TBuiltinTopicKeyImpl.hpp
+[11.991s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/discovery.hpp
+[11.991s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/detail/find.hpp
+[11.991s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/ContentFilteredTopic.hpp
+[11.992s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/BuiltinTopic.hpp
+[11.992s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TBuiltinTopic.hpp
+[11.992s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TopicListener.hpp
+[11.992s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/discovery.hpp
+[11.992s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/find.hpp
+[11.992s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/qos
+[11.992s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/qos/TopicQos.hpp
+[11.993s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail
+[11.993s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/qos/detail/TopicQos.hpp
+[11.993s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TMultiTopic.hpp
+[11.993s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/topic/TTopicDescription.hpp
+[11.993s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain
+[11.993s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/TDomainParticipant.hpp
+[11.993s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipantListener.hpp
+[11.994s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/detail
+[11.994s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/detail/TDomainParticipantImpl.hpp
+[11.994s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/detail/ddsdomain.hpp
+[11.994s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/detail/DomainParticipant.hpp
+[11.994s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/ddsdomain.hpp
+[11.994s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/discovery.hpp
+[11.994s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/find.hpp
+[11.994s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/DomainParticipant.hpp
+[11.995s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/qos
+[11.995s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/qos/DomainParticipantQos.hpp
+[11.995s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail
+[11.995s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/domain/qos/detail/DomainParticipantQos.hpp
+[11.995s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/dds.hpp
+[11.995s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/LICENSE
+[11.996s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub
+[11.996s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/TAnyDataReader.hpp
+[11.996s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/LoanedSamples.hpp
+[11.996s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/CoherentAccess.hpp
+[11.996s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/Subscriber.hpp
+[11.996s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/Query.hpp
+[11.996s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/DataReaderListener.hpp
+[11.996s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/Sample.hpp
+[11.997s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/TRank.hpp
+[11.997s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/SampleInfo.hpp
+[11.997s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/SampleRef.hpp
+[11.997s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/GenerationCount.hpp
+[11.997s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/cond
+[11.997s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TReadCondition.hpp
+[11.997s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/cond/QueryCondition.hpp
+[11.997s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/cond/TQueryCondition.hpp
+[11.997s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail
+[11.998s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/QueryCondition.hpp
+[11.998s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TReadConditionImpl.hpp
+[11.998s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/ReadCondition.hpp
+[11.998s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/cond/detail/TQueryConditionImpl.hpp
+[11.998s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/cond/ReadCondition.hpp
+[11.998s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/TSubscriber.hpp
+[11.998s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/SubscriberListener.hpp
+[11.998s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/TCoherentAccess.hpp
+[11.999s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/TSample.hpp
+[11.999s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/Rank.hpp
+[11.999s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/TGenerationCount.hpp
+[11.999s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail
+[11.999s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamples.hpp
+[11.999s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleInfoImpl.hpp
+[11.999s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/CoherentAccess.hpp
+[11.999s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TAnyDataReaderImpl.hpp
+[12.000s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Subscriber.hpp
+[12.000s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Query.hpp
+[12.000s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/LoanedSamplesImpl.hpp
+[12.000s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TCoherentAccessImpl.hpp
+[12.000s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Sample.hpp
+[12.000s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TQueryImpl.hpp
+[12.000s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleInfo.hpp
+[12.000s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SampleRef.hpp
+[12.001s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleImpl.hpp
+[12.001s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/GenerationCount.hpp
+[12.001s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TDataReaderImpl.hpp
+[12.001s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSubscriberImpl.hpp
+[12.001s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Rank.hpp
+[12.001s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SamplesHolder.hpp
+[12.001s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/Manipulators.hpp
+[12.001s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TRankImpl.hpp
+[12.002s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/DataReader.hpp
+[12.002s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TSampleRefImpl.hpp
+[12.002s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamplesImpl.hpp
+[12.002s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/ddssub.hpp
+[12.002s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/discovery.hpp
+[12.002s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/AnyDataReader.hpp
+[12.002s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/find.hpp
+[12.002s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/SharedSamples.hpp
+[12.002s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/detail/TGenerationCountImpl.hpp
+[12.003s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleInfo.hpp
+[12.003s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/DataReader.hpp
+[12.003s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReaderListener.hpp
+[12.003s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/TDataReader.hpp
+[12.003s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/status
+[12.003s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/status/DataState.hpp
+[12.003s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail
+[12.004s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/status/detail/DataStateImpl.hpp
+[12.004s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/ddssub.hpp
+[12.004s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/discovery.hpp
+[12.004s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/TQuery.hpp
+[12.004s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/AnyDataReader.hpp
+[12.004s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/find.hpp
+[12.004s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/TSampleRef.hpp
+[12.004s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/qos
+[12.004s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/qos/SubscriberQos.hpp
+[12.005s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail
+[12.005s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/SubscriberQos.hpp
+[12.005s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/qos/detail/DataReaderQos.hpp
+[12.005s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/qos/DataReaderQos.hpp
+[12.005s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/dds/sub/SharedSamples.hpp
+[12.005s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org
+[12.005s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse
+[12.005s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds
+[12.005s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub
+[12.006s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/AnyDataWriterDelegate.hpp
+[12.006s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/CoherentSetDelegate.hpp
+[12.006s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos
+[12.006s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/DataWriterQosDelegate.hpp
+[12.006s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/qos/PublisherQosDelegate.hpp
+[12.006s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/PublisherDelegate.hpp
+[12.006s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/pub/SuspendedPublicationDelegate.hpp
+[12.006s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core
+[12.006s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntitySet.hpp
+[12.007s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/config.hpp
+[12.007s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/QosProviderDelegate.hpp
+[12.007s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectSet.hpp
+[12.007s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/WeakReferenceSet.hpp
+[12.007s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond
+[12.007s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/GuardConditionDelegate.hpp
+[12.007s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/WaitSetDelegate.hpp
+[12.007s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/StatusConditionDelegate.hpp
+[12.008s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/FunctorHolder.hpp
+[12.008s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ShadowParticipant.hpp
+[12.008s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cond/ConditionDelegate.hpp
+[12.008s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Mutex.hpp
+[12.008s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/DDScObjectDelegate.hpp
+[12.008s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityDelegate.hpp
+[12.008s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/MiscUtils.hpp
+[12.009s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/type_helpers.hpp
+[12.009s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy
+[12.009s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/PolicyDelegate.hpp
+[12.009s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/ProprietaryPolicyKind.hpp
+[12.009s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/Policy.hpp
+[12.009s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/TPolicy.hpp
+[12.009s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/policy/QosPolicyCountDelegate.hpp
+[12.009s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/EntityRegistry.hpp
+[12.009s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr
+[12.010s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_enums.hpp
+[12.010s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/cdr_stream.hpp
+[12.010s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/fragchain.hpp
+[12.010s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v2_ser.hpp
+[12.010s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/basic_cdr_ser.hpp
+[12.010s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/extended_cdr_v1_ser.hpp
+[12.010s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/cdr/entity_properties.hpp
+[12.010s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/TimeHelper.hpp
+[12.011s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ReportUtils.hpp
+[12.011s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/Missing.hpp
+[12.011s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ScopedLock.hpp
+[12.011s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ListenerDispatcher.hpp
+[12.011s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status
+[12.011s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/status/StatusDelegate.hpp
+[12.011s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/InstanceHandleDelegate.hpp
+[12.011s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/core/ObjectDelegate.hpp
+[12.011s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic
+[12.012s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicKeyDelegate.hpp
+[12.012s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/datatopic.hpp
+[12.012s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/FilterDelegate.hpp
+[12.012s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicCopy.hpp
+[12.012s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicDelegate.hpp
+[12.012s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicTraits.hpp
+[12.012s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicDescriptionDelegate.hpp
+[12.012s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicListener.hpp
+[12.013s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopicTraits.hpp
+[12.013s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/BuiltinTopic.hpp
+[12.013s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/AnyTopicDelegate.hpp
+[12.013s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TBuiltinTopic.hpp
+[12.013s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/TopicListener.hpp
+[12.013s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/hash.hpp
+[12.013s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/discovery.hpp
+[12.013s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/find.hpp
+[12.013s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/CDRBlob.hpp
+[12.014s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos
+[12.014s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/topic/qos/TopicQosDelegate.hpp
+[12.014s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain
+[12.014s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainWrap.hpp
+[12.014s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantListener.hpp
+[12.014s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/Domain.hpp
+[12.014s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantRegistry.hpp
+[12.014s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/DomainParticipantDelegate.hpp
+[12.015s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos
+[12.015s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/domain/qos/DomainParticipantQosDelegate.hpp
+[12.015s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/ForwardDeclarations.hpp
+[12.015s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub
+[12.015s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SampleInfoImpl.hpp
+[12.015s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/GenerationCountImpl.hpp
+[12.015s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/AnyDataReaderDelegate.hpp
+[12.015s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond
+[12.015s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/ReadConditionDelegate.hpp
+[12.015s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/cond/QueryConditionDelegate.hpp
+[12.016s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/RankImpl.hpp
+[12.016s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/SubscriberDelegate.hpp
+[12.016s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/QueryDelegate.hpp
+[12.016s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos
+[12.016s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/SubscriberQosDelegate.hpp
+[12.016s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/qos/DataReaderQosDelegate.hpp
+[12.016s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/CoherentAccessDelegate.hpp
+[12.016s] -- Installing: /home/robot/nav2_ws/src/install/unitree_sdk2/include/ddscxx/org/eclipse/cyclonedds/sub/BuiltinSubscriberDelegate.hpp
+[12.027s] Invoked command in '/home/robot/nav2_ws/src/build/unitree_sdk2' returned '0': /usr/bin/cmake --install /home/robot/nav2_ws/src/build/unitree_sdk2
